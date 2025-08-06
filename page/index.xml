@@ -7,13 +7,12 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>MoFei</copyright><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>存档</title>
-        <link>http://localhost:1313/%E5%AD%98%E6%A1%A3/</link>
+        <title>标签</title>
+        <link>http://localhost:1313/%E6%A0%87%E7%AD%BE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/%E5%AD%98%E6%A1%A3/</guid>
-        <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
-</description>
+        <guid>http://localhost:1313/%E6%A0%87%E7%AD%BE/</guid>
+        <description></description>
         </item>
         <item>
         <title>关于</title>
@@ -30,6 +29,15 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/%E6%90%9C%E7%B4%A2/</guid>
+        <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>文章</title>
+        <link>http://localhost:1313/%E6%96%87%E7%AB%A0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/%E6%96%87%E7%AB%A0/</guid>
         <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
 </description>
         </item>

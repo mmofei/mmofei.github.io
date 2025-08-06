@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='http://localhost:1313/en/tags/'>
 
-<link rel="stylesheet" href="/scss/style.min.1ed52cd67391ca8882e95f9b6f00e1444df02a94f5c2cfadb5b3057fc97122c9.css"><meta property='og:title' content="Tags">
+<link rel="stylesheet" href="/scss/style.min.e64231a2e6752296a95a6e16e47d5de15fec244f521976180792ae3386c4d649.css"><meta property='og:title' content="Tags">
 <meta property='og:description' content="CyberSecurity">
 <meta property='og:url' content='http://localhost:1313/en/tags/'>
 <meta property='og:site_name' content='Mofei&#39;s Blog'>
@@ -280,6 +280,13 @@ unicode: "ece7"
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
         Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
     </section>
+
+    
+    <section class="running-time">
+         本博客已稳定运行
+         <span id="runningdays" class="running-days"></span>
+    </section>
+    
 </footer>
 
 
@@ -311,5 +318,27 @@ unicode: "ece7"
     });
 </script>
 
+
+<script>
+    let s1 = '2025-6-20'; 
+    s1 = new Date(s1.replace(/-/g, "/"));
+    let s2 = new Date();
+    let timeDifference = s2.getTime() - s1.getTime();
+
+    let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+
+    let result = days + "天" + hours + "小时" + minutes + "分钟";
+    document.getElementById('runningdays').innerHTML = result;
+</script>
+
+<style>
+    body {
+      background: url(http://localhost:1313/background/1.jpg) no-repeat center top;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+</style>
     </body>
 </html>
