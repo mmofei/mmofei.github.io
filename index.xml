@@ -25,6 +25,18 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
         </item>
         <item>
+        <title>Links | 友情链接</title>
+        <link>http://localhost:1313/links/</link>
+        <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/links/</guid>
+        <description>&lt;p&gt;{ {&amp;lt; friend name=&amp;ldquo;MoFei&amp;rdquo; url=&amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://mmofei.github.io/%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://mmofei.github.io/&#34;&lt;/a&gt; avatar=&amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://mmofei.github.io/img/cs_hu_90ad5e29b5427716.jpeg%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://mmofei.github.io/img/cs_hu_90ad5e29b5427716.jpeg&#34;&lt;/a&gt; bio=&amp;ldquo;保留自己的真诚！&amp;rdquo; &amp;gt;} }&lt;/p&gt;
+&lt;p&gt;{{ &amp;lt; &amp;gt;}}&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>第一篇博客</title>
         <link>http://localhost:1313/p/first-blog/</link>
         <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
@@ -33,7 +45,7 @@
         <description>&lt;img src="http://localhost:1313/p/first-blog/1.jpg" alt="Featured image of post 第一篇博客" /&gt;</description>
         </item>
         <item>
-        <title>归档</title>
+        <title>Archives | 归档</title>
         <link>http://localhost:1313/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
@@ -41,28 +53,28 @@
         <description></description>
         </item>
         <item>
-        <title>关于</title>
-        <link>http://localhost:1313/%E5%85%B3%E4%BA%8E/</link>
+        <title>About | 关于</title>
+        <link>http://localhost:1313/about-%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>http://localhost:1313/about-%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>搜索</title>
+        <title>Movies | 影音</title>
+        <link>http://localhost:1313/movies-%E5%BD%B1%E9%9F%B3/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/movies-%E5%BD%B1%E9%9F%B3/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Search | 搜索</title>
         <link>http://localhost:1313/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/search/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>影音</title>
-        <link>http://localhost:1313/%E5%BD%B1%E9%9F%B3/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/%E5%BD%B1%E9%9F%B3/</guid>
         <description></description>
         </item>
         
