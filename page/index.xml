@@ -79,6 +79,18 @@
   
   var dataMap = new Map();
   
+    var key = &#34;2025-08-14&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  198 ;
+    var link = &#34;/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/&#34;;
+    var title = &#34;【hugo】| Hugo stack 主题美化&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = &#34;2025-08-13&#34;;
     var value = dataMap.get(key);
     var wordCount =  614 ;
