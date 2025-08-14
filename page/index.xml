@@ -14,9 +14,10 @@
         
         <guid>http://localhost:1313/links/</guid>
         <description>&lt;p&gt;{ {&amp;lt; friend name=&amp;ldquo;MoFei&amp;rdquo; url=&amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://mmofei.github.io/%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://mmofei.github.io/&#34;&lt;/a&gt; avatar=&amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://mmofei.github.io/img/cs_hu_90ad5e29b5427716.jpeg%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://mmofei.github.io/img/cs_hu_90ad5e29b5427716.jpeg&#34;&lt;/a&gt; bio=&amp;ldquo;保留自己的真诚！&amp;rdquo; &amp;gt;} }&lt;/p&gt;
-&lt;p&gt;{{ &amp;lt; &amp;gt;}}&lt;/p&gt;
+    &gt;https://mmofei.github.io/&#34;&lt;/a&gt; avatar=&amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mmofei/mmofei.github.io/blob/main/img/cs_hu_90ad5e29b5427716.jpeg%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/mmofei/mmofei.github.io/blob/main/img/cs_hu_90ad5e29b5427716.jpeg&#34;&lt;/a&gt; bio=&amp;ldquo;保留自己的真诚！&amp;rdquo; &amp;gt;}}&lt;/p&gt;
+&lt;p&gt;{{ &amp;lt; friend name=&amp;ldquo;Mofei&amp;rdquo; url=&amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://mmofei.github.io/%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://mmofei.github.io/&#34;&lt;/a&gt; avatar=&amp;quot;/img/cs.jepg&amp;rdquo;  bio=&amp;ldquo;保留自己的真诚！&amp;rdquo; &amp;gt;}}&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -33,7 +34,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/about-%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
+        <description>&lt;p&gt;{ {&amp;lt; heatmap &amp;gt;} }&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -42,7 +43,27 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/movies-%E5%BD%B1%E9%9F%B3/</guid>
-        <description></description>
+        <description>&lt;h4 id=&#34;&#34;&gt;
+&lt;/h4&gt;&lt;p&gt;{ {&amp;lt; douban &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://book.douban.com/subject/35496106/%22%3e%7d&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://book.douban.com/subject/35496106/&#34;&gt;}&lt;/a&gt; }&lt;/p&gt;
+&lt;p&gt;{ {&amp;lt; douban &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://movie.douban.com/subject/35267208/%22%3e%7d&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://movie.douban.com/subject/35267208/&#34;&gt;}&lt;/a&gt; }&lt;/p&gt;
+&lt;p&gt;{ {&amp;lt; notice notice-warning &amp;gt;}}
+你好。
+{ {&amp;lt; /notice &amp;gt;}}&lt;/p&gt;
+&lt;p&gt;{ {&amp;lt; notice notice-important &amp;gt;}}
+你好。
+{ {&amp;lt; /notice &amp;gt;}}&lt;/p&gt;
+&lt;p&gt;{ {&amp;lt; notice notice-note &amp;gt;}}
+你好。
+{ {&amp;lt; /notice &amp;gt;}}&lt;/p&gt;
+&lt;p&gt;{ {&amp;lt; notice notice-tip &amp;gt;}}
+你好。
+{ {&amp;lt; /notice &amp;gt;}}&lt;/p&gt;
+&lt;p&gt;{ {&amp;lt; notice notice-caution &amp;gt;}}
+你好。
+{ {&amp;lt; /notice &amp;gt;}}&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>Search | 搜索</title>

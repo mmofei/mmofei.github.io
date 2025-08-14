@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='http://localhost:1313/archives/'>
 
-<link rel="stylesheet" href="/scss/style.min.5a55697577aaaefb433aa47cabf8f7fb27968a8f6fc36168004c83c66ecdc3c2.css"><meta property='og:title' content="Archives | 归档">
+<link rel="stylesheet" href="/scss/style.min.359134b8ccd69b72878cafe7f3d01c5d5d32afab36b468bfb6739802fc0ec07c.css"><meta property='og:title' content="Archives | 归档">
 <meta property='og:description' content="">
 <meta property='og:url' content='http://localhost:1313/archives/'>
 <meta property='og:site_name' content='Mofei&#39;s Blog'>
@@ -489,6 +489,133 @@ unicode: "ece7"
         if (document.readyState === "complete") NProgress.done();
     });
 </script>
+
+
+<style>
+    body {
+      background: url(http://localhost:1313/background/1.jpg) no-repeat center top;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+  </style>
+
+  /*  */
+<script defer src="https://cn.vercount.one/js"></script>
+
+<script>
+    function showHideView() {
+         
+        let viewCounts = document.querySelectorAll("#viewCount");
+        if (viewCounts) {
+             
+            let article =  document.querySelector(".article-page");
+            if (!article) {
+                viewCounts.forEach(ele => {
+                    ele.style.display = 'none';
+                });
+            }
+        }
+    }
+    
+    showHideView();
+</script>
+
+<style>
+    #TableOfContents > ul, ol {
+        ul, ol {
+            display: none;
+        }
+        .open {
+            display: block;
+        }
+    }
+</style>
+
+<script>
+    function initTocHide() {
+        
+        let toc = document.querySelector(".widget--toc");
+        if (!toc) {
+            return;
+        }
+        
+        window.addEventListener('scroll', function() {
+            
+            let openUl = document.querySelectorAll(".open");
+            if (openUl.length > 0) {
+              openUl.forEach((ul) => {
+                ul.classList.remove("open")
+              })
+            }
+            
+            let currentLi = document.querySelector(".active-class");
+            if (!currentLi) {
+                return
+            }
+            
+            if (currentLi.children.length > 1) {
+                currentLi.children[1].classList.add("open")
+            }
+            
+            let ul = currentLi.parentElement;
+            do {
+                ul.classList.add("open");
+                ul = ul.parentElement.parentElement
+            } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
+        });
+    }
+    initTocHide()
+</script>
+
+
+<style>
+    #backTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 30px;
+        z-index: 99;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        background-image: url(http://localhost:1313/icons/backTop.svg);
+    }
+</style>
+
+<script>
+    
+
+    function initScrollTop() {
+        let rightSideBar = document.querySelector(".right-sidebar");
+        if (!rightSideBar) {
+            return;
+        }
+        
+        let btn = document.createElement("div");
+        btn.id = "backTopBtn";
+        btn.onclick = backToTop
+        rightSideBar.appendChild(btn)
+        
+        window.onscroll = function() {
+            
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        };
+    }
+
+    
+
+    function backToTop(){
+        window.scrollTo({ top: 0, behavior: "smooth" })
+    }
+
+    initScrollTop();
+</script>
+
+
+
 
     </body>
 </html>
