@@ -8,14 +8,59 @@
         <language>zh-cn</language>
         <copyright>Mofei</copyright>
         <lastBuildDate>Wed, 13 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>第一篇博客</title>
+        <title>【hugo】| 博客开发历程</title>
         <link>http://localhost:1313/p/first-blog/</link>
         <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/p/first-blog/</guid>
-        <description>&lt;img src="http://localhost:1313/p/first-blog/1.jpg" alt="Featured image of post 第一篇博客" /&gt;&lt;h3 id=&#34;第一篇博客&#34;&gt;第一篇博客
-&lt;/h3&gt;&lt;p&gt;gkklbmnk,l;l&amp;rsquo;;&amp;rsquo;
-kmnklk%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/p/first-blog/1.jpg" alt="Featured image of post 【hugo】| 博客开发历程" /&gt;&lt;h2 id=&#34;为什么是hugo&#34;&gt;为什么是Hugo？
+&lt;/h2&gt;&lt;p&gt;很早就想找个平台记录一下自己学习或写的东西，但是由于懒或者是操作不方便都放弃了。最近几个月开始萌生了自己搭建一个博客的想法，所以开始着手搜集这方面的知识，看到了很多炫酷的博客，但是考虑到上手问题，最终选择了hugo，通过挑选，选择了stack这个主题。经历了N多次推倒重建，这个博客终于快装修好了。&lt;/p&gt;
+&lt;p&gt;下面记录了我的折腾过程。&lt;/p&gt;
+&lt;h3 id=&#34;工具准备&#34;&gt;工具准备
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;hugo&lt;/li&gt;
+&lt;li&gt;git&lt;/li&gt;
+&lt;li&gt;github仓库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;hugo-安装&#34;&gt;hugo 安装
+&lt;/h4&gt;&lt;p&gt;hugo官网提供了多种下载方法，我直接使用的是在github上下载的extended版本
+这部分是按照网上的教程进行的，没有踩坑，只需要一步步进行就可以了。&lt;/p&gt;
+&lt;p&gt;安装成功后，在cmd中输入hugo version 验证是否安装成功，当输出下面的页面时，即成功了&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/first-blog/2.png&#34;
+	width=&#34;1072&#34;
+	height=&#34;99&#34;
+	srcset=&#34;http://localhost:1313/p/first-blog/2_hu_9689cd42909c045.png 480w, http://localhost:1313/p/first-blog/2_hu_df2a834daba9d981.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;1082&#34;
+		data-flex-basis=&#34;2598px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;主题的选择&#34;&gt;主题的选择
+&lt;/h4&gt;&lt;p&gt;hugo 提供了多种主题，我选择了stack主题&lt;/p&gt;
+&lt;p&gt;可以使用git 拉取，但是由于网络原因，我选择的是直接在github下载压缩包，让后将其解压到博客目录下的theme中&lt;/p&gt;
+&lt;p&gt;然后执行hugo server后，能够在http://localhost:1313/查看到博客，就表示主题应用成功
+&lt;img src=&#34;http://localhost:1313/p/first-blog/3.png&#34;
+	width=&#34;1859&#34;
+	height=&#34;888&#34;
+	srcset=&#34;http://localhost:1313/p/first-blog/3_hu_788e4b39c94fbdde.png 480w, http://localhost:1313/p/first-blog/3_hu_64b25bb76038332a.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;209&#34;
+		data-flex-basis=&#34;502px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;github部署&#34;&gt;github部署
+&lt;/h4&gt;&lt;p&gt;截止一步一个本地的博客就搭建好了&lt;/p&gt;
+&lt;p&gt;为了可以公开访问，我使用Github Pages进行部署&lt;/p&gt;
+&lt;p&gt;此步骤是根据&lt;a class=&#34;link&#34; href=&#34;https://weiqifun.com/posts/2024/10/hugo&amp;#43;stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo stack 主题配合Github搭建个人博客&lt;/a&gt;教程实现的&lt;/p&gt;
+&lt;p&gt;至此，一个个人博客就搭建好了，后续就可以发布文章了。&lt;/p&gt;
+&lt;p&gt;接下来，可以按照自己的喜好对主题进行美化，当然也可以选择不修改。看着那么多个性化的博客，我也想装修一个属于自己的赛博空间。&lt;/p&gt;
 </description>
         </item>
         

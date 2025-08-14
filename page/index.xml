@@ -13,11 +13,32 @@
         <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/links/</guid>
-        <description>&lt;p&gt;{ {&amp;lt; friend name=&amp;ldquo;MoFei&amp;rdquo; url=&amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://mmofei.github.io/%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://mmofei.github.io/&#34;&lt;/a&gt; avatar=&amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mmofei/mmofei.github.io/blob/main/img/cs_hu_90ad5e29b5427716.jpeg%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/mmofei/mmofei.github.io/blob/main/img/cs_hu_90ad5e29b5427716.jpeg&#34;&lt;/a&gt; bio=&amp;ldquo;保留自己的真诚！&amp;rdquo; &amp;gt;}}&lt;/p&gt;
-&lt;p&gt;{{ &amp;lt; friend name=&amp;ldquo;Mofei&amp;rdquo; url=&amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://mmofei.github.io/%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://mmofei.github.io/&#34;&lt;/a&gt; avatar=&amp;quot;/img/cs.jepg&amp;rdquo;  bio=&amp;ldquo;保留自己的真诚！&amp;rdquo; &amp;gt;}}&lt;/p&gt;
+        <description>&lt;h2 id=&#34;friedns&#34;&gt;Friedns
+&lt;/h2&gt;&lt;h2 id=&#34;following&#34;&gt;Following
+&lt;/h2&gt;&lt;a href=&#34;https://mmofei.github.io/&#34; title=&#34;MoFei&#34; class=&#34;friend-link&#34; target=&#34;_blank&#34; rel=&#34;friend&#34;&gt;
+    &lt;div class=&#34;friend-link-div&#34;&gt;
+        &lt;div class=&#34;friend-link-avatar&#34;&gt;
+            &lt;img src=ZgotmplZ class=&#34;friend-avatar&#34; loading=&#34;lazy&#34; alt=&#34;Avatar&#34;&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;friend-link-info&#34;&gt;
+            &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+            &lt;i class=&#34;friend-name&#34;&gt;MoFei&lt;/i&gt;
+            &lt;p class=&#34;friend-bio&#34;&gt;保留自己的真诚！&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://mmofei.github.io/&#34; title=&#34;Mofei&#34; class=&#34;friend-link&#34; target=&#34;_blank&#34; rel=&#34;friend&#34;&gt;
+    &lt;div class=&#34;friend-link-div&#34;&gt;
+        &lt;div class=&#34;friend-link-avatar&#34;&gt;
+            &lt;img src=ZgotmplZ class=&#34;friend-avatar&#34; loading=&#34;lazy&#34; alt=&#34;Avatar&#34;&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;friend-link-info&#34;&gt;
+            &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+            &lt;i class=&#34;friend-name&#34;&gt;Mofei&lt;/i&gt;
+            &lt;p class=&#34;friend-bio&#34;&gt;保留自己的真诚！&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/a&gt;
 </description>
         </item>
         <item>
@@ -34,36 +55,220 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/about-%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;p&gt;{ {&amp;lt; heatmap &amp;gt;} }&lt;/p&gt;
+        <description>&lt;div id=&#34;heatmap&#34; style=&#34;
+  max-width: 1900px;
+  height: 180px;
+  padding: 2px;
+  text-align: center;
+  &#34;
+&gt;&lt;/div&gt;
+&lt;script src=&#34;https://cdn.jsdelivr.net/npm/echarts@5.3.0/dist/echarts.min.js&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+  var chartDom = document.getElementById(&#39;heatmap&#39;);
+  var myChart = echarts.init(chartDom);
+  window.onresize = function() {
+      myChart.resize();
+  };
+  var option;
+
+  
+  
+  
+  
+  
+  
+  var dataMap = new Map();
+  
+    var key = &#34;2025-08-13&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  614 ;
+    var link = &#34;/p/first-blog/&#34;;
+    var title = &#34;【hugo】| 博客开发历程&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-13&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  2 ;
+    var link = &#34;/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86-%E5%8A%A8%E6%80%81%E5%88%86%E6%9E%90%E6%8A%80%E6%9C%AF/&#34;;
+    var title = &#34;【加密和解密】| 动态分析技术&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-13&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  2 ;
+    var link = &#34;/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/&#34;;
+    var title = &#34;【加密和解密】| 基础篇&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }var data = [];
+  
+  for (const [key, value] of dataMap.entries()) {
+    var sum = 0;
+    for (const v of value) {
+      sum += v.wordCount;
+    }
+    data.push([key, (sum / 1000).toFixed(1)]);
+  }
+  
+  var startDate = new Date();
+  var year_Mill = startDate.setFullYear((startDate.getFullYear() - 1));
+  var startDate = +new Date(year_Mill);
+  var endDate = +new Date();
+
+  var dayTime = 3600 * 24 * 1000;
+  startDate = echarts.format.formatTime(&#39;yyyy-MM-dd&#39;, startDate);
+  endDate = echarts.format.formatTime(&#39;yyyy-MM-dd&#39;, endDate);
+
+  
+  function heatmap_width(months){         
+    var startDate = new Date();
+    var mill = startDate.setMonth((startDate.getMonth() - months));
+    var endDate = +new Date();
+    startDate = +new Date(mill);
+
+    endDate = echarts.format.formatTime(&#39;yyyy-MM-dd&#39;, endDate);
+    startDate = echarts.format.formatTime(&#39;yyyy-MM-dd&#39;, startDate);
+
+    var showmonth = [];
+    showmonth.push([
+        startDate,
+        endDate
+    ]);
+    return showmonth
+  };
+
+  function getRangeArr() {
+    const windowWidth = window.innerWidth;
+    if (windowWidth &gt;= 600) {
+      return heatmap_width(12);
+    } else if (windowWidth &gt;= 400) {
+      return heatmap_width(9);
+    } else {
+      return heatmap_width(6);
+    }
+  }
+
+  option = {
+    title: {
+        top: 0,
+        left: &#39;center&#39;,
+        text: &#39;博客热力图&#39;
+    },
+    tooltip: {
+      hideDelay: 1000,
+      enterable: true,
+      formatter: function (p) {
+        const date = p.data[0];
+        const posts = dataMap.get(date);
+        var content = `${date}`;
+        for (const [i, post] of posts.entries()) {
+            content += &#34;&lt;br&gt;&#34;;
+            var link = post.link;
+            var title = post.title;
+            var wordCount = (post.wordCount / 1000).toFixed(1);
+            content += `&lt;a href=&#34;${link}&#34; target=&#34;_blank&#34;&gt;${title} | ${wordCount} k&lt;/a&gt;`
+        }
+        return content;
+      }
+    },
+    visualMap: {
+        min: 0,
+        max: 10,
+        type: &#39;piecewise&#39;,
+        orient: &#39;horizontal&#39;,
+        left: &#39;center&#39;,
+        top: 30,
+    
+        inRange: {   
+          
+          color: [&#39;#7aa8744c&#39;, &#39;#7AA874&#39; ] 
+        },
+        splitNumber: 4,
+        text: [&#39;千字&#39;, &#39;&#39;],
+        showLabel: true,
+        itemGap: 20,
+    },
+    calendar: {
+        top: 80,
+        left: 20,
+        right: 4,
+        cellSize: [&#39;auto&#39;, 13],
+        range: getRangeArr(),
+        itemStyle: {
+            color: &#39;#F1F1F1&#39;,
+            borderWidth: 1.5,
+            borderColor: &#39;#fff&#39;,
+        },
+        yearLabel: { show: false },
+        
+        splitLine: {
+          lineStyle: {
+            color: &#39;rgba(0, 0, 0, 0.0)&#39;,
+            
+            
+            
+            
+          }
+        }
+    },
+    series: {
+        type: &#39;heatmap&#39;,
+        coordinateSystem: &#39;calendar&#39;,
+        data: data,
+    }
+  };
+  myChart.setOption(option);
+  myChart.on(&#39;click&#39;, function(params) {
+    if (params.componentType === &#39;series&#39;) {
+      
+      const post = dataMap.get(params.data[0])[0];
+      const link = window.location.origin + post.link;
+      window.open(link, &#39;_blank&#39;).focus();
+    }
+});
+&lt;/script&gt; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </description>
         </item>
         <item>
-        <title>Movies | 影音</title>
-        <link>http://localhost:1313/movies-%E5%BD%B1%E9%9F%B3/</link>
+        <title>Filmo | 书影音</title>
+        <link>http://localhost:1313/filmo-%E4%B9%A6%E5%BD%B1%E9%9F%B3/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/movies-%E5%BD%B1%E9%9F%B3/</guid>
-        <description>&lt;h4 id=&#34;&#34;&gt;
-&lt;/h4&gt;&lt;p&gt;{ {&amp;lt; douban &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://book.douban.com/subject/35496106/%22%3e%7d&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://book.douban.com/subject/35496106/&#34;&gt;}&lt;/a&gt; }&lt;/p&gt;
-&lt;p&gt;{ {&amp;lt; douban &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://movie.douban.com/subject/35267208/%22%3e%7d&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://movie.douban.com/subject/35267208/&#34;&gt;}&lt;/a&gt; }&lt;/p&gt;
-&lt;p&gt;{ {&amp;lt; notice notice-warning &amp;gt;}}
-你好。
-{ {&amp;lt; /notice &amp;gt;}}&lt;/p&gt;
-&lt;p&gt;{ {&amp;lt; notice notice-important &amp;gt;}}
-你好。
-{ {&amp;lt; /notice &amp;gt;}}&lt;/p&gt;
-&lt;p&gt;{ {&amp;lt; notice notice-note &amp;gt;}}
-你好。
-{ {&amp;lt; /notice &amp;gt;}}&lt;/p&gt;
-&lt;p&gt;{ {&amp;lt; notice notice-tip &amp;gt;}}
-你好。
-{ {&amp;lt; /notice &amp;gt;}}&lt;/p&gt;
-&lt;p&gt;{ {&amp;lt; notice notice-caution &amp;gt;}}
-你好。
-{ {&amp;lt; /notice &amp;gt;}}&lt;/p&gt;
-</description>
+        <guid>http://localhost:1313/filmo-%E4%B9%A6%E5%BD%B1%E9%9F%B3/</guid>
+        <description>&lt;h2 id=&#34;年度电影&#34;&gt;年度电影
+&lt;/h2&gt;&lt;h3 id=&#34;2025&#34;&gt;2025
+&lt;/h3&gt;&lt;h3 id=&#34;2024&#34;&gt;2024
+&lt;/h3&gt;&lt;h2 id=&#34;年度音乐&#34;&gt;年度音乐
+&lt;/h2&gt;&lt;h2 id=&#34;年度书籍&#34;&gt;年度书籍
+&lt;/h2&gt;</description>
         </item>
         <item>
         <title>Search | 搜索</title>

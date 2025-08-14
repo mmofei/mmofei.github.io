@@ -1,19 +1,41 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="第一篇博客 gkklbmnk,l;l&rsquo;;&rsquo; kmnklk%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n">
-<title>第一篇博客</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="为什么是Hugo？ 很早就想找个平台记录一下自己学习或写的东西，但是由于懒或者是操作不方便都放弃了。最近几个月开始萌生了自己搭建一个博客的想法，所以开始着手搜集这方面的知识，看到了很多炫酷的博客，但是考虑到上手问题，最终选择了hugo，通过挑选，选择了stack这个主题。经历了N多次推倒重建，这个博客终于快装修好了。\n">
+<title>【hugo】| 博客开发历程</title>
 
 <link rel='canonical' href='http://localhost:1313/p/first-blog/'>
 
-<link rel="stylesheet" href="/scss/style.min.3dfc149cf2e3b5a58663ea0a03b174aea9a1f2ce294601e987c9a8a429fda8fc.css"><meta property='og:title' content="第一篇博客">
-<meta property='og:description' content="第一篇博客 gkklbmnk,l;l&rsquo;;&rsquo; kmnklk%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n">
+<link rel="stylesheet" href="/scss/style.min.7b6439fd5de332bcc3f4303addfb6eb64dc6f8ec7df7e9029f20c0a83d2c9249.css"><meta property='og:title' content="【hugo】| 博客开发历程">
+<meta property='og:description' content="为什么是Hugo？ 很早就想找个平台记录一下自己学习或写的东西，但是由于懒或者是操作不方便都放弃了。最近几个月开始萌生了自己搭建一个博客的想法，所以开始着手搜集这方面的知识，看到了很多炫酷的博客，但是考虑到上手问题，最终选择了hugo，通过挑选，选择了stack这个主题。经历了N多次推倒重建，这个博客终于快装修好了。\n">
 <meta property='og:url' content='http://localhost:1313/p/first-blog/'>
 <meta property='og:site_name' content='Mofei&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='博客' /><meta property='article:published_time' content='2025-08-13T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-08-13T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/p/first-blog/1.jpg' />
-<meta name="twitter:title" content="第一篇博客">
-<meta name="twitter:description" content="第一篇博客 gkklbmnk,l;l&rsquo;;&rsquo; kmnklk%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/p/first-blog/1.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='博客' /><meta property='article:tag' content='原创' /><meta property='article:tag' content='折腾' /><meta property='article:tag' content='hugo Stack' /><meta property='article:published_time' content='2025-08-13T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-08-13T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/p/first-blog/1.jpg' />
+<meta name="twitter:title" content="【hugo】| 博客开发历程">
+<meta name="twitter:description" content="为什么是Hugo？ 很早就想找个平台记录一下自己学习或写的东西，但是由于懒或者是操作不方便都放弃了。最近几个月开始萌生了自己搭建一个博客的想法，所以开始着手搜集这方面的知识，看到了很多炫酷的博客，但是考虑到上手问题，最终选择了hugo，通过挑选，选择了stack这个主题。经历了N多次推倒重建，这个博客终于快装修好了。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/p/first-blog/1.jpg' /><style>
+    :root {
+      --sys-font-family: "Noto Serif SC";
+      --zh-font-family: "Noto Serif SC";
+      --base-font-family: "Noto Serif SC";
+      --code-font-family: "Noto Serif SC";
+      --article-font-family: "Noto Serif SC";
+    }
+  </style>
+  
+  <script>
+    (function () {
+      const customFont = document.createElement("link");
+      customFont.href =
+        "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap";
+  
+      customFont.type = "text/css";
+      customFont.rel = "stylesheet";
+  
+      document.head.appendChild(customFont);
+    })();
+  </script>
+  
     </head>
     <body class="
     article-page
@@ -79,9 +101,15 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li>
+    <li><a href="#为什么是hugo">为什么是Hugo？</a>
       <ol>
-        <li><a href="#第一篇博客">第一篇博客</a></li>
+        <li><a href="#工具准备">工具准备</a>
+          <ol>
+            <li><a href="#hugo-安装">hugo 安装</a></li>
+            <li><a href="#主题的选择">主题的选择</a></li>
+            <li><a href="#github部署">github部署</a></li>
+          </ol>
+        </li>
       </ol>
     </li>
   </ol>
@@ -104,7 +132,7 @@
                         width="800" 
                         height="559" 
                         loading="lazy"
-                        alt="Featured image of post 第一篇博客" />
+                        alt="Featured image of post 【hugo】| 博客开发历程" />
                 
             </a>
         </div>
@@ -114,12 +142,8 @@
     
     <header class="article-category">
         
-            <a href="/categories/%E5%8E%9F%E5%88%9B/" >
-                原创
-            </a>
-        
-            <a href="/categories/%E5%8D%9A%E5%AE%A2/" >
-                博客
+            <a href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" >
+                博客搭建
             </a>
         
     </header>
@@ -127,7 +151,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/first-blog/">第一篇博客</a>
+            <a href="/p/first-blog/">【hugo】| 博客开发历程</a>
         </h2>
     
         
@@ -164,7 +188,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 1 分钟
+                    阅读时长: 2 分钟
                 </time>
             </div>
         
@@ -197,6 +221,8 @@ unicode: "f7f0"
             </time>
         </div>
 
+        
+
 
     </footer>
     
@@ -209,9 +235,54 @@ unicode: "f7f0"
     <section class="article-content">
     
     
-    <h3 id="第一篇博客">第一篇博客
-</h3><p>gkklbmnk,l;l&rsquo;;&rsquo;
-kmnklk%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</p>
+    <h2 id="为什么是hugo">为什么是Hugo？
+</h2><p>很早就想找个平台记录一下自己学习或写的东西，但是由于懒或者是操作不方便都放弃了。最近几个月开始萌生了自己搭建一个博客的想法，所以开始着手搜集这方面的知识，看到了很多炫酷的博客，但是考虑到上手问题，最终选择了hugo，通过挑选，选择了stack这个主题。经历了N多次推倒重建，这个博客终于快装修好了。</p>
+<p>下面记录了我的折腾过程。</p>
+<h3 id="工具准备">工具准备
+</h3><ul>
+<li>hugo</li>
+<li>git</li>
+<li>github仓库</li>
+</ul>
+<h4 id="hugo-安装">hugo 安装
+</h4><p>hugo官网提供了多种下载方法，我直接使用的是在github上下载的extended版本
+这部分是按照网上的教程进行的，没有踩坑，只需要一步步进行就可以了。</p>
+<p>安装成功后，在cmd中输入hugo version 验证是否安装成功，当输出下面的页面时，即成功了</p>
+<p><img src="/p/first-blog/2.png"
+	width="1072"
+	height="99"
+	srcset="/p/first-blog/2_hu_9689cd42909c045.png 480w, /p/first-blog/2_hu_df2a834daba9d981.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="1082"
+		data-flex-basis="2598px"
+	
+></p>
+<h4 id="主题的选择">主题的选择
+</h4><p>hugo 提供了多种主题，我选择了stack主题</p>
+<p>可以使用git 拉取，但是由于网络原因，我选择的是直接在github下载压缩包，让后将其解压到博客目录下的theme中</p>
+<p>然后执行hugo server后，能够在http://localhost:1313/查看到博客，就表示主题应用成功
+<img src="/p/first-blog/3.png"
+	width="1859"
+	height="888"
+	srcset="/p/first-blog/3_hu_788e4b39c94fbdde.png 480w, /p/first-blog/3_hu_64b25bb76038332a.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="209"
+		data-flex-basis="502px"
+	
+></p>
+<h4 id="github部署">github部署
+</h4><p>截止一步一个本地的博客就搭建好了</p>
+<p>为了可以公开访问，我使用Github Pages进行部署</p>
+<p>此步骤是根据<a class="link" href="https://weiqifun.com/posts/2024/10/hugo&#43;stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"  target="_blank" rel="noopener"
+    >Hugo stack 主题配合Github搭建个人博客</a>教程实现的</p>
+<p>至此，一个个人博客就搭建好了，后续就可以发布文章了。</p>
+<p>接下来，可以按照自己的喜好对主题进行美化，当然也可以选择不修改。看着那么多个性化的博客，我也想装修一个属于自己的赛博空间。</p>
 
 </section>
 
@@ -221,6 +292,12 @@ kmnklk%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     <section class="article-tags">
         
             <a href="/tags/%E5%8D%9A%E5%AE%A2/">博客</a>
+        
+            <a href="/tags/%E5%8E%9F%E5%88%9B/">原创</a>
+        
+            <a href="/tags/%E6%8A%98%E8%85%BE/">折腾</a>
+        
+            <a href="/tags/hugo-stack/">Hugo Stack</a>
         
     </section>
 
@@ -237,7 +314,392 @@ kmnklk%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
         <span>Licensed under CC BY-NC-SA 4.0</span>
     </section>
-    </footer>
+    
+    <section>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+  
+
+
+
+<style>
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #fff !important;
+  margin: 0.1rem
+}
+
+.resp-sharing-button {
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 0.5em 0.75em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  
+}
+
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: middle
+}
+
+.resp-sharing-button--small svg {
+  margin: 0;
+  vertical-align: middle
+}
+
+ 
+.resp-sharing-button__icon {
+  stroke: #fff;
+  fill: none
+}
+
+ 
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #fff;
+  stroke: none
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee
+}
+
+.resp-sharing-button--twitter:hover {
+  background-color: #2795e9
+}
+
+.resp-sharing-button--pinterest {
+  background-color: #bd081c
+}
+
+.resp-sharing-button--pinterest:hover {
+  background-color: #8c0615
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998
+}
+
+.resp-sharing-button--facebook:hover {
+  background-color: #2d4373
+}
+
+.resp-sharing-button--tumblr {
+  background-color: #35465C
+}
+
+.resp-sharing-button--tumblr:hover {
+  background-color: #222d3c
+}
+
+.resp-sharing-button--reddit {
+  background-color: #ff4500
+}
+
+.resp-sharing-button--reddit:hover {
+  background-color: #3a80c1
+}
+
+.resp-sharing-button--google {
+  background-color: #dd4b39
+}
+
+.resp-sharing-button--google:hover {
+  background-color: #c23321
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #0077b5
+}
+
+.resp-sharing-button--linkedin:hover {
+  background-color: #046293
+}
+
+.resp-sharing-button--email {
+  background-color: #777
+}
+
+.resp-sharing-button--email:hover {
+  background-color: #5e5e5e
+}
+
+.resp-sharing-button--xing {
+  background-color: #1a7576
+}
+
+.resp-sharing-button--xing:hover {
+  background-color: #114c4c
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366
+}
+
+.resp-sharing-button--whatsapp:hover {
+  background-color: #1da851
+}
+
+.resp-sharing-button--hackernews {
+background-color: #FF6600
+}
+.resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus {   background-color: #FB6200 }
+
+.resp-sharing-button--vk {
+  background-color: #507299
+}
+
+.resp-sharing-button--vk:hover {
+  background-color: #43648c
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+.resp-sharing-button--facebook:hover,
+.resp-sharing-button--facebook:active {
+  background-color: #2d4373;
+  border-color: #2d4373;
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+}
+
+.resp-sharing-button--twitter:hover,
+.resp-sharing-button--twitter:active {
+  background-color: #2795e9;
+  border-color: #2795e9;
+}
+
+.resp-sharing-button--tumblr {
+  background-color: #35465C;
+  border-color: #35465C;
+}
+
+.resp-sharing-button--tumblr:hover,
+.resp-sharing-button--tumblr:active {
+  background-color: #222d3c;
+  border-color: #222d3c;
+}
+
+.resp-sharing-button--email {
+  background-color: #777777;
+  border-color: #777777;
+}
+
+.resp-sharing-button--email:hover,
+.resp-sharing-button--email:active {
+  background-color: #5e5e5e;
+  border-color: #5e5e5e;
+}
+
+.resp-sharing-button--pinterest {
+  background-color: #bd081c;
+  border-color: #bd081c;
+}
+
+.resp-sharing-button--pinterest:hover,
+.resp-sharing-button--pinterest:active {
+  background-color: #8c0615;
+  border-color: #8c0615;
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #0077b5;
+  border-color: #0077b5;
+}
+
+.resp-sharing-button--linkedin:hover,
+.resp-sharing-button--linkedin:active {
+  background-color: #046293;
+  border-color: #046293;
+}
+
+.resp-sharing-button--reddit {
+  background-color: #ff4500;
+  border-color: #ff4500;
+}
+
+.resp-sharing-button--reddit:hover,
+.resp-sharing-button--reddit:active {
+  background-color: #ff5700;
+  border-color: #ff5700;
+}
+
+.resp-sharing-button--xing {
+  background-color: #1a7576;
+  border-color: #1a7576;
+}
+
+.resp-sharing-button--xing:hover
+.resp-sharing-button--xing:active {
+  background-color: #114C4C;
+  border-color: #114C4C;
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366;
+  border-color: #25D366;
+}
+
+.resp-sharing-button--whatsapp:hover,
+.resp-sharing-button--whatsapp:active {
+  background-color: #1DA851;
+  border-color: #1DA851;
+}
+
+.resp-sharing-button--hackernews {
+  background-color: #FF6600;
+  border-color: #FF6600;
+}
+
+.resp-sharing-button--hackernews:hover
+.resp-sharing-button--hackernews:active {
+  background-color: #FB6200;
+  border-color: #FB6200;
+}
+
+.resp-sharing-button--vk {
+  background-color: #507299;
+  border-color: #507299;
+}
+
+.resp-sharing-button--vk:hover
+.resp-sharing-button--vk:active {
+  background-color: #43648c;
+  border-color: #43648c;
+}
+
+.resp-sharing-button--telegram {
+  background-color: #54A9EB;
+}
+
+.resp-sharing-button--telegram:hover {
+  background-color: #4B97D1;
+}
+</style>
+
+
+
+
+<div class="resp-sharing-button__link" 
+     onclick="copyLink(this)" 
+     aria-label="" 
+     title=""
+     style="cursor: pointer;">
+  <div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--small">
+    <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--normal">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="white"
+        stroke-width="1.5px"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+      </svg>
+    </div>
+    
+    <span class="copy-status" style="display: none; position: absolute; background: #333; color: white; padding: 2px 6px; border-radius: 4px; font-size: 12px; margin-left: 8px;">
+      Link copied
+    </span>
+  </div>
+</div>
+
+
+
+
+
+
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=%e3%80%90hugo%e3%80%91%7c%20%e5%8d%9a%e5%ae%a2%e5%bc%80%e5%8f%91%e5%8e%86%e7%a8%8b&url=http://localhost:1313/p/first-blog/" target="_blank" rel="noopener" aria-label="" title="Twitter">
+  <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--normal">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.4 4.83c-.8.37-1.5.38-2.22.02.94-.56.98-.96 1.32-2.02-.88.52-1.85.9-2.9 1.1-.8-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.04.7.12 1.04-3.78-.2-7.12-2-9.37-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.73-.03-1.43-.23-2.05-.57v.06c0 2.2 1.57 4.03 3.65 4.44-.67.18-1.37.2-2.05.08.57 1.8 2.25 3.12 4.24 3.16-1.95 1.52-4.36 2.16-6.74 1.88 2 1.3 4.4 2.04 6.97 2.04 8.36 0 12.93-6.92 12.93-12.93l-.02-.6c.9-.63 1.96-1.22 2.57-2.14z"/></svg>
+
+
+    
+    </div>
+  </div>
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function copyLink(element) {
+    navigator.clipboard.writeText(window.location.href);
+    const statusElement = element.querySelector('.copy-status');
+    statusElement.style.display = 'inline';
+    setTimeout(() => statusElement.style.display = 'none', 2000);
+  }
+</script>
+
+
+
+    </section>
+    
+</footer>
 
 
     
@@ -247,7 +709,49 @@ kmnklk%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     
 
-     
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/1.d29e2224410dbef9f9740d2b9c4f5b01_hu_6d6de56185b57a40.jpeg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 【hugo】| Hugo stack 主题美化"
+                        data-key="博客美化" 
+                        data-hash="md5-0p4iJEENvvn5dA0rnE9bAQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">【hugo】| Hugo stack 主题美化</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+    
+    <div class="pre-next">
+        
+            <a class="pre-next-btn bg" href="http://localhost:1313/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86-%E5%8A%A8%E6%80%81%E5%88%86%E6%9E%90%E6%8A%80%E6%9C%AF/">&lt;&lt; 【加密和解密】| 动态分析技术</a>
+        
+        
+            <a class="pre-next-btn bg" href="http://localhost:1313/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/">【hugo】| Hugo stack 主题美化 >></a>
+        
+    </div>
+  
     
         
     <div class="disqus-container">
@@ -300,19 +804,52 @@ kmnklk%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         
         2025 Mofei
     </section>
+
     
+    <section class="totalcount">
+        
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+        发表了4篇文章 · 
+        总计0.85k字
+    </section>
+
+    
+    <section class="running-time">
+        本博客已稳定运行
+        <span id="runningdays" class="running-days"></span>
+    </section>
+
+    
+
+
+
+
     <section class="powerby">
         
 
         
 
-
-
-
-
         <section class="powerby">
             <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.27.0">Stack</a></b> <a>designed by Jimmy</a>
-     </section>
+        </section>
 
 
     </section>
@@ -403,7 +940,7 @@ kmnklk%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.ecf44f15ae4b33dc7107877680c5f7b0fe033c8a80e07b5ad1fe8bddd55ec742.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.0edbb76cab8d87b32420115b528c6a87e63a2c2be561a39e87cfb6e202394f33.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -559,6 +1096,22 @@ kmnklk%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     initScrollTop();
 </script>
+
+
+<script>
+    let s1 = '2025-8-13'; 
+    s1 = new Date(s1.replace(/-/g, "/"));
+    let s2 = new Date();
+    let timeDifference = s2.getTime() - s1.getTime();
+
+    let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+
+    let result = days + "天" + hours + "小时" + minutes + "分钟";
+    document.getElementById('runningdays').innerHTML = result;
+</script>
+
 
 
 

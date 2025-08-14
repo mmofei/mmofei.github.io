@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>魔改 on Mofei&#39;s Blog</title>
+        <link>http://localhost:1313/tags/%E9%AD%94%E6%94%B9/</link>
+        <description>Recent content in 魔改 on Mofei&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Mofei</copyright>
+        <lastBuildDate>Thu, 14 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E9%AD%94%E6%94%B9/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>【hugo】| Hugo stack 主题美化</title>
+        <link>http://localhost:1313/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</link>
+        <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/1.jpeg" alt="Featured image of post 【hugo】| Hugo stack 主题美化" /&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

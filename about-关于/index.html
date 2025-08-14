@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="{ {&lt; heatmap &gt;} }\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="\r">
 <title>About | 关于</title>
 
 <link rel='canonical' href='http://localhost:1313/about-%E5%85%B3%E4%BA%8E/'>
 
-<link rel="stylesheet" href="/scss/style.min.3dfc149cf2e3b5a58663ea0a03b174aea9a1f2ce294601e987c9a8a429fda8fc.css"><meta property='og:title' content="About | 关于">
-<meta property='og:description' content="{ {&lt; heatmap &gt;} }\n">
+<link rel="stylesheet" href="/scss/style.min.7b6439fd5de332bcc3f4303addfb6eb64dc6f8ec7df7e9029f20c0a83d2c9249.css"><meta property='og:title' content="About | 关于">
+<meta property='og:description' content="\r">
 <meta property='og:url' content='http://localhost:1313/about-%E5%85%B3%E4%BA%8E/'>
 <meta property='og:site_name' content='Mofei&#39;s Blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Page' />
 <meta name="twitter:title" content="About | 关于">
-<meta name="twitter:description" content="{ {&lt; heatmap &gt;} }\n">
+<meta name="twitter:description" content="\r">
     </head>
     <body class="
     article-page
@@ -213,20 +213,39 @@ unicode: "eae5"
         
         
         <li >
-            <a href='/movies-%E5%BD%B1%E9%9F%B3/' >
+            <a href='/filmo-%E4%B9%A6%E5%BD%B1%E9%9F%B3/' >
                 
                 
                 
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
+                    <!--
+category: Media
+tags: [film, video, cinema]
+version: "1.0"
+unicode: "eafa"
+-->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#000000"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+  <path d="M8 4l0 16" />
+  <path d="M16 4l0 16" />
+  <path d="M4 8l4 0" />
+  <path d="M4 16l4 0" />
+  <path d="M4 12l16 0" />
+  <path d="M16 8l4 0" />
+  <path d="M16 16l4 0" />
 </svg>
 
-
-
                 
-                <span>Movies | 影音</span>
+                <span>Filmo | 书影音</span>
             </a>
         </li>
         
@@ -387,7 +406,7 @@ unicode: "ece7"
 
 
                 <time class="article-time--reading">
-                    阅读时长: 1 分钟
+                    阅读时长: 0 分钟
                 </time>
             </div>
         
@@ -420,6 +439,8 @@ unicode: "f7f0"
             </time>
         </div>
 
+        
+
 
     </footer>
     
@@ -432,7 +453,206 @@ unicode: "f7f0"
     <section class="article-content">
     
     
-    <p>{ {&lt; heatmap &gt;} }</p>
+    <div id="heatmap" style="
+  max-width: 1900px;
+  height: 180px;
+  padding: 2px;
+  text-align: center;
+  "
+></div>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.3.0/dist/echarts.min.js"></script>
+<script type="text/javascript">
+  var chartDom = document.getElementById('heatmap');
+  var myChart = echarts.init(chartDom);
+  window.onresize = function() {
+      myChart.resize();
+  };
+  var option;
+
+  
+  
+  
+  
+  
+  
+  var dataMap = new Map();
+  
+    var key = "2025-08-13";
+    var value = dataMap.get(key);
+    var wordCount =  614 ;
+    var link = "/p/first-blog/";
+    var title = "【hugo】| 博客开发历程";
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = "2025-08-13";
+    var value = dataMap.get(key);
+    var wordCount =  2 ;
+    var link = "/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86-%E5%8A%A8%E6%80%81%E5%88%86%E6%9E%90%E6%8A%80%E6%9C%AF/";
+    var title = "【加密和解密】| 动态分析技术";
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = "2025-08-13";
+    var value = dataMap.get(key);
+    var wordCount =  2 ;
+    var link = "/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/";
+    var title = "【加密和解密】| 基础篇";
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }var data = [];
+  
+  for (const [key, value] of dataMap.entries()) {
+    var sum = 0;
+    for (const v of value) {
+      sum += v.wordCount;
+    }
+    data.push([key, (sum / 1000).toFixed(1)]);
+  }
+  
+  var startDate = new Date();
+  var year_Mill = startDate.setFullYear((startDate.getFullYear() - 1));
+  var startDate = +new Date(year_Mill);
+  var endDate = +new Date();
+
+  var dayTime = 3600 * 24 * 1000;
+  startDate = echarts.format.formatTime('yyyy-MM-dd', startDate);
+  endDate = echarts.format.formatTime('yyyy-MM-dd', endDate);
+
+  
+  function heatmap_width(months){         
+    var startDate = new Date();
+    var mill = startDate.setMonth((startDate.getMonth() - months));
+    var endDate = +new Date();
+    startDate = +new Date(mill);
+
+    endDate = echarts.format.formatTime('yyyy-MM-dd', endDate);
+    startDate = echarts.format.formatTime('yyyy-MM-dd', startDate);
+
+    var showmonth = [];
+    showmonth.push([
+        startDate,
+        endDate
+    ]);
+    return showmonth
+  };
+
+  function getRangeArr() {
+    const windowWidth = window.innerWidth;
+    if (windowWidth >= 600) {
+      return heatmap_width(12);
+    } else if (windowWidth >= 400) {
+      return heatmap_width(9);
+    } else {
+      return heatmap_width(6);
+    }
+  }
+
+  option = {
+    title: {
+        top: 0,
+        left: 'center',
+        text: '博客热力图'
+    },
+    tooltip: {
+      hideDelay: 1000,
+      enterable: true,
+      formatter: function (p) {
+        const date = p.data[0];
+        const posts = dataMap.get(date);
+        var content = `${date}`;
+        for (const [i, post] of posts.entries()) {
+            content += "<br>";
+            var link = post.link;
+            var title = post.title;
+            var wordCount = (post.wordCount / 1000).toFixed(1);
+            content += `<a href="${link}" target="_blank">${title} | ${wordCount} k</a>`
+        }
+        return content;
+      }
+    },
+    visualMap: {
+        min: 0,
+        max: 10,
+        type: 'piecewise',
+        orient: 'horizontal',
+        left: 'center',
+        top: 30,
+    
+        inRange: {   
+          
+          color: ['#7aa8744c', '#7AA874' ] 
+        },
+        splitNumber: 4,
+        text: ['千字', ''],
+        showLabel: true,
+        itemGap: 20,
+    },
+    calendar: {
+        top: 80,
+        left: 20,
+        right: 4,
+        cellSize: ['auto', 13],
+        range: getRangeArr(),
+        itemStyle: {
+            color: '#F1F1F1',
+            borderWidth: 1.5,
+            borderColor: '#fff',
+        },
+        yearLabel: { show: false },
+        
+        splitLine: {
+          lineStyle: {
+            color: 'rgba(0, 0, 0, 0.0)',
+            
+            
+            
+            
+          }
+        }
+    },
+    series: {
+        type: 'heatmap',
+        coordinateSystem: 'calendar',
+        data: data,
+    }
+  };
+  myChart.setOption(option);
+  myChart.on('click', function(params) {
+    if (params.componentType === 'series') {
+      
+      const post = dataMap.get(params.data[0])[0];
+      const link = window.location.origin + post.link;
+      window.open(link, '_blank').focus();
+    }
+});
+</script> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </section>
 
@@ -452,7 +672,8 @@ unicode: "f7f0"
 
         <span>Licensed under CC BY-NC-SA 4.0</span>
     </section>
-    </footer>
+    
+</footer>
 
 
     
@@ -462,7 +683,16 @@ unicode: "f7f0"
 
     
 
-     
+    
+    <div class="pre-next">
+        
+            <a class="pre-next-btn bg" href="http://localhost:1313/filmo-%E4%B9%A6%E5%BD%B1%E9%9F%B3/">&lt;&lt; Filmo | 书影音</a>
+        
+        
+            <a class="pre-next-btn bg" href="http://localhost:1313/archives/">Archives | 归档 >></a>
+        
+    </div>
+  
     
         
     <div class="disqus-container">
@@ -515,19 +745,50 @@ unicode: "f7f0"
         
         2025 Mofei
     </section>
+
     
+    <section class="totalcount">
+        
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+        发表了3篇文章 · 
+        总计0.65k字
+    </section>
+
+    
+    <section class="running-time">
+        本博客已稳定运行
+        <span id="runningdays" class="running-days"></span>
+    </section>
+
+    
+
+
+
+
     <section class="powerby">
         
 
         
 
-
-
-
-
         <section class="powerby">
             <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.27.0">Stack</a></b> <a>designed by Jimmy</a>
-     </section>
+        </section>
 
 
     </section>
@@ -618,7 +879,7 @@ unicode: "f7f0"
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.ecf44f15ae4b33dc7107877680c5f7b0fe033c8a80e07b5ad1fe8bddd55ec742.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.0edbb76cab8d87b32420115b528c6a87e63a2c2be561a39e87cfb6e202394f33.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -774,6 +1035,22 @@ unicode: "f7f0"
 
     initScrollTop();
 </script>
+
+
+<script>
+    let s1 = '2025-8-13'; 
+    s1 = new Date(s1.replace(/-/g, "/"));
+    let s2 = new Date();
+    let timeDifference = s2.getTime() - s1.getTime();
+
+    let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+
+    let result = days + "天" + hours + "小时" + minutes + "分钟";
+    document.getElementById('runningdays').innerHTML = result;
+</script>
+
 
 
 

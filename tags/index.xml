@@ -8,6 +8,14 @@
         <language>zh-cn</language>
         <copyright>Mofei</copyright>
         <lastBuildDate>Wed, 13 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hugo Stack</title>
+        <link>http://localhost:1313/tags/hugo-stack/</link>
+        <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/hugo-stack/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>博客</title>
         <link>http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/</link>
         <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
@@ -21,6 +29,22 @@
         <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>原创</title>
+        <link>http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/</link>
+        <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>折腾</title>
+        <link>http://localhost:1313/tags/%E6%8A%98%E8%85%BE/</link>
+        <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/%E6%8A%98%E8%85%BE/</guid>
         <description></description>
         </item>
         

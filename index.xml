@@ -7,7 +7,98 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Mofei</copyright>
-        <lastBuildDate>Wed, 13 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 14 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>【hugo】| Hugo stack 主题美化</title>
+        <link>http://localhost:1313/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</link>
+        <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/1.jpeg" alt="Featured image of post 【hugo】| Hugo stack 主题美化" /&gt;&lt;h3 id=&#34;字体修改&#34;&gt;字体修改
+&lt;/h3&gt;&lt;p&gt;原来的字体看着有点别扭，所以把全站的字体改为了思源宋体，参考了&lt;a class=&#34;link&#34; href=&#34;https://www.sleepymoon.cyou/2023/hugo-first-build-furnish/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo|月球基地开发历程&lt;/a&gt;中的修改全站字体&lt;/p&gt;
+&lt;p&gt;在layouts/partials/head/custom.html（没有就重建或者在主题目录下修改）中添加下列代码：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;root&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sys&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;font&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;family&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Noto Serif SC&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;zh&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;font&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;family&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Noto Serif SC&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;base&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;font&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;family&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Noto Serif SC&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;code&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;font&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;family&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Noto Serif SC&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;article&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;font&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;family&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Noto Serif SC&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;customFont&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;createElement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;link&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;14&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;customFont&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;href&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;15&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&amp;amp;display=swap&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;17&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;customFont&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;text/css&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;18&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;customFont&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rel&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;appendChild&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;customFont&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;21&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;})();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;具体的改的有点杂乱，等捋顺思路在添加内容&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>【hugo】| 博客开发历程</title>
+        <link>http://localhost:1313/p/first-blog/</link>
+        <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/first-blog/</guid>
+        <description>&lt;img src="http://localhost:1313/p/first-blog/1.jpg" alt="Featured image of post 【hugo】| 博客开发历程" /&gt;&lt;h2 id=&#34;为什么是hugo&#34;&gt;为什么是Hugo？
+&lt;/h2&gt;&lt;p&gt;很早就想找个平台记录一下自己学习或写的东西，但是由于懒或者是操作不方便都放弃了。最近几个月开始萌生了自己搭建一个博客的想法，所以开始着手搜集这方面的知识，看到了很多炫酷的博客，但是考虑到上手问题，最终选择了hugo，通过挑选，选择了stack这个主题。经历了N多次推倒重建，这个博客终于快装修好了。&lt;/p&gt;
+&lt;p&gt;下面记录了我的折腾过程。&lt;/p&gt;
+&lt;h3 id=&#34;工具准备&#34;&gt;工具准备
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;hugo&lt;/li&gt;
+&lt;li&gt;git&lt;/li&gt;
+&lt;li&gt;github仓库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;hugo-安装&#34;&gt;hugo 安装
+&lt;/h4&gt;&lt;p&gt;hugo官网提供了多种下载方法，我直接使用的是在github上下载的extended版本
+这部分是按照网上的教程进行的，没有踩坑，只需要一步步进行就可以了。&lt;/p&gt;
+&lt;p&gt;安装成功后，在cmd中输入hugo version 验证是否安装成功，当输出下面的页面时，即成功了&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/first-blog/2.png&#34;
+	width=&#34;1072&#34;
+	height=&#34;99&#34;
+	srcset=&#34;http://localhost:1313/p/first-blog/2_hu_9689cd42909c045.png 480w, http://localhost:1313/p/first-blog/2_hu_df2a834daba9d981.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;1082&#34;
+		data-flex-basis=&#34;2598px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;主题的选择&#34;&gt;主题的选择
+&lt;/h4&gt;&lt;p&gt;hugo 提供了多种主题，我选择了stack主题&lt;/p&gt;
+&lt;p&gt;可以使用git 拉取，但是由于网络原因，我选择的是直接在github下载压缩包，让后将其解压到博客目录下的theme中&lt;/p&gt;
+&lt;p&gt;然后执行hugo server后，能够在http://localhost:1313/查看到博客，就表示主题应用成功
+&lt;img src=&#34;http://localhost:1313/p/first-blog/3.png&#34;
+	width=&#34;1859&#34;
+	height=&#34;888&#34;
+	srcset=&#34;http://localhost:1313/p/first-blog/3_hu_788e4b39c94fbdde.png 480w, http://localhost:1313/p/first-blog/3_hu_64b25bb76038332a.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;209&#34;
+		data-flex-basis=&#34;502px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;github部署&#34;&gt;github部署
+&lt;/h4&gt;&lt;p&gt;截止一步一个本地的博客就搭建好了&lt;/p&gt;
+&lt;p&gt;为了可以公开访问，我使用Github Pages进行部署&lt;/p&gt;
+&lt;p&gt;此步骤是根据&lt;a class=&#34;link&#34; href=&#34;https://weiqifun.com/posts/2024/10/hugo&amp;#43;stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo stack 主题配合Github搭建个人博客&lt;/a&gt;教程实现的&lt;/p&gt;
+&lt;p&gt;至此，一个个人博客就搭建好了，后续就可以发布文章了。&lt;/p&gt;
+&lt;p&gt;接下来，可以按照自己的喜好对主题进行美化，当然也可以选择不修改。看着那么多个性化的博客，我也想装修一个属于自己的赛博空间。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>【加密和解密】| 动态分析技术</title>
         <link>http://localhost:1313/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86-%E5%8A%A8%E6%80%81%E5%88%86%E6%9E%90%E6%8A%80%E6%9C%AF/</link>
         <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
@@ -34,22 +125,32 @@
         <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/links/</guid>
-        <description>&lt;p&gt;{ {&amp;lt; friend name=&amp;ldquo;MoFei&amp;rdquo; url=&amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://mmofei.github.io/%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://mmofei.github.io/&#34;&lt;/a&gt; avatar=&amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mmofei/mmofei.github.io/blob/main/img/cs_hu_90ad5e29b5427716.jpeg%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/mmofei/mmofei.github.io/blob/main/img/cs_hu_90ad5e29b5427716.jpeg&#34;&lt;/a&gt; bio=&amp;ldquo;保留自己的真诚！&amp;rdquo; &amp;gt;}}&lt;/p&gt;
-&lt;p&gt;{{ &amp;lt; friend name=&amp;ldquo;Mofei&amp;rdquo; url=&amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://mmofei.github.io/%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://mmofei.github.io/&#34;&lt;/a&gt; avatar=&amp;quot;/img/cs.jepg&amp;rdquo;  bio=&amp;ldquo;保留自己的真诚！&amp;rdquo; &amp;gt;}}&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>第一篇博客</title>
-        <link>http://localhost:1313/p/first-blog/</link>
-        <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/first-blog/</guid>
-        <description>&lt;img src="http://localhost:1313/p/first-blog/1.jpg" alt="Featured image of post 第一篇博客" /&gt;&lt;h3 id=&#34;第一篇博客&#34;&gt;第一篇博客
-&lt;/h3&gt;&lt;p&gt;gkklbmnk,l;l&amp;rsquo;;&amp;rsquo;
-kmnklk%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%&lt;/p&gt;
+        <description>&lt;h2 id=&#34;friedns&#34;&gt;Friedns
+&lt;/h2&gt;&lt;h2 id=&#34;following&#34;&gt;Following
+&lt;/h2&gt;&lt;a href=&#34;https://mmofei.github.io/&#34; title=&#34;MoFei&#34; class=&#34;friend-link&#34; target=&#34;_blank&#34; rel=&#34;friend&#34;&gt;
+    &lt;div class=&#34;friend-link-div&#34;&gt;
+        &lt;div class=&#34;friend-link-avatar&#34;&gt;
+            &lt;img src=ZgotmplZ class=&#34;friend-avatar&#34; loading=&#34;lazy&#34; alt=&#34;Avatar&#34;&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;friend-link-info&#34;&gt;
+            &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+            &lt;i class=&#34;friend-name&#34;&gt;MoFei&lt;/i&gt;
+            &lt;p class=&#34;friend-bio&#34;&gt;保留自己的真诚！&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://mmofei.github.io/&#34; title=&#34;Mofei&#34; class=&#34;friend-link&#34; target=&#34;_blank&#34; rel=&#34;friend&#34;&gt;
+    &lt;div class=&#34;friend-link-div&#34;&gt;
+        &lt;div class=&#34;friend-link-avatar&#34;&gt;
+            &lt;img src=ZgotmplZ class=&#34;friend-avatar&#34; loading=&#34;lazy&#34; alt=&#34;Avatar&#34;&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;friend-link-info&#34;&gt;
+            &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+            &lt;i class=&#34;friend-name&#34;&gt;Mofei&lt;/i&gt;
+            &lt;p class=&#34;friend-bio&#34;&gt;保留自己的真诚！&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/a&gt;
 </description>
         </item>
         <item>
@@ -66,36 +167,232 @@ kmnklk%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/about-%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;p&gt;{ {&amp;lt; heatmap &amp;gt;} }&lt;/p&gt;
+        <description>&lt;div id=&#34;heatmap&#34; style=&#34;
+  max-width: 1900px;
+  height: 180px;
+  padding: 2px;
+  text-align: center;
+  &#34;
+&gt;&lt;/div&gt;
+&lt;script src=&#34;https://cdn.jsdelivr.net/npm/echarts@5.3.0/dist/echarts.min.js&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+  var chartDom = document.getElementById(&#39;heatmap&#39;);
+  var myChart = echarts.init(chartDom);
+  window.onresize = function() {
+      myChart.resize();
+  };
+  var option;
+
+  
+  
+  
+  
+  
+  
+  var dataMap = new Map();
+  
+    var key = &#34;2025-08-14&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  198 ;
+    var link = &#34;/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/&#34;;
+    var title = &#34;【hugo】| Hugo stack 主题美化&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-13&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  614 ;
+    var link = &#34;/p/first-blog/&#34;;
+    var title = &#34;【hugo】| 博客开发历程&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-13&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  2 ;
+    var link = &#34;/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86-%E5%8A%A8%E6%80%81%E5%88%86%E6%9E%90%E6%8A%80%E6%9C%AF/&#34;;
+    var title = &#34;【加密和解密】| 动态分析技术&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-13&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  2 ;
+    var link = &#34;/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/&#34;;
+    var title = &#34;【加密和解密】| 基础篇&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }var data = [];
+  
+  for (const [key, value] of dataMap.entries()) {
+    var sum = 0;
+    for (const v of value) {
+      sum += v.wordCount;
+    }
+    data.push([key, (sum / 1000).toFixed(1)]);
+  }
+  
+  var startDate = new Date();
+  var year_Mill = startDate.setFullYear((startDate.getFullYear() - 1));
+  var startDate = +new Date(year_Mill);
+  var endDate = +new Date();
+
+  var dayTime = 3600 * 24 * 1000;
+  startDate = echarts.format.formatTime(&#39;yyyy-MM-dd&#39;, startDate);
+  endDate = echarts.format.formatTime(&#39;yyyy-MM-dd&#39;, endDate);
+
+  
+  function heatmap_width(months){         
+    var startDate = new Date();
+    var mill = startDate.setMonth((startDate.getMonth() - months));
+    var endDate = +new Date();
+    startDate = +new Date(mill);
+
+    endDate = echarts.format.formatTime(&#39;yyyy-MM-dd&#39;, endDate);
+    startDate = echarts.format.formatTime(&#39;yyyy-MM-dd&#39;, startDate);
+
+    var showmonth = [];
+    showmonth.push([
+        startDate,
+        endDate
+    ]);
+    return showmonth
+  };
+
+  function getRangeArr() {
+    const windowWidth = window.innerWidth;
+    if (windowWidth &gt;= 600) {
+      return heatmap_width(12);
+    } else if (windowWidth &gt;= 400) {
+      return heatmap_width(9);
+    } else {
+      return heatmap_width(6);
+    }
+  }
+
+  option = {
+    title: {
+        top: 0,
+        left: &#39;center&#39;,
+        text: &#39;博客热力图&#39;
+    },
+    tooltip: {
+      hideDelay: 1000,
+      enterable: true,
+      formatter: function (p) {
+        const date = p.data[0];
+        const posts = dataMap.get(date);
+        var content = `${date}`;
+        for (const [i, post] of posts.entries()) {
+            content += &#34;&lt;br&gt;&#34;;
+            var link = post.link;
+            var title = post.title;
+            var wordCount = (post.wordCount / 1000).toFixed(1);
+            content += `&lt;a href=&#34;${link}&#34; target=&#34;_blank&#34;&gt;${title} | ${wordCount} k&lt;/a&gt;`
+        }
+        return content;
+      }
+    },
+    visualMap: {
+        min: 0,
+        max: 10,
+        type: &#39;piecewise&#39;,
+        orient: &#39;horizontal&#39;,
+        left: &#39;center&#39;,
+        top: 30,
+    
+        inRange: {   
+          
+          color: [&#39;#7aa8744c&#39;, &#39;#7AA874&#39; ] 
+        },
+        splitNumber: 4,
+        text: [&#39;千字&#39;, &#39;&#39;],
+        showLabel: true,
+        itemGap: 20,
+    },
+    calendar: {
+        top: 80,
+        left: 20,
+        right: 4,
+        cellSize: [&#39;auto&#39;, 13],
+        range: getRangeArr(),
+        itemStyle: {
+            color: &#39;#F1F1F1&#39;,
+            borderWidth: 1.5,
+            borderColor: &#39;#fff&#39;,
+        },
+        yearLabel: { show: false },
+        
+        splitLine: {
+          lineStyle: {
+            color: &#39;rgba(0, 0, 0, 0.0)&#39;,
+            
+            
+            
+            
+          }
+        }
+    },
+    series: {
+        type: &#39;heatmap&#39;,
+        coordinateSystem: &#39;calendar&#39;,
+        data: data,
+    }
+  };
+  myChart.setOption(option);
+  myChart.on(&#39;click&#39;, function(params) {
+    if (params.componentType === &#39;series&#39;) {
+      
+      const post = dataMap.get(params.data[0])[0];
+      const link = window.location.origin + post.link;
+      window.open(link, &#39;_blank&#39;).focus();
+    }
+});
+&lt;/script&gt; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </description>
         </item>
         <item>
-        <title>Movies | 影音</title>
-        <link>http://localhost:1313/movies-%E5%BD%B1%E9%9F%B3/</link>
+        <title>Filmo | 书影音</title>
+        <link>http://localhost:1313/filmo-%E4%B9%A6%E5%BD%B1%E9%9F%B3/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/movies-%E5%BD%B1%E9%9F%B3/</guid>
-        <description>&lt;h4 id=&#34;&#34;&gt;
-&lt;/h4&gt;&lt;p&gt;{ {&amp;lt; douban &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://book.douban.com/subject/35496106/%22%3e%7d&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://book.douban.com/subject/35496106/&#34;&gt;}&lt;/a&gt; }&lt;/p&gt;
-&lt;p&gt;{ {&amp;lt; douban &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://movie.douban.com/subject/35267208/%22%3e%7d&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://movie.douban.com/subject/35267208/&#34;&gt;}&lt;/a&gt; }&lt;/p&gt;
-&lt;p&gt;{ {&amp;lt; notice notice-warning &amp;gt;}}
-你好。
-{ {&amp;lt; /notice &amp;gt;}}&lt;/p&gt;
-&lt;p&gt;{ {&amp;lt; notice notice-important &amp;gt;}}
-你好。
-{ {&amp;lt; /notice &amp;gt;}}&lt;/p&gt;
-&lt;p&gt;{ {&amp;lt; notice notice-note &amp;gt;}}
-你好。
-{ {&amp;lt; /notice &amp;gt;}}&lt;/p&gt;
-&lt;p&gt;{ {&amp;lt; notice notice-tip &amp;gt;}}
-你好。
-{ {&amp;lt; /notice &amp;gt;}}&lt;/p&gt;
-&lt;p&gt;{ {&amp;lt; notice notice-caution &amp;gt;}}
-你好。
-{ {&amp;lt; /notice &amp;gt;}}&lt;/p&gt;
-</description>
+        <guid>http://localhost:1313/filmo-%E4%B9%A6%E5%BD%B1%E9%9F%B3/</guid>
+        <description>&lt;h2 id=&#34;年度电影&#34;&gt;年度电影
+&lt;/h2&gt;&lt;h3 id=&#34;2025&#34;&gt;2025
+&lt;/h3&gt;&lt;h3 id=&#34;2024&#34;&gt;2024
+&lt;/h3&gt;&lt;h2 id=&#34;年度音乐&#34;&gt;年度音乐
+&lt;/h2&gt;&lt;h2 id=&#34;年度书籍&#34;&gt;年度书籍
+&lt;/h2&gt;</description>
         </item>
         <item>
         <title>Search | 搜索</title>
