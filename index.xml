@@ -181,8 +181,107 @@
   window.onresize = function() {
       myChart.resize();
   };
-  var option;
+  
+  function genOption(){
+    var option;
+    const colorSchemeItem = localStorage.getItem(&#39;StackColorScheme&#39;); 
+    if (colorSchemeItem == &#39;dark&#39;) {
+      var color_t = [&#39;#C4E1E6&#39;, &#39;#A4CCD9&#39;, &#39;#8DBCC7&#39;, &#39;#578FCA&#39; ]; 
+      var color_font = &#39;#fff&#39;; 
+      var color_cube = &#39;#121212&#39;; 
+      var color_title = &#39;#fff&#39;; 
+      var color_border = &#39;#000&#39;; 
+      var color_split_month = &#39;rgba(0, 0, 0, 0.0)&#39;; 
+      
+    } else {
+      var color_t = [&#39;#D2D0A0&#39;,&#39;#9EBC8A&#39;,&#39;#73946B&#39;,&#39;#537D5D&#39;]; 
+      var color_font = &#39;#0E153A&#39;; 
+      var color_cube = &#39;#f1f1f1&#39;; 
+      var color_title = &#39;064232&#39;; 
+      var color_border = &#39;#fff&#39;; 
+      var color_split_month = &#39;rgba(0, 0, 0, 0.0)&#39;; 
+    }
+    option = {
+      title: {
+          top: 0,
+          left: &#39;center&#39;,
+          text: &#39;博客热力图&#39;,
+          textStyle: {
+            color: color_title,
+            fontSize: 20,
+          }
+      },
+      tooltip: {
+        hideDelay: 1000,
+        enterable: true,
+        formatter: function (p) {
+          const date = p.data[0];
+          const posts = dataMap.get(date);
+          var content = `${date}`;
+          for (const [i, post] of posts.entries()) {
+              content += &#34;&lt;br&gt;&#34;;
+              var link = post.link;
+              var title = post.title;
+              var wordCount = (post.wordCount / 1000).toFixed(1);
+              content += `&lt;a href=&#34;${link}&#34; target=&#34;_blank&#34;&gt;${title} | ${wordCount} k&lt;/a&gt;`
+          }
+          return content;
+        }
+      },
+      visualMap: {
+        min: 0,
+        max: 10,
+        type: &#39;piecewise&#39;,
+        orient: &#39;horizontal&#39;,
+        left: &#39;center&#39;,
+        top: 30,
 
+        inRange: {   
+          
+          color: color_t,
+        },
+        splitNumber: 4,
+        text: [&#39;千字&#39;, &#39;&#39;],
+        showLabel: true,
+        itemGap: 20,
+        textStyle: {
+          color: color_font,
+        }
+      },
+      calendar: {
+        top: 80,
+        left: 20,
+        right: 4,
+        cellSize: [&#39;auto&#39;, 13],
+        range: getRangeArr(),
+        itemStyle: {
+            color: color_cube,
+            borderWidth: 1.5,
+            borderColor: color_border,
+        },
+        monthLabel: { color: color_font },
+        dayLabel: { color: color_font },
+        yearLabel: { show: false },
+        
+        splitLine: {
+          lineStyle: {
+            color: &#39;rgba(0, 0, 0, 0.0)&#39;,
+            
+            
+            
+            
+          }
+        }
+      },
+      series: {
+        type: &#39;heatmap&#39;,
+        coordinateSystem: &#39;calendar&#39;,
+        data: data,
+      }
+  };
+    return option;
+  }
+  
   
   
   
@@ -247,7 +346,7 @@
     }
     data.push([key, (sum / 1000).toFixed(1)]);
   }
-  
+
   var startDate = new Date();
   var year_Mill = startDate.setFullYear((startDate.getFullYear() - 1));
   var startDate = +new Date(year_Mill);
@@ -285,76 +384,7 @@
       return heatmap_width(6);
     }
   }
-
-  option = {
-    title: {
-        top: 0,
-        left: &#39;center&#39;,
-        text: &#39;博客热力图&#39;
-    },
-    tooltip: {
-      hideDelay: 1000,
-      enterable: true,
-      formatter: function (p) {
-        const date = p.data[0];
-        const posts = dataMap.get(date);
-        var content = `${date}`;
-        for (const [i, post] of posts.entries()) {
-            content += &#34;&lt;br&gt;&#34;;
-            var link = post.link;
-            var title = post.title;
-            var wordCount = (post.wordCount / 1000).toFixed(1);
-            content += `&lt;a href=&#34;${link}&#34; target=&#34;_blank&#34;&gt;${title} | ${wordCount} k&lt;/a&gt;`
-        }
-        return content;
-      }
-    },
-    visualMap: {
-        min: 0,
-        max: 10,
-        type: &#39;piecewise&#39;,
-        orient: &#39;horizontal&#39;,
-        left: &#39;center&#39;,
-        top: 30,
-    
-        inRange: {   
-          
-          color: [&#39;#7aa8744c&#39;, &#39;#7AA874&#39; ] 
-        },
-        splitNumber: 4,
-        text: [&#39;千字&#39;, &#39;&#39;],
-        showLabel: true,
-        itemGap: 20,
-    },
-    calendar: {
-        top: 80,
-        left: 20,
-        right: 4,
-        cellSize: [&#39;auto&#39;, 13],
-        range: getRangeArr(),
-        itemStyle: {
-            color: &#39;#F1F1F1&#39;,
-            borderWidth: 1.5,
-            borderColor: &#39;#fff&#39;,
-        },
-        yearLabel: { show: false },
-        
-        splitLine: {
-          lineStyle: {
-            color: &#39;rgba(0, 0, 0, 0.0)&#39;,
-            
-            
-            
-            
-          }
-        }
-    },
-    series: {
-        type: &#39;heatmap&#39;,
-        coordinateSystem: &#39;calendar&#39;,
-        data: data,
-    }
-  };
+  var option = genOption();
   myChart.setOption(option);
   myChart.on(&#39;click&#39;, function(params) {
     if (params.componentType === &#39;series&#39;) {
@@ -364,20 +394,14 @@
       window.open(link, &#39;_blank&#39;).focus();
     }
 });
+
+  function updateChartColors() {
+    option = genOption();
+    myChart.setOption(option);
+  }
+
+  window.addEventListener(&#39;colorSchemeChange&#39;, updateChartColors);
 &lt;/script&gt; 
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </description>
         </item>
