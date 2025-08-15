@@ -114,10 +114,163 @@
         <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/</guid>
-        <description>&lt;img src="http://localhost:1313/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/1.png" alt="Featured image of post 【加密和解密】| 基础篇" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;hugo&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;&#34;&gt;
-&lt;/h5&gt;&lt;p&gt;GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG&lt;/p&gt;
-</description>
+        <description>&lt;img src="http://localhost:1313/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/1.png" alt="Featured image of post 【加密和解密】| 基础篇" /&gt;&lt;p&gt;本书基于Windows操作系统&lt;/p&gt;
+&lt;h2 id=&#34;软件的加密和解密&#34;&gt;软件的加密和解密
+&lt;/h2&gt;&lt;p&gt;随着技术的发展，软件加密和解密的研究很有必要。&lt;/p&gt;
+&lt;p&gt;软件加密对于开发人员来说，可以保护自己的成果，不轻易被人“借鉴”，但随着技术的不断发展，加密技术也要不断地改进；同时，解密手段也在不断升级。所以，加密和解密是相互促进又相互斗争的关系&lt;/p&gt;
+&lt;p&gt;理论上，没有不能破解的加密技术&lt;/p&gt;
+&lt;p&gt;所以，作为程序员，研究解密技术可以有助于自己的提升&lt;/p&gt;
+&lt;h2 id=&#34;逆向分析&#34;&gt;逆向分析
+&lt;/h2&gt;&lt;p&gt;逆向工程（Reverse Engineering）是指根据已有的产物和结果，通过分析来推导出具体的实现方法&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;逆向工程：可执行程序&amp;ndash;&amp;gt;反编译&amp;ndash;&amp;gt;源代码&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;逆向工程的内容分类：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;软件使用的限制的去除或软件功能的天际&lt;/li&gt;
+&lt;li&gt;软件源代码的再获得&lt;/li&gt;
+&lt;li&gt;硬件的复现和模拟&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;逆向分析技术&#34;&gt;逆向分析技术
+&lt;/h3&gt;&lt;p&gt;软件汉化和解密首先要对软件进行分析，对他们的分析可以遵循下面几种方法：&lt;/p&gt;
+&lt;h4 id=&#34;1通过软件格式使用说明和操作格式分析软件&#34;&gt;1、通过软件格式使用说明和操作格式分析软件
+&lt;/h4&gt;&lt;p&gt;分析一个软件，需要先学会这个软件。通过阅读软件的使用手册，学习软件操作并了解软件的功能。经验丰富的程序分析师，能够通过软件的使用说明和操作推测出软件的设计思想和编程思路&lt;/p&gt;
+&lt;h4 id=&#34;2静态分析技术&#34;&gt;2、静态分析技术
+&lt;/h4&gt;&lt;p&gt;静态分析指根据反汇编得到的程序清单进行分析，常用方法从提示信息入手进行分析。&lt;/p&gt;
+&lt;p&gt;原因：现在大多数软件采用人机对话方式设计&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;人机对话：软件运行时出现需要用户操作的提示信息，并且在执行某段程序之后显示提示信息来反映该段程序的运行状态或者是提示下一步操作&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;因此，阅读通过静态反汇编得到的程序清单，根据包含提示信息的程序片段，可以知道提示信息前后的程序片段所完成的功能，从而宏观了解软件的编程思维&lt;/p&gt;
+&lt;p&gt;常用的静态分析工具 IDA&lt;/p&gt;
+&lt;h4 id=&#34;3动态分析技术&#34;&gt;3、动态分析技术
+&lt;/h4&gt;&lt;p&gt;静态分析可以了解各个模块的功能，以及整个软件的编程思路，但是不能了解软件中各个模块的技术细节&lt;/p&gt;
+&lt;p&gt;对于软件分析来说，静态分析只是第一步，动态跟踪才是分析软件的关键。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;动态跟踪主要是指利用OllyDbg或WinDbg等调试工具，一步步跟踪分析&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h5 id=&#34;为什么要对软件进行动态分析&#34;&gt;为什么要对软件进行动态分析
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;一般软件要分解成若干个模块来实现，后一个模块的执行依赖于前一个模块处理的结果，这个结果也称为中间结果。如果只进行静态分析，很难获得这个中间结果，只有跟踪前一个模块，才能看到这些结果。另外，触发程序执行的条件有多个分支，如果不动态跟踪，很难的得知程序的执行路径&lt;/li&gt;
+&lt;li&gt;许多软件运行时，最初执行的一段程序需要对后面的各个模块进行一些初始化工作，并不依赖系统的重定位
+&lt;blockquote&gt;
+&lt;p&gt;？？这个地方有点不懂&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;加密程序在运行时会采用逐块解密、逐块执行的方法。仅对软件的密码部分进行返回百年，而不对该软件进行动态跟踪分析，是根本不可能进行解密的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;如何有效进行动态分析&#34;&gt;如何有效进行动态分析
+&lt;/h5&gt;&lt;p&gt;动态分析主要包括两点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;对软件进行粗跟踪
+粗跟踪是指在跟踪时要大块大块地跟踪。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在遇到调用指令（CALL）、重复操作指令（REP）、循环操作指令（LOOP）等时一般不要跟踪，而要根据执行结果分析该段程序的功能&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;粗跟踪的原因：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一般软件划分为若干模块，在分析一个软件时，主要分析的是软件中所关心的部分，然而软件最初执行的模块通常不是我们所关心的
+&lt;blockquote&gt;
+&lt;p&gt;这里涉及合理设置断点，需要了解Win32 API函数，根据当时的情况选择合适的断点&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;对关键部分进行细跟踪
+对软件进行一定程度的粗跟踪之后，就能获取软件中我们所关心的模块或程序段了，这样就可以有针对性地对该模块进行具体而详细的跟踪结果。一般，可以要进行对此关键代码分析，并将每次关键的中间结果或指令地址记录下来（养成良好的操作习惯）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;windows操作系统&#34;&gt;Windows操作系统
+&lt;/h2&gt;&lt;p&gt;Windows x86系列CPU采用的是小端序字节存储位置，即低位字节存放在低位地址，高位字节存放在高位地址&lt;/p&gt;
+&lt;h3 id=&#34;win32-api函数&#34;&gt;Win32 API函数
+&lt;/h3&gt;&lt;p&gt;API(Application Programming Interface,应用程序编程接口)&lt;/p&gt;
+&lt;p&gt;早期，Windows程序设计只能使用API函数进行编程，这些函数提供应用程序运行所需要的窗口管理、图形设备接口、内存管理等服务功能，这些服务以函数库库的形式组织在一起，形成了Win API&lt;/p&gt;
+&lt;p&gt;也可以认为API函数是整个Windows框架的基石，下面是Windows操作系统核心，上面是Windows应用程序：
+&lt;img src=&#34;http://localhost:1313/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/2.png&#34;
+	width=&#34;335&#34;
+	height=&#34;390&#34;
+	srcset=&#34;http://localhost:1313/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/2_hu_a52290ed3cb72d05.png 480w, http://localhost:1313/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/2_hu_8436e977cab94175.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;85&#34;
+		data-flex-basis=&#34;206px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Win16: 16位Windows的API&lt;/p&gt;
+&lt;p&gt;Win32: 32位Windows的API, 64位Windows API的名称和功能基本没有变化，还是使用Win32的函数名，只是用64位代码实现的&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Windows运转的核心是动态链接库（DLL）&lt;/p&gt;
+&lt;p&gt;早期，Windows的主要部分只需要在3个动态链接库中实现：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kernel(KERNEL32.DLL实现)：操作系统核心功能服务，包括进程和线程控制、内存管理、文件访问等&lt;/li&gt;
+&lt;li&gt;User（USER32.DLL实现）：负责处理用户接口，包括键盘和鼠标输入、窗口和菜单管理等&lt;/li&gt;
+&lt;li&gt;GDI（GDI32.DLL实现）：图形设备接口，允许程序在屏幕和打印机上显示文本和图形&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;除了上述模块，Windows提供了其他DLL以支持更多的功能：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;对象安全性&lt;/li&gt;
+&lt;li&gt;注册表操作（ADVAPI32.DLL）&lt;/li&gt;
+&lt;li&gt;通用控件（COMCTL32.DLL）&lt;/li&gt;
+&lt;li&gt;公共对话框（COMDLG32.DLL）&lt;/li&gt;
+&lt;li&gt;用户界面外壳（SHELL32.DLL）&lt;/li&gt;
+&lt;li&gt;网络（NETAPI32.DLL）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Win API是基于C语言的接口，但可以由不同语言编写的程序调用，只要遵循调用规范即可&lt;/p&gt;
+&lt;p&gt;在NT结构下，Win32 API 接受Unicode和ASCII两种字符集，而其内核只能使用Unicode字符集&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ASCII字符集&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Unicode字符集&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;在Win32　API函数字符集中，A表示ANSI（即ASCII），W表示Widechars(即nicode)&lt;/p&gt;
+&lt;p&gt;ANSI 使用单字节方式&lt;/p&gt;
+&lt;p&gt;Unicode是宽字节方式，以便处理双字节字符&lt;/p&gt;
+&lt;p&gt;每个以字节为参数的Win32 函数在操作系统中都有着两种方式的版本&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;例如：MessageBox函数(此函数用于在USER32.DLL用户模块中创建和显示信息框)&lt;/p&gt;
+&lt;p&gt;函数原型：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;int MessageBox(
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  HWND hWnd,         //父窗口句柄
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  LPCTSTR lpText,    //消息框文本地址
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  LPCTSTR lpCaption, //消息框标题地址
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  UINT uType         //消息框样式
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Windows 2000中的MessageBoxA函数的内部结构：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;int MessageBoxA(
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;   MessageBoxExA{     //调用MessageBoxExA函数
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  MBToWCSEx()         //将MessageBoxA消息框的主体文字转换成Unicode字符串
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  MBT0WCSEx()         //将将MessageBoxA消息框标题栏上的文字转换成Unicode字符串
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  MessageBoxExW()     //调用MessageBoxExW函数
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  HeapFree()          //释放内存
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;上面的结果表明，MessageBoxExA函数其实是一个替换翻译层，用于分配内存，并将ANSI字符串转换成Unicode字符串，系统最终调用Unicode版的MessageBoxExW函数执行。当MessageBoxExW函数返回时，它便释放内存缓存&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;win32 API程序大量调用系统提供的API函数，而Win32平台上的调试器（OllyDbg等）恰好有针对API函数设置断点的强大功能&lt;/p&gt;
+&lt;h3 id=&#34;wow64&#34;&gt;WOW64
+&lt;/h3&gt;&lt;p&gt;WOW64(Windows-on-Windows 64-bit)是64位Windows操作系统的子系统，可以使大多数32位应用程序在不进行修改的情况下运行在64位操作系统上&lt;/p&gt;
+&lt;p&gt;64位Windows（包含64位操作系统应有的系统文件和32位操作系统应用的系统文件）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;System32文件夹&amp;ndash;包含原生的64位映像文件&lt;/li&gt;
+&lt;li&gt;SysWOW64文件夹&amp;ndash;存储32位的系统文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/3.png&#34;
+	width=&#34;267&#34;
+	height=&#34;151&#34;
+	srcset=&#34;http://localhost:1313/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/3_hu_7663555153a6a622.png 480w, http://localhost:1313/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/3_hu_f6ff000cb77599d2.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;176&#34;
+		data-flex-basis=&#34;424px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;64位应用程序会加载System32目录下64位的kernel32.dll、user32.dll、ntdll.dll&lt;/p&gt;
+&lt;p&gt;32位应用程序加载时，WOW64建立32位ntdll.dll所要求的启动环境，将CPU模式切换为32位，并开始执行32位加载器，像运行在32位机器上一样&lt;/p&gt;
+&lt;p&gt;WOW64会对32位ntdll.dll的调用重定向ntdll.dll(64位)，而不是发出原生的32位系统调用指令&lt;/p&gt;
+&lt;p&gt;WOW64转换到原生的64位模式，捕获与系统调用有关的参数，发出对应的原生64位系统调用。当原生的系统调用返回时，WOW64在返回32位模式之前将所有输出参数从64位转换成32位&lt;/p&gt;
+&lt;p&gt;WOW64进程只能加载32为的DLL，不能加载原生的64位DLL&lt;/p&gt;
+&lt;h3 id=&#34;windows-消息机制&#34;&gt;Windows 消息机制
+&lt;/h3&gt;&lt;h3 id=&#34;虚拟内存&#34;&gt;虚拟内存
+&lt;/h3&gt;</description>
         </item>
         
     </channel>

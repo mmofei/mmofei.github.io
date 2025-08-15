@@ -216,7 +216,7 @@
     }
     var key = &#34;2025-08-13&#34;;
     var value = dataMap.get(key);
-    var wordCount =  2 ;
+    var wordCount =  3193 ;
     var link = &#34;/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/&#34;;
     var title = &#34;【加密和解密】| 基础篇&#34;;
   
