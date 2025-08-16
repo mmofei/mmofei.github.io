@@ -7,15 +7,26 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Mofei</copyright>
-        <lastBuildDate>Wed, 13 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 15 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>【加密和解密】| 动态分析技术</title>
         <link>http://localhost:1313/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86-%E5%8A%A8%E6%80%81%E5%88%86%E6%9E%90%E6%8A%80%E6%9C%AF/</link>
-        <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86-%E5%8A%A8%E6%80%81%E5%88%86%E6%9E%90%E6%8A%80%E6%9C%AF/</guid>
-        <description>&lt;img src="http://localhost:1313/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86-%E5%8A%A8%E6%80%81%E5%88%86%E6%9E%90%E6%8A%80%E6%9C%AF/2.png" alt="Featured image of post 【加密和解密】| 动态分析技术" /&gt;&lt;h3 id=&#34;hjkljklk&#34;&gt;hjkljklk&#39;;
-&lt;/h3&gt;&lt;p&gt;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^&lt;/p&gt;
-</description>
+        <description>&lt;img src="http://localhost:1313/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86-%E5%8A%A8%E6%80%81%E5%88%86%E6%9E%90%E6%8A%80%E6%9C%AF/2.png" alt="Featured image of post 【加密和解密】| 动态分析技术" /&gt;&lt;p&gt;动态分析技术中最重要的工具是调试器，分为用户模式和内核模式两种类型：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用户模式调试器:用来调试用户模式应用程序的调试器，工作在Ring3级。例如，OllyDbg、x64dbg、VC++等编译器自带的调试器&lt;/li&gt;
+&lt;li&gt;内核模式调试器：能调试操作系统内核的调试器。例如，WinDbg&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ring3级&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;ollydbg&#34;&gt;OllyDbg
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;OllyDbg(OD)是一款具有可视化界面的用户模式调试器，可以运行在各个版本的Windows上，但NT架构更加稳定。它结合了动态调试和静态分析，具有GUI界面，非常容易上手，对异常的跟踪处理相当灵活。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;x64dbg&#34;&gt;x64dbg
+&lt;/h3&gt;&lt;h3 id=&#34;mdebug&#34;&gt;MDebug
+&lt;/h3&gt;&lt;h3 id=&#34;windbg&#34;&gt;WinDbg
+&lt;/h3&gt;</description>
         </item>
         <item>
         <title>【加密和解密】| 基础篇</title>
@@ -177,9 +188,65 @@
 &lt;p&gt;WOW64会对32位ntdll.dll的调用重定向ntdll.dll(64位)，而不是发出原生的32位系统调用指令&lt;/p&gt;
 &lt;p&gt;WOW64转换到原生的64位模式，捕获与系统调用有关的参数，发出对应的原生64位系统调用。当原生的系统调用返回时，WOW64在返回32位模式之前将所有输出参数从64位转换成32位&lt;/p&gt;
 &lt;p&gt;WOW64进程只能加载32为的DLL，不能加载原生的64位DLL&lt;/p&gt;
+&lt;p&gt;类似，原生的64位进程不能加载32为的DLL&lt;/p&gt;
 &lt;h3 id=&#34;windows-消息机制&#34;&gt;Windows 消息机制
-&lt;/h3&gt;&lt;h3 id=&#34;虚拟内存&#34;&gt;虚拟内存
-&lt;/h3&gt;</description>
+&lt;/h3&gt;&lt;p&gt;Windows是一个消息（Message）驱动式系统,Windows消息提供在应用程序与应用程序之间、应用程序与Windows系统之间进行通信的手段&lt;/p&gt;
+&lt;p&gt;应用程序想要实现的功能需要由消息触发，通过对消息的响应和处理完成&lt;/p&gt;
+&lt;p&gt;Windows系统的两种消息队列：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;系统消息队列&lt;/li&gt;
+&lt;li&gt;应用程序消息队列&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;计算机的所有输入设备由Windows监控&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一个事件从发生到到达处理它的窗口函数的过程：&lt;/p&gt;
+&lt;p&gt;当一个事件发生时，Windows先将输入的消息放入系统消息队列，再将输入的消息复制到相应的应用程序队列中，应用程序中的消息循环在它的消息队列中检索每个消息并发给相应的窗口函数&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;注：消息的非抢先性，即事件不论轻重缓急，总是按达到的先后排队，而这会导致一些外部实时事件得不到及时的处理&lt;/p&gt;
+&lt;p&gt;Windows常用的消息函数：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SendMessage 函数
+调用一个窗口的窗口函数，将一天消息发给那个窗口。除非消息处理完毕，否则该函数不会返回。
+函数示例：
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;LRESULT SendMessage(
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    HWND hWnd,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    UNIT Msg,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    WPARAM wParam,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    LAPRAM lParam
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;返回值由具体的消息决定。如果消息传递成功，则返回True&lt;/li&gt;
+&lt;li&gt;WM_COMMAND消息&lt;/li&gt;
+&lt;li&gt;WM_DESTROY消息&lt;/li&gt;
+&lt;li&gt;WM_GETTEXT消息&lt;/li&gt;
+&lt;li&gt;WM_QUIT消息&lt;/li&gt;
+&lt;li&gt;WM_LBUTTONDOWN消息&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;虚拟内存&#34;&gt;虚拟内存
+&lt;/h3&gt;&lt;p&gt;虚拟内存（Virtual Memory）不是真正的内存，它通过映射（Map）的方法使用可用虚拟地址（Virtual Address）达到4GB（默认情况下，32位Windows操作系统的地址空间在4GB以内），每个应用程序可以获得2GB的虚拟地址，剩下的2GB留给操作系统自用&lt;/p&gt;
+&lt;p&gt;WIndows操作系统是一个分时的多任务操作系统，CPU时间在被分成一个个时间片后分配给不同的程序。在一个时间片里，与这个程序的执行无关的内容不会映射到线性地址中。因此，每个程序都有自己的4GB寻址空间，互不干扰。&lt;/p&gt;
+&lt;p&gt;虚拟内存的实现方法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一个应用程序启动时，操作系统就创建一个进程，并给该进程分配2GB的虚拟地址（不是内存，只是地址）&lt;/li&gt;
+&lt;li&gt;虚拟内存管理器将应用程序的代码映射到那个应用程序的虚拟地址中的某个位置，并把当前需要的代码读入物理地址
+&lt;blockquote&gt;
+&lt;p&gt;虚拟地址与应用程序代码在屋里内存中的位置是没有关系的&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;如果使用DLL，DLL也会被映射到进程的虚拟地址空间中，在需要的时候才会被读入物理内存&lt;/li&gt;
+&lt;li&gt;其他项目（数据、堆栈等）的空间也是从物理内存中分配的，并被映射到虚拟地址空间中&lt;/li&gt;
+&lt;li&gt;应用程序通过使用其他虚拟地址空间中的地址开始执行。然后，虚拟内存内管理器把每次内存访问映射到物理位置&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;应用程序不会直接访问物理地址&lt;/li&gt;
+&lt;li&gt;虚拟内存管理器通过虚拟地址的访问请求来控制所有的物理地址访问&lt;/li&gt;
+&lt;li&gt;每个应用程序都有独立的4GB寻址空间，不同的应用程序的地址空间相互不影响&lt;/li&gt;
+&lt;li&gt;DLL总是被映射到其他应用程序的地址空间中，作为其他应用程序的一部分（原因：如果DLL不与其他程序处于同一地址空间，应用程序就无法调用）&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;p&gt;使用虚拟内存可以简化内存的管理，弥补物理内存的不足，可以防止多任务环境相爱应用程序之间的冲突】&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;64位 CPU的最大寻址空间为 2^64 byte,即16TB&lt;/p&gt;
+&lt;p&gt;实际应用中,64位版本的Win7支持8Gb-192GB内存；64位版本的Win10支持128GB~2IB内存&lt;/p&gt;&lt;/blockquote&gt;
+</description>
         </item>
         
     </channel>
