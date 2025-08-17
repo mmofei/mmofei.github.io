@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Python on Mofei&#39;s Blog</title>
+        <link>http://localhost:1313/tags/python/</link>
+        <description>Recent content in Python on Mofei&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Mofei</copyright>
+        <lastBuildDate>Sat, 16 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>【网络爬虫】| python 爬虫</title>
+        <link>http://localhost:1313/p/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0/OIP-C.webp" alt="Featured image of post 【网络爬虫】| python 爬虫" /&gt;&lt;h2 id=&#34;导语&#34;&gt;导语
+&lt;/h2&gt;&lt;p&gt;网络爬虫作为一种自动采集数据的技术，凭借吱声强大的自动抓取网页数据的能力，成为当下互联网高效、灵活的解决方法之一&lt;/p&gt;
+&lt;h2 id=&#34;什么是网络爬虫&#34;&gt;什么是网络爬虫
+&lt;/h2&gt;&lt;p&gt;网络爬虫（Web Crawler）是一种按照一定规则，自动请求网站并提取网页数据的程序和脚本&lt;/p&gt;
+&lt;p&gt;按照系统结构和实现即时可以分为以下几种类型：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;通用网络爬虫&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;搜索引擎抓取系统的重要组成部分，在本地形成一个互联网网页的镜像备份、&lt;/li&gt;
+&lt;li&gt;数量巨大且范围广泛&lt;/li&gt;
+&lt;li&gt;爬行速度和存储空间要求高，但对抓取网页的顺序的要求相对较低&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;聚焦网络爬虫&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;针对特定目标，有选择性的访问与目标主题相关的网页&lt;/li&gt;
+&lt;li&gt;减少了访问和保存的页面数量，提高网页的更新速度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;增量式网络爬虫&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;抓取已下载的网页中新产生或内容变化的网页&lt;/li&gt;
+&lt;li&gt;减少网页的下载量和访问时间，以及减少存储空间的耗费&lt;/li&gt;
+&lt;li&gt;增加了网页抓取算法的复杂度和实现难度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;深层网络爬虫&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;抓取网页层次较深，需要通过一定的附加策略才能自动抓取，实现难度大&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;表层网页和深层网页&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
