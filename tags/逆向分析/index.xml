@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>逆向分析 on Mofei&#39;s Blog</title>
+        <link>http://localhost:1313/tags/%E9%80%86%E5%90%91%E5%88%86%E6%9E%90/</link>
+        <description>Recent content in 逆向分析 on Mofei&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Mofei</copyright>
+        <lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E9%80%86%E5%90%91%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>前置知识整理</title>
+        <link>http://localhost:1313/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/</link>
+        <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/1.jpg" alt="Featured image of post 前置知识整理" /&gt;&lt;h2 id=&#34;导语&#34;&gt;导语
+&lt;/h2&gt;&lt;p&gt;最近发现自己的知识体系有点混乱，感觉什么都学了，但是什么都没学会。借这篇文章整理下自己的思路，顺便系统学习一下什么是CTF&lt;/p&gt;
+&lt;h2 id=&#34;ctf&#34;&gt;CTF
+&lt;/h2&gt;&lt;p&gt;CTF（Capture The Flag），夺旗赛。参赛方通过攻防对抗、程序分析等形式，率先从主办方的给出的比赛环境中得到一串具有一定格式的字符串或其他内容，并提交给主办方，从而夺得分数。这串内容为Flag&lt;/p&gt;
+&lt;h3 id=&#34;比赛内容&#34;&gt;比赛内容
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Reverse（逆向类）：对软件的结构、流程、算法等进行逆向破解
+&lt;ul&gt;
+&lt;li&gt;要求：较强的反汇编、反编译的能力&lt;/li&gt;
+&lt;li&gt;所需知识：汇编语言、加密与解密、常见的反编译工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Pwn（溢出类）
+&lt;ul&gt;
+&lt;li&gt;常见的类型：整数溢出u、栈溢出、堆溢出等&lt;/li&gt;
+&lt;li&gt;要求：考查对漏洞的利用能力&lt;/li&gt;
+&lt;li&gt;所需知识：C、OD+IDA、数据机构、操作系统&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Web（Web漏洞类）
+&lt;ul&gt;
+&lt;li&gt;常见类型： XSS、文件包含、代码执行、上传漏洞、SQL注入等，也有些简单的关于网络基础知识的考察：如返回包、TCP/IP、数据包内容和构造&lt;/li&gt;
+&lt;li&gt;所需知识：PHP、Python、TCP/IP、SQL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Crypto（加密类）：考察这种加解密技术
+&lt;ul&gt;
+&lt;li&gt;要求：考查密码学相关知识点&lt;/li&gt;
+&lt;li&gt;所需知识： 矩阵、数论、密码学&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Mobile
+&lt;ul&gt;
+&lt;li&gt;要求：涉及Android和iOS两个平台，主要是Android逆向，破解APK并提交正确flag&lt;/li&gt;
+&lt;li&gt;所需知识： Java、Android开发、常用工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Misc（杂项）
+&lt;ul&gt;
+&lt;li&gt;常见题目：隐写术、电子取证、人肉搜索、数据分析、大数据统计等&lt;/li&gt;
+&lt;li&gt;所需知识: 常见隐写术工具、Wireshark等流量审查工具、编码知识&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;二进制安全&#34;&gt;二进制安全
+&lt;/h2&gt;&lt;p&gt;二进制安全是一盒比较偏向底层的方向，对计算机基础要求较高&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;C/C++&lt;/li&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;汇编语言&lt;/li&gt;
+&lt;li&gt;计算机组成原理&lt;/li&gt;
+&lt;li&gt;操作系统&lt;/li&gt;
+&lt;li&gt;编译原理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;二进制安全可以细分为逆向工程和漏洞挖掘与利用等方向&lt;/p&gt;
+&lt;p&gt;学习书籍推荐（中文）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;程序员的自我修养&amp;ndash;链接、装载与库&lt;/li&gt;
+&lt;li&gt;加密和解密（第四版）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;学完之后，就可以进行软件漏洞的学习了，分析真实环境中的漏洞和恶意样本，推荐资料：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;漏洞战争“软件漏洞分析精要&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;有了实践基础之后，可以学习一些理论分析：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;数据流分析（Soot）&lt;/li&gt;
+&lt;li&gt;值集分析（BAP）&lt;/li&gt;
+&lt;li&gt;可满足性（Z3）&lt;/li&gt;
+&lt;li&gt;动态二进制插桩&lt;/li&gt;
+&lt;li&gt;符号执行&lt;/li&gt;
+&lt;li&gt;模糊测试&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;二进制文件&#34;&gt;二进制文件
+&lt;/h3&gt;&lt;h4 id=&#34;源文件可执行文件&#34;&gt;源文件&amp;ndash;&amp;gt;可执行文件
+&lt;/h4&gt;&lt;p&gt;一个C语言程序从源文件开始，这种高级语言的形式更容易被人理解。但是程序运行，每条C语句都必须翻译为一系列的低级机器语言指令。最后，这些指令按照可执行目标文件的格式打包，并以二进制的形式存放起来&lt;/p&gt;
+&lt;h5 id=&#34;编译原理&#34;&gt;编译原理
+&lt;/h5&gt;&lt;p&gt;编程语言&amp;ndash;&amp;gt;编译器&amp;mdash;&amp;gt;目标语言&lt;/p&gt;
+&lt;h6 id=&#34;gcc编译过程&#34;&gt;GCC编译过程
+&lt;/h6&gt;&lt;ul&gt;
+&lt;li&gt;预处理（hello.c&amp;ndash;&amp;gt;hello.i）
+&lt;ul&gt;
+&lt;li&gt;处理源代码中以“#”开始的预处理指令，如#include、#define，将其转换后直接插入程序文本中，得到另一个C程序hello.i&lt;/li&gt;
+&lt;li&gt;在命令中添加编译选-E 可以单独执行预处理&lt;/li&gt;
+&lt;li&gt;一些预处理规则
+&lt;ul&gt;
+&lt;li&gt;#include：将对应文件的内容复制到该指令的位置（换行后的内容原封不动的出现在下面）&lt;/li&gt;
+&lt;li&gt;#define 删除，并且在被引用的位置递归地扩展所有的宏定义（即原本文件中的数据使用的是宏，但之后会变成数字）&lt;/li&gt;
+&lt;li&gt;处理所有条件预处理指令：if、ifdef、elif、else、endif等&lt;/li&gt;
+&lt;li&gt;删除所有注释&lt;/li&gt;
+&lt;li&gt;添加行号和文件名标识&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;编译(hello.i&amp;ndash;&amp;gt;hello.s)
+&lt;ul&gt;
+&lt;li&gt;此过程将预处理文件进行一系列的词法分析、语法分析、语义分析以及优化，最终生成汇编代码&lt;/li&gt;
+&lt;li&gt;在命令中添加编译选项-S,操作对象可以是源代码 hello.c，也可以是hello.i&lt;/li&gt;
+&lt;li&gt;注：生成的汇编代码中函数printf()被替换为puts(),因为当printf()只有单一参数时，与puts()功能类似&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;汇编(hello.s&amp;ndash;&amp;gt;hello.o)
+&lt;ul&gt;
+&lt;li&gt;汇编器根据汇编指令与机器指令的对照表进行翻译，将hello.s汇编成目标文件hello.o&lt;/li&gt;
+&lt;li&gt;hello.o是一个可重定位文件，可以使用objdump命令来查看其内容&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;链接(hello.o&amp;ndash;&amp;gt;hello)
+&lt;ul&gt;
+&lt;li&gt;链接器collect2是对ld命令的封装，用于将C语言运行时库（CRT）中的目标文件(crt1.o,crti.o,crtbegin.o,crtend.o,crtn,o)以及所需的动态链接库链接到可执行hello&lt;/li&gt;
+&lt;li&gt;分类
+&lt;ul&gt;
+&lt;li&gt;静态链接&amp;mdash; 添加编译选项-static即可指定使用静态链接&lt;/li&gt;
+&lt;li&gt;动态链接（默认）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;此阶段将目标文件及其依赖库进行链接，生成可执行文件，主要包括地址和空间分配、符号绑定和重定位等操作&lt;/li&gt;
+&lt;li&gt;链接操作由链接器（ld.so）完成，得到hello文件，这是一个静态链接的可执行文件，包含大量的库文件&lt;/li&gt;
+&lt;li&gt;通过链接操作，对象文件中无法确定的符号地址已经被修正为实际的符号地址，程序就可以被加载到内存中正常执行了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;elf文件格式&#34;&gt;ELF文件格式
+&lt;/h4&gt;&lt;p&gt;ELF（Executable and Linkable Format）:可执行可链接格式&lt;/p&gt;
+&lt;p&gt;ELF分类：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;可执行文件（.exec）
+&lt;ul&gt;
+&lt;li&gt;经过链接的、可执行的目标文件，通常称为程序&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;可重定位文件（.rel）
+&lt;ul&gt;
+&lt;li&gt;由源文件编译而成尚未链接的目标文件，通常以“.o”作为扩展名。通常是一段位置独立的代码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;共享目标文件（.dyn）
+&lt;ul&gt;
+&lt;li&gt;动态链接库文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;核心转储文件（core dump file）
+&lt;ul&gt;
+&lt;li&gt;作为进程意外终止时进程地址空间的转储，也是ELF文件的一种，使用gdb读取这类文件可以辅助调试和查找程序崩溃的原因（在Linux中遇到过核心转储问题）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;注：ELF文件被统称为Object file，所以ELF可以认定为目标文件，而“.o”文件可以称为重定位文件&lt;/p&gt;
+&lt;p&gt;ELF文件的结构：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;审视目标文件的两种视角&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;链接视角
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;通过节（Section）来进行划分&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;目标文件中包含的节&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;代码（.text）:保存可执行的机器指令&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;.text的数据是十六制形式，共0x4e个字节
+&lt;ul&gt;
+&lt;li&gt;偏移量（最左一列） 内容（中间四列） ASCII码（最右一列）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据（.data）：保存已初始化的全局变量和局部静态变量&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;.data中是源代码中的变量&lt;/li&gt;
+&lt;li&gt;.rodata 保存只读数据（只读变量和字符串常量）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;BSS（.bss）：保存未初始化的全局变量和局部静态变量&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;其他常见的节：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;.strtab(字符串表)
+&lt;ul&gt;
+&lt;li&gt;包含了以null结尾的字符序列，用来表示符合和节名，引用字符串时只需给出字符序列在表中的偏移即可&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;symtab(符号表)
+&lt;ul&gt;
+&lt;li&gt;记录目标文件中所有用到的所有符号信息，通常分为.dynsym和.symtab，前者是后者的子集
+&lt;ul&gt;
+&lt;li&gt;.dynsym：保存了引用自外部文件的符号，只能在运行时被解析&lt;/li&gt;
+&lt;li&gt;.symtab：还保存了本地符号，用于调试和链接&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;目标文件通过一个符号在表中的索引值来使用该符号&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;（重定位）：链接符号定义与符号引用的过程
+&lt;ul&gt;
+&lt;li&gt;可重定位文件在构建可执行文件或共享目标文件时，需要把节中的符号引用换成这些符号在进程空间中的虚拟地址&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ELF文件头：位于目标文件最开始的位置，包含描述整个文件的一些基本信息&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ELF文件类型&lt;/li&gt;
+&lt;li&gt;版本/应用程序二进制接口ABI版本&lt;/li&gt;
+&lt;li&gt;目标机器&lt;/li&gt;
+&lt;li&gt;程序入口&lt;/li&gt;
+&lt;li&gt;段表和节表的位置和长度等
+&lt;ul&gt;
+&lt;li&gt;节头表：存储目标文件中各个节的信息
+&lt;ul&gt;
+&lt;li&gt;表的每一项都是一个Elf64_Shdr结构体（节描述符），记录节的名字、长度、偏移、读写权限等信息&lt;/li&gt;
+&lt;li&gt;节头表的位置记录在文件头的e_shoff域中&lt;/li&gt;
+&lt;li&gt;在运行时节头表不是必须的，所以常有程序去除节头表，以增加反编译器的分析难度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;文件头存在魔术字符（7f 45 4c 46）,即字符“\177ELF”,当文件被映射到内存时，可以通过搜索该字符确定映射地址，在dump内存时非常有用&lt;/p&gt;
+&lt;p&gt;指令和数据分别存放的好处：防止程序指令被改写和利用&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;运行视角
+&lt;ul&gt;
+&lt;li&gt;通过段（Segment）来进行划分&lt;/li&gt;
+&lt;li&gt;运行可执行文件时，首先需要将该文件和动态链接库装载到进程空间中，形成进程镜像&lt;/li&gt;
+&lt;li&gt;每个进程拥有独立的虚拟地址空间，这个空间布局由记录在段头表中的程序头决定的
+&lt;ul&gt;
+&lt;li&gt;段表头位置：ELF文件头的e_phoof域已给出&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

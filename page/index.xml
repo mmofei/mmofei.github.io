@@ -178,6 +178,54 @@
   
   var dataMap = new Map();
   
+    var key = &#34;2025-09-07&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  0 ;
+    var link = &#34;/p/%E5%AD%A6%E4%B9%A0%E6%91%84%E5%BD%B1%E6%8A%80%E5%B7%A7%E5%AD%A6%E4%BC%9A%E6%8B%8D%E7%85%A7/&#34;;
+    var title = &#34;摄影眼的养成&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-09-04&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  23 ;
+    var link = &#34;/p/%E8%AF%BB%E4%B8%80%E6%9C%AC%E5%A5%BD%E4%B9%A6%E5%9C%A8%E4%B9%A6%E4%B8%AD%E4%B8%B0%E5%AF%8C%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86/&#34;;
+    var title = &#34;好书阅读| 刻意练习&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-26&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  0 ;
+    var link = &#34;/p/%E5%BF%85%E5%AD%A6%E7%9F%A5%E8%AF%86/&#34;;
+    var title = &#34;小白整理必学知识1&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-19&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  3087 ;
+    var link = &#34;/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/&#34;;
+    var title = &#34;前置知识整理&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = &#34;2025-08-17&#34;;
     var value = dataMap.get(key);
     var wordCount =  552 ;
