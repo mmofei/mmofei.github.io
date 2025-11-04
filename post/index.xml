@@ -7,84 +7,14 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Mofei</copyright>
-        <lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>摄影眼的养成</title>
-        <link>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E6%91%84%E5%BD%B1%E6%8A%80%E5%B7%A7%E5%AD%A6%E4%BC%9A%E6%8B%8D%E7%85%A7/</link>
-        <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+        <lastBuildDate>Mon, 08 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>前置知识整理（2）| 二进制安全</title>
+        <link>http://localhost:1313/p/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/</link>
+        <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E6%91%84%E5%BD%B1%E6%8A%80%E5%B7%A7%E5%AD%A6%E4%BC%9A%E6%8B%8D%E7%85%A7/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>好书阅读| 刻意练习</title>
-        <link>http://localhost:1313/p/%E8%AF%BB%E4%B8%80%E6%9C%AC%E5%A5%BD%E4%B9%A6%E5%9C%A8%E4%B9%A6%E4%B8%AD%E4%B8%B0%E5%AF%8C%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86/</link>
-        <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/%E8%AF%BB%E4%B8%80%E6%9C%AC%E5%A5%BD%E4%B9%A6%E5%9C%A8%E4%B9%A6%E4%B8%AD%E4%B8%B0%E5%AF%8C%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86/</guid>
-        <description>&lt;img src="http://localhost:1313/p/%E8%AF%BB%E4%B8%80%E6%9C%AC%E5%A5%BD%E4%B9%A6%E5%9C%A8%E4%B9%A6%E4%B8%AD%E4%B8%B0%E5%AF%8C%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86/1.jpg" alt="Featured image of post 好书阅读| 刻意练习" /&gt;&lt;h1 id=&#34;导读&#34;&gt;导读
-&lt;/h1&gt;&lt;p&gt;放弃一切错误方法，开始“刻意练习”&lt;/p&gt;
-&lt;h1 id=&#34;重点内容&#34;&gt;重点内容
-&lt;/h1&gt;</description>
-        </item>
-        <item>
-        <title>小白整理必学知识1</title>
-        <link>http://localhost:1313/p/%E5%BF%85%E5%AD%A6%E7%9F%A5%E8%AF%86/</link>
-        <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/%E5%BF%85%E5%AD%A6%E7%9F%A5%E8%AF%86/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>前置知识整理</title>
-        <link>http://localhost:1313/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/</link>
-        <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/</guid>
-        <description>&lt;img src="http://localhost:1313/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/1.jpg" alt="Featured image of post 前置知识整理" /&gt;&lt;h2 id=&#34;导语&#34;&gt;导语
-&lt;/h2&gt;&lt;p&gt;最近发现自己的知识体系有点混乱，感觉什么都学了，但是什么都没学会。借这篇文章整理下自己的思路，顺便系统学习一下什么是CTF&lt;/p&gt;
-&lt;h2 id=&#34;ctf&#34;&gt;CTF
-&lt;/h2&gt;&lt;p&gt;CTF（Capture The Flag），夺旗赛。参赛方通过攻防对抗、程序分析等形式，率先从主办方的给出的比赛环境中得到一串具有一定格式的字符串或其他内容，并提交给主办方，从而夺得分数。这串内容为Flag&lt;/p&gt;
-&lt;h3 id=&#34;比赛内容&#34;&gt;比赛内容
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Reverse（逆向类）：对软件的结构、流程、算法等进行逆向破解
-&lt;ul&gt;
-&lt;li&gt;要求：较强的反汇编、反编译的能力&lt;/li&gt;
-&lt;li&gt;所需知识：汇编语言、加密与解密、常见的反编译工具&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Pwn（溢出类）
-&lt;ul&gt;
-&lt;li&gt;常见的类型：整数溢出u、栈溢出、堆溢出等&lt;/li&gt;
-&lt;li&gt;要求：考查对漏洞的利用能力&lt;/li&gt;
-&lt;li&gt;所需知识：C、OD+IDA、数据机构、操作系统&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Web（Web漏洞类）
-&lt;ul&gt;
-&lt;li&gt;常见类型： XSS、文件包含、代码执行、上传漏洞、SQL注入等，也有些简单的关于网络基础知识的考察：如返回包、TCP/IP、数据包内容和构造&lt;/li&gt;
-&lt;li&gt;所需知识：PHP、Python、TCP/IP、SQL&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Crypto（加密类）：考察这种加解密技术
-&lt;ul&gt;
-&lt;li&gt;要求：考查密码学相关知识点&lt;/li&gt;
-&lt;li&gt;所需知识： 矩阵、数论、密码学&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Mobile
-&lt;ul&gt;
-&lt;li&gt;要求：涉及Android和iOS两个平台，主要是Android逆向，破解APK并提交正确flag&lt;/li&gt;
-&lt;li&gt;所需知识： Java、Android开发、常用工具&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Misc（杂项）
-&lt;ul&gt;
-&lt;li&gt;常见题目：隐写术、电子取证、人肉搜索、数据分析、大数据统计等&lt;/li&gt;
-&lt;li&gt;所需知识: 常见隐写术工具、Wireshark等流量审查工具、编码知识&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;二进制安全&#34;&gt;二进制安全
+        <guid>http://localhost:1313/p/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/2.jpg" alt="Featured image of post 前置知识整理（2）| 二进制安全" /&gt;&lt;h1 id=&#34;导语&#34;&gt;导语
+&lt;/h1&gt;&lt;h2 id=&#34;二进制安全&#34;&gt;二进制安全
 &lt;/h2&gt;&lt;p&gt;二进制安全是一盒比较偏向底层的方向，对计算机基础要求较高&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;C/C++&lt;/li&gt;
@@ -288,6 +218,115 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>摄影 | 摄影眼的养成</title>
+        <link>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E6%91%84%E5%BD%B1%E6%8A%80%E5%B7%A7%E5%AD%A6%E4%BC%9A%E6%8B%8D%E7%85%A7/</link>
+        <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E6%91%84%E5%BD%B1%E6%8A%80%E5%B7%A7%E5%AD%A6%E4%BC%9A%E6%8B%8D%E7%85%A7/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E6%91%84%E5%BD%B1%E6%8A%80%E5%B7%A7%E5%AD%A6%E4%BC%9A%E6%8B%8D%E7%85%A7/1.jpg" alt="Featured image of post 摄影 | 摄影眼的养成" /&gt;&lt;h1 id=&#34;导语&#34;&gt;导语
+&lt;/h1&gt;&lt;p&gt;我没有经过系统的训练，记录一下在小红书学到的知识&lt;/p&gt;
+&lt;h1 id=&#34;摄影眼提高方法&#34;&gt;摄影眼提高方法
+&lt;/h1&gt;&lt;h2 id=&#34;看照片&#34;&gt;看照片
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;刷优秀摄影作品，思考以下问题：&lt;/p&gt;
+&lt;p&gt;1.构图&lt;/p&gt;
+&lt;p&gt;2.光线（如何使用）&lt;/p&gt;
+&lt;p&gt;3.画面（画面想呈现给观众什么内容）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;模拟&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;模拟是一切的开始，寻找自己的视觉框架，这个过程可能会持续一段时间，但会悄悄提高你对画面感的捕捉力&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;针对同意主题，连续的训练，通过这种方法提高你对元素的敏感度&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;很喜欢这句话：摄影眼不是灵感爆发，而是你看过很多、练过很多
+拍过很多之后，眼镜自然就会变成镜头感知器，这也对应了现在正在看的书《刻意练习》，所有的才华都是可以通过练习获得的，前提是你要坚持和努力&lt;/p&gt;
+&lt;p&gt;摄影要做减法&lt;/p&gt;
+&lt;h2 id=&#34;基础的构图知识&#34;&gt;基础的构图知识
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;经典构图框架&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>好书阅读| 刻意练习</title>
+        <link>http://localhost:1313/p/%E8%AF%BB%E4%B8%80%E6%9C%AC%E5%A5%BD%E4%B9%A6%E5%9C%A8%E4%B9%A6%E4%B8%AD%E4%B8%B0%E5%AF%8C%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86/</link>
+        <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E8%AF%BB%E4%B8%80%E6%9C%AC%E5%A5%BD%E4%B9%A6%E5%9C%A8%E4%B9%A6%E4%B8%AD%E4%B8%B0%E5%AF%8C%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E8%AF%BB%E4%B8%80%E6%9C%AC%E5%A5%BD%E4%B9%A6%E5%9C%A8%E4%B9%A6%E4%B8%AD%E4%B8%B0%E5%AF%8C%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86/1.jpg" alt="Featured image of post 好书阅读| 刻意练习" /&gt;&lt;h1 id=&#34;导读&#34;&gt;导读
+&lt;/h1&gt;&lt;p&gt;放弃一切错误方法，开始“刻意练习”&lt;/p&gt;
+&lt;h1 id=&#34;重点内容&#34;&gt;重点内容
+&lt;/h1&gt;</description>
+        </item>
+        <item>
+        <title>小白整理必学知识1</title>
+        <link>http://localhost:1313/p/%E5%BF%85%E5%AD%A6%E7%9F%A5%E8%AF%86/</link>
+        <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%BF%85%E5%AD%A6%E7%9F%A5%E8%AF%86/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>前置知识整理（1）| CTF是什么</title>
+        <link>http://localhost:1313/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/</link>
+        <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/1.jpg" alt="Featured image of post 前置知识整理（1）| CTF是什么" /&gt;&lt;h2 id=&#34;导语&#34;&gt;导语
+&lt;/h2&gt;&lt;p&gt;最近发现自己的知识体系有点混乱，感觉什么都学了，但是什么都没学会。借这篇文章整理下自己的思路，顺便系统学习一下什么是CTF&lt;/p&gt;
+&lt;h2 id=&#34;ctf&#34;&gt;CTF
+&lt;/h2&gt;&lt;p&gt;CTF（Capture The Flag），夺旗赛。参赛方通过攻防对抗、程序分析等形式，率先从主办方的给出的比赛环境中得到一串具有一定格式的字符串或其他内容，并提交给主办方，从而夺得分数。这串内容为Flag&lt;/p&gt;
+&lt;h3 id=&#34;比赛内容&#34;&gt;比赛内容
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Reverse（逆向类）：对软件的结构、流程、算法等进行逆向破解
+&lt;ul&gt;
+&lt;li&gt;要求：较强的反汇编、反编译的能力&lt;/li&gt;
+&lt;li&gt;所需知识：汇编语言、加密与解密、常见的反编译工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Pwn（溢出类）
+&lt;ul&gt;
+&lt;li&gt;常见的类型：整数溢出u、栈溢出、堆溢出等&lt;/li&gt;
+&lt;li&gt;要求：考查对漏洞的利用能力&lt;/li&gt;
+&lt;li&gt;所需知识：C、OD+IDA、数据机构、操作系统&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Web（Web漏洞类）
+&lt;ul&gt;
+&lt;li&gt;常见类型： XSS、文件包含、代码执行、上传漏洞、SQL注入等，也有些简单的关于网络基础知识的考察：如返回包、TCP/IP、数据包内容和构造&lt;/li&gt;
+&lt;li&gt;所需知识：PHP、Python、TCP/IP、SQL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Crypto（加密类）：考察这种加解密技术
+&lt;ul&gt;
+&lt;li&gt;要求：考查密码学相关知识点&lt;/li&gt;
+&lt;li&gt;所需知识： 矩阵、数论、密码学&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Mobile
+&lt;ul&gt;
+&lt;li&gt;要求：涉及Android和iOS两个平台，主要是Android逆向，破解APK并提交正确flag&lt;/li&gt;
+&lt;li&gt;所需知识： Java、Android开发、常用工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Misc（杂项）
+&lt;ul&gt;
+&lt;li&gt;常见题目：隐写术、电子取证、人肉搜索、数据分析、大数据统计等&lt;/li&gt;
+&lt;li&gt;所需知识: 常见隐写术工具、Wireshark等流量审查工具、编码知识&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;

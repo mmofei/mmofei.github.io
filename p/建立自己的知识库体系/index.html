@@ -2,16 +2,16 @@
 <html lang="zh-cn" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="导语 最近发现自己的知识体系有点混乱，感觉什么都学了，但是什么都没学会。借这篇文章整理下自己的思路，顺便系统学习一下什么是CTF\nCTF CTF（Capture The Flag），夺旗赛。参赛方通过攻防对抗、程序分析等形式，率先从主办方的给出的比赛环境中得到一串具有一定格式的字符串或其他内容，并提交给主办方，从而夺得分数。这串内容为Flag\n">
-<title>前置知识整理</title>
+<title>前置知识整理（1）| CTF是什么</title>
 
 <link rel='canonical' href='http://localhost:1313/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/'>
 
-<link rel="stylesheet" href="/scss/style.min.4676976512127ce1491b66a07f70af0cbed6263361d22c1ff7b79f5929dc5d84.css"><meta property='og:title' content="前置知识整理">
+<link rel="stylesheet" href="/scss/style.min.4676976512127ce1491b66a07f70af0cbed6263361d22c1ff7b79f5929dc5d84.css"><meta property='og:title' content="前置知识整理（1）| CTF是什么">
 <meta property='og:description' content="导语 最近发现自己的知识体系有点混乱，感觉什么都学了，但是什么都没学会。借这篇文章整理下自己的思路，顺便系统学习一下什么是CTF\nCTF CTF（Capture The Flag），夺旗赛。参赛方通过攻防对抗、程序分析等形式，率先从主办方的给出的比赛环境中得到一串具有一定格式的字符串或其他内容，并提交给主办方，从而夺得分数。这串内容为Flag\n">
 <meta property='og:url' content='http://localhost:1313/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/'>
 <meta property='og:site_name' content='Mofei&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='网络安全' /><meta property='article:tag' content='CTF' /><meta property='article:tag' content='二进制' /><meta property='article:tag' content='逆向分析' /><meta property='article:published_time' content='2025-08-19T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-08-19T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/1.jpg' />
-<meta name="twitter:title" content="前置知识整理">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='网络安全' /><meta property='article:tag' content='CTF' /><meta property='article:published_time' content='2025-08-19T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-08-19T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/1.jpg' />
+<meta name="twitter:title" content="前置知识整理（1）| CTF是什么">
 <meta name="twitter:description" content="导语 最近发现自己的知识体系有点混乱，感觉什么都学了，但是什么都没学会。借这篇文章整理下自己的思路，顺便系统学习一下什么是CTF\nCTF CTF（Capture The Flag），夺旗赛。参赛方通过攻防对抗、程序分析等形式，率先从主办方的给出的比赛环境中得到一串具有一定格式的字符串或其他内容，并提交给主办方，从而夺得分数。这串内容为Flag\n"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='http://localhost:1313/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/1.jpg' /><style>
     :root {
@@ -104,17 +104,13 @@
     <li><a href="#导语">导语</a></li>
     <li><a href="#ctf">CTF</a>
       <ol>
-        <li><a href="#比赛内容">比赛内容</a></li>
-      </ol>
-    </li>
-    <li><a href="#二进制安全">二进制安全</a>
-      <ol>
-        <li><a href="#二进制文件">二进制文件</a>
+        <li><a href="#竞赛模式">竞赛模式</a>
           <ol>
-            <li><a href="#源文件可执行文件">源文件&ndash;&gt;可执行文件</a></li>
-            <li><a href="#elf文件格式">ELF文件格式</a></li>
+            <li><a href="#jeopardy-解题">Jeopardy-解题</a></li>
+            <li><a href="#awd-攻防模式">AwD-攻防模式</a></li>
           </ol>
         </li>
+        <li><a href="#比赛内容">比赛内容</a></li>
       </ol>
     </li>
   </ol>
@@ -137,7 +133,7 @@
                         width="800" 
                         height="450" 
                         loading="lazy"
-                        alt="Featured image of post 前置知识整理" />
+                        alt="Featured image of post 前置知识整理（1）| CTF是什么" />
                 
             </a>
         </div>
@@ -156,7 +152,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/">前置知识整理</a>
+            <a href="/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/">前置知识整理（1）| CTF是什么</a>
         </h2>
     
         
@@ -193,7 +189,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 7 分钟
+                    阅读时长: 2 分钟
                 </time>
             </div>
         
@@ -244,6 +240,15 @@ unicode: "f7f0"
 </h2><p>最近发现自己的知识体系有点混乱，感觉什么都学了，但是什么都没学会。借这篇文章整理下自己的思路，顺便系统学习一下什么是CTF</p>
 <h2 id="ctf">CTF
 </h2><p>CTF（Capture The Flag），夺旗赛。参赛方通过攻防对抗、程序分析等形式，率先从主办方的给出的比赛环境中得到一串具有一定格式的字符串或其他内容，并提交给主办方，从而夺得分数。这串内容为Flag</p>
+<p>flag一般拥有固定的格式，如flag{xxxxx},利用固定格式来反推flag也是一种常见的解题思路</p>
+<p>通常来说CTF是以团队为单位进行参赛。每个团队3-5人(具体根据主办方要求决定)，在整个比赛过程中既要每个选手拥有某个方向的漏洞挖掘能力，也要同队选手之间的相互配合</p>
+<h3 id="竞赛模式">竞赛模式
+</h3><h4 id="jeopardy-解题">Jeopardy-解题
+</h4><p>参赛队伍可以通过互联网或者现场网络参与，参数队伍通过与在线环境交互或文件离线分析，解决网络安全技术挑战获取相应分值，类似于 ACM 编程竞赛、信息学奥林匹克赛，根据总分和时间来进行排名</p>
+<p>最常规的CTF比赛形式</p>
+<h4 id="awd-攻防模式">AwD-攻防模式
+</h4><p>Attack with Defense(AwD)全称攻防模式，在攻防模式CTF赛制中，参赛队伍连接到同一个网络空间。主办方为每支队伍分配防守主机，每个队伍需要防护自己的主机不被攻击的同时挖掘漏洞并攻击对手服务来的分</p>
+<p>AwD通常仅包含Web及Pwn两种类型的题目</p>
 <h3 id="比赛内容">比赛内容
 </h3><ul>
 <li>Reverse（逆向类）：对软件的结构、流程、算法等进行逆向破解
@@ -284,213 +289,6 @@ unicode: "f7f0"
 </ul>
 </li>
 </ul>
-<h2 id="二进制安全">二进制安全
-</h2><p>二进制安全是一盒比较偏向底层的方向，对计算机基础要求较高</p>
-<ul>
-<li>C/C++</li>
-<li>Python</li>
-<li>汇编语言</li>
-<li>计算机组成原理</li>
-<li>操作系统</li>
-<li>编译原理</li>
-</ul>
-<p>二进制安全可以细分为逆向工程和漏洞挖掘与利用等方向</p>
-<p>学习书籍推荐（中文）：</p>
-<ul>
-<li>程序员的自我修养&ndash;链接、装载与库</li>
-<li>加密和解密（第四版）</li>
-</ul>
-<p>学完之后，就可以进行软件漏洞的学习了，分析真实环境中的漏洞和恶意样本，推荐资料：</p>
-<ul>
-<li>漏洞战争“软件漏洞分析精要</li>
-</ul>
-<p>有了实践基础之后，可以学习一些理论分析：</p>
-<ul>
-<li>数据流分析（Soot）</li>
-<li>值集分析（BAP）</li>
-<li>可满足性（Z3）</li>
-<li>动态二进制插桩</li>
-<li>符号执行</li>
-<li>模糊测试</li>
-</ul>
-<h3 id="二进制文件">二进制文件
-</h3><h4 id="源文件可执行文件">源文件&ndash;&gt;可执行文件
-</h4><p>一个C语言程序从源文件开始，这种高级语言的形式更容易被人理解。但是程序运行，每条C语句都必须翻译为一系列的低级机器语言指令。最后，这些指令按照可执行目标文件的格式打包，并以二进制的形式存放起来</p>
-<h5 id="编译原理">编译原理
-</h5><p>编程语言&ndash;&gt;编译器&mdash;&gt;目标语言</p>
-<h6 id="gcc编译过程">GCC编译过程
-</h6><ul>
-<li>预处理（hello.c&ndash;&gt;hello.i）
-<ul>
-<li>处理源代码中以“#”开始的预处理指令，如#include、#define，将其转换后直接插入程序文本中，得到另一个C程序hello.i</li>
-<li>在命令中添加编译选-E 可以单独执行预处理</li>
-<li>一些预处理规则
-<ul>
-<li>#include：将对应文件的内容复制到该指令的位置（换行后的内容原封不动的出现在下面）</li>
-<li>#define 删除，并且在被引用的位置递归地扩展所有的宏定义（即原本文件中的数据使用的是宏，但之后会变成数字）</li>
-<li>处理所有条件预处理指令：if、ifdef、elif、else、endif等</li>
-<li>删除所有注释</li>
-<li>添加行号和文件名标识</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>编译(hello.i&ndash;&gt;hello.s)
-<ul>
-<li>此过程将预处理文件进行一系列的词法分析、语法分析、语义分析以及优化，最终生成汇编代码</li>
-<li>在命令中添加编译选项-S,操作对象可以是源代码 hello.c，也可以是hello.i</li>
-<li>注：生成的汇编代码中函数printf()被替换为puts(),因为当printf()只有单一参数时，与puts()功能类似</li>
-</ul>
-</li>
-<li>汇编(hello.s&ndash;&gt;hello.o)
-<ul>
-<li>汇编器根据汇编指令与机器指令的对照表进行翻译，将hello.s汇编成目标文件hello.o</li>
-<li>hello.o是一个可重定位文件，可以使用objdump命令来查看其内容</li>
-</ul>
-</li>
-<li>链接(hello.o&ndash;&gt;hello)
-<ul>
-<li>链接器collect2是对ld命令的封装，用于将C语言运行时库（CRT）中的目标文件(crt1.o,crti.o,crtbegin.o,crtend.o,crtn,o)以及所需的动态链接库链接到可执行hello</li>
-<li>分类
-<ul>
-<li>静态链接&mdash; 添加编译选项-static即可指定使用静态链接</li>
-<li>动态链接（默认）</li>
-</ul>
-</li>
-<li>此阶段将目标文件及其依赖库进行链接，生成可执行文件，主要包括地址和空间分配、符号绑定和重定位等操作</li>
-<li>链接操作由链接器（ld.so）完成，得到hello文件，这是一个静态链接的可执行文件，包含大量的库文件</li>
-<li>通过链接操作，对象文件中无法确定的符号地址已经被修正为实际的符号地址，程序就可以被加载到内存中正常执行了</li>
-</ul>
-</li>
-</ul>
-<h4 id="elf文件格式">ELF文件格式
-</h4><p>ELF（Executable and Linkable Format）:可执行可链接格式</p>
-<p>ELF分类：</p>
-<ul>
-<li>可执行文件（.exec）
-<ul>
-<li>经过链接的、可执行的目标文件，通常称为程序</li>
-</ul>
-</li>
-<li>可重定位文件（.rel）
-<ul>
-<li>由源文件编译而成尚未链接的目标文件，通常以“.o”作为扩展名。通常是一段位置独立的代码</li>
-</ul>
-</li>
-<li>共享目标文件（.dyn）
-<ul>
-<li>动态链接库文件</li>
-</ul>
-</li>
-<li>核心转储文件（core dump file）
-<ul>
-<li>作为进程意外终止时进程地址空间的转储，也是ELF文件的一种，使用gdb读取这类文件可以辅助调试和查找程序崩溃的原因（在Linux中遇到过核心转储问题）</li>
-</ul>
-</li>
-</ul>
-<p>注：ELF文件被统称为Object file，所以ELF可以认定为目标文件，而“.o”文件可以称为重定位文件</p>
-<p>ELF文件的结构：</p>
-<ul>
-<li>
-<p>审视目标文件的两种视角</p>
-<ul>
-<li>链接视角
-<ul>
-<li>
-<p>通过节（Section）来进行划分</p>
-</li>
-<li>
-<p>目标文件中包含的节</p>
-<ul>
-<li>
-<p>代码（.text）:保存可执行的机器指令</p>
-<ul>
-<li>.text的数据是十六制形式，共0x4e个字节
-<ul>
-<li>偏移量（最左一列） 内容（中间四列） ASCII码（最右一列）</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>数据（.data）：保存已初始化的全局变量和局部静态变量</p>
-<ul>
-<li>.data中是源代码中的变量</li>
-<li>.rodata 保存只读数据（只读变量和字符串常量）</li>
-</ul>
-</li>
-<li>
-<p>BSS（.bss）：保存未初始化的全局变量和局部静态变量</p>
-</li>
-</ul>
-</li>
-<li>
-<p>其他常见的节：</p>
-<ul>
-<li>.strtab(字符串表)
-<ul>
-<li>包含了以null结尾的字符序列，用来表示符合和节名，引用字符串时只需给出字符序列在表中的偏移即可</li>
-</ul>
-</li>
-<li>symtab(符号表)
-<ul>
-<li>记录目标文件中所有用到的所有符号信息，通常分为.dynsym和.symtab，前者是后者的子集
-<ul>
-<li>.dynsym：保存了引用自外部文件的符号，只能在运行时被解析</li>
-<li>.symtab：还保存了本地符号，用于调试和链接</li>
-</ul>
-</li>
-<li>目标文件通过一个符号在表中的索引值来使用该符号</li>
-</ul>
-</li>
-<li>（重定位）：链接符号定义与符号引用的过程
-<ul>
-<li>可重定位文件在构建可执行文件或共享目标文件时，需要把节中的符号引用换成这些符号在进程空间中的虚拟地址</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>ELF文件头：位于目标文件最开始的位置，包含描述整个文件的一些基本信息</p>
-<ul>
-<li>ELF文件类型</li>
-<li>版本/应用程序二进制接口ABI版本</li>
-<li>目标机器</li>
-<li>程序入口</li>
-<li>段表和节表的位置和长度等
-<ul>
-<li>节头表：存储目标文件中各个节的信息
-<ul>
-<li>表的每一项都是一个Elf64_Shdr结构体（节描述符），记录节的名字、长度、偏移、读写权限等信息</li>
-<li>节头表的位置记录在文件头的e_shoff域中</li>
-<li>在运行时节头表不是必须的，所以常有程序去除节头表，以增加反编译器的分析难度</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>文件头存在魔术字符（7f 45 4c 46）,即字符“\177ELF”,当文件被映射到内存时，可以通过搜索该字符确定映射地址，在dump内存时非常有用</p>
-<p>指令和数据分别存放的好处：防止程序指令被改写和利用</p></blockquote>
-<ul>
-<li>运行视角
-<ul>
-<li>通过段（Segment）来进行划分</li>
-<li>运行可执行文件时，首先需要将该文件和动态链接库装载到进程空间中，形成进程镜像</li>
-<li>每个进程拥有独立的虚拟地址空间，这个空间布局由记录在段头表中的程序头决定的
-<ul>
-<li>段表头位置：ELF文件头的e_phoof域已给出</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
 
 </section>
 
@@ -502,10 +300,6 @@ unicode: "f7f0"
             <a href="/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/">网络安全</a>
         
             <a href="/tags/ctf/">CTF</a>
-        
-            <a href="/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/">二进制</a>
-        
-            <a href="/tags/%E9%80%86%E5%90%91%E5%88%86%E6%9E%90/">逆向分析</a>
         
     </section>
 
@@ -863,7 +657,7 @@ background-color: #FF6600
 
 
 
-<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=%e5%89%8d%e7%bd%ae%e7%9f%a5%e8%af%86%e6%95%b4%e7%90%86&url=http://localhost:1313/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/" target="_blank" rel="noopener" aria-label="" title="Twitter">
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=%e5%89%8d%e7%bd%ae%e7%9f%a5%e8%af%86%e6%95%b4%e7%90%86%ef%bc%881%ef%bc%89%7c%20CTF%e6%98%af%e4%bb%80%e4%b9%88&url=http://localhost:1313/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/" target="_blank" rel="noopener" aria-label="" title="Twitter">
   <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--normal">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.4 4.83c-.8.37-1.5.38-2.22.02.94-.56.98-.96 1.32-2.02-.88.52-1.85.9-2.9 1.1-.8-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.04.7.12 1.04-3.78-.2-7.12-2-9.37-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.73-.03-1.43-.23-2.05-.57v.06c0 2.2 1.57 4.03 3.65 4.44-.67.18-1.37.2-2.05.08.57 1.8 2.25 3.12 4.24 3.16-1.95 1.52-4.36 2.16-6.74 1.88 2 1.3 4.4 2.04 6.97 2.04 8.36 0 12.93-6.92 12.93-12.93l-.02-.6c.9-.63 1.96-1.22 2.57-2.14z"/></svg>
 
@@ -916,6 +710,39 @@ background-color: #FF6600
     
 
     
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/2.04bbfb22a23fa5addd20a01daa418a3b_hu_9fa691919b36f06e.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 前置知识整理（2）| 二进制"
+                        data-key="二进制安全" 
+                        data-hash="md5-BLv7IqI/pa3dIKAdqkGKOw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">前置知识整理（2）| 二进制</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
 
     
     <div class="pre-next">
@@ -995,8 +822,10 @@ background-color: #FF6600
         
             
         
-        发表了11篇文章 · 
-        总计9.69k字
+            
+        
+        发表了12篇文章 · 
+        总计10.35k字
     </section>
 
     
