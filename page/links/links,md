@@ -1,0 +1,13 @@
+---
+title: Links | 友情链接
+date: 2025-05-28
+layout: 
+slug: 
+menu:
+    main:
+        weight: -30
+        params: 
+            icon: link
+---
+
+<link href="https://www.zhihu.com/people/zhang-yi-chun-yi-chun" rel="me" title="知乎">

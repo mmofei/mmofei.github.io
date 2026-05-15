@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>课程笔记 on Mofei | 莫非</title>
+        <link>http://localhost:1313/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/</link>
+        <description>Recent content in 课程笔记 on Mofei | 莫非</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>本博客仅用于记录个人的成长和学习，所有内容仅为个人观点!</copyright>
+        <lastBuildDate>Wed, 26 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>计算机安全：原理与实践</title>
+        <link>http://localhost:1313/p/%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E7%AC%94%E8%AE%B0/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E7%AC%94%E8%AE%B0/1.jpg" alt="Featured image of post 计算机安全：原理与实践" /&gt;&lt;h2 id=&#34;1概述&#34;&gt;1.概述
+&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;学习目标：
+    1.描述有关机密性、完整性和可用性的关键安全要求
+    2.讨论安全威胁、安全攻击的类型，给出不同类型计算机和网络资产面临这几类威胁和攻击的例子
+    3.概述计算机安全的基本要求
+    4.解释基本安全设计原则
+    5.讨论攻击面和攻击树的用途
+    6.理解全面安全策略的主要方面
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;11计算机安全的概念&#34;&gt;1.1计算机安全的概念
+&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;计算机安全：保证信息系统资产的机密性、完整性和可用性的措施和控制方法，其中资产包括硬件、软件、固件以及要处理、存储和通信的信息
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;CIA三元组：机密性(confidentiality)、完整性(integrity)和可用性(availability)&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
