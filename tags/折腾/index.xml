@@ -1,40 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>折腾 on Mofei | 莫非</title>
-        <link>http://localhost:1313/tags/%E6%8A%98%E8%85%BE/</link>
-        <description>Recent content in 折腾 on Mofei | 莫非</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        <copyright>本博客仅用于记录个人的成长和学习，所有内容仅为个人观点!</copyright>
-        <lastBuildDate>Thu, 14 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>【hugo】| Hugo Stack 主题装修笔记（2）</title>
-        <link>http://localhost:1313/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</link>
-        <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</guid>
-        <description>&lt;img src="http://localhost:1313/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/1.jpeg" alt="Featured image of post 【hugo】| Hugo Stack 主题装修笔记（2）" /&gt;&lt;h3 id=&#34;字体修改&#34;&gt;字体修改
-&lt;/h3&gt;&lt;p&gt;原来的字体看着有点别扭，所以把全站的字体改为了思源宋体，参考了&lt;a class=&#34;link&#34; href=&#34;https://www.sleepymoon.cyou/2023/hugo-first-build-furnish/&#34;   target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;
-    &lt;span style=&#34;display: inline-flex; align-items: center; gap: 0.5em;&#34;&gt;
-        Hugo|月球基地开发历程
-        
-            &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-                &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
-                &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34; /&gt;
-            &lt;/svg&gt;
-        
-    &lt;/span&gt;
-&lt;/a&gt;中的修改全站字体&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>【hugo】| Hugo Stack 主题装修笔记（1）</title>
-        <link>http://localhost:1313/p/first-blog/</link>
-        <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/first-blog/</guid>
-        <description>&lt;img src="http://localhost:1313/p/first-blog/1.jpg" alt="Featured image of post 【hugo】| Hugo Stack 主题装修笔记（1）" /&gt;&lt;h2 id=&#34;为什么是hugo&#34;&gt;为什么是Hugo？
-&lt;/h2&gt;&lt;p&gt;很早就想找个平台记录一下自己学习或写的东西，但是由于懒或者是操作不方便都放弃了。最近几个月开始萌生了自己搭建一个博客的想法，所以开始着手搜集这方面的知识，看到了很多炫酷的博客，但是考虑到上手问题，最终选择了hugo，通过挑选，选择了stack这个主题。经历了N多次推倒重建，这个博客终于快装修好了。&lt;/p&gt;</description>
-        </item>
-        
-    </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>折腾 on Mofei | 莫非</title><link>https://mmofei.github.io/tags/%E6%8A%98%E8%85%BE/</link><description>Recent content in 折腾 on Mofei | 莫非</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>本博客仅用于记录个人的成长和学习，所有内容仅为个人观点!</copyright><lastBuildDate>Thu, 14 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mmofei.github.io/tags/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>【hugo】| Hugo Stack 主题装修笔记（2）</title><link>https://mmofei.github.io/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</link><pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</guid><description>&lt;img src="https://mmofei.github.io/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/1.jpeg" alt="Featured image of post 【hugo】| Hugo Stack 主题装修笔记（2）" />&lt;h3 id="字体修改">字体修改
+&lt;/h3>&lt;p>原来的字体看着有点别扭，所以把全站的字体改为了思源宋体，参考了&lt;a class="link" href="https://www.sleepymoon.cyou/2023/hugo-first-build-furnish/" target="_blank" rel="noopener" >
+&lt;span style="display: inline-flex; align-items: center; gap: 0.5em;">
+Hugo|月球基地开发历程
+&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z" fill="currentColor" />
+&lt;/svg>
+&lt;/span>
+&lt;/a>中的修改全站字体&lt;/p></description></item><item><title>【hugo】| Hugo Stack 主题装修笔记（1）</title><link>https://mmofei.github.io/p/first-blog/</link><pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/p/first-blog/</guid><description>&lt;img src="https://mmofei.github.io/p/first-blog/1.jpg" alt="Featured image of post 【hugo】| Hugo Stack 主题装修笔记（1）" />&lt;h2 id="为什么是hugo">为什么是Hugo？
+&lt;/h2>&lt;p>很早就想找个平台记录一下自己学习或写的东西，但是由于懒或者是操作不方便都放弃了。最近几个月开始萌生了自己搭建一个博客的想法，所以开始着手搜集这方面的知识，看到了很多炫酷的博客，但是考虑到上手问题，最终选择了hugo，通过挑选，选择了stack这个主题。经历了N多次推倒重建，这个博客终于快装修好了。&lt;/p></description></item></channel></rss>
