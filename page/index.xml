@@ -13,12 +13,134 @@
         <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/filmo-%E7%88%B1%E5%A5%BD/</guid>
-        <description>&lt;h2 id=&#34;年度电影&#34;&gt;年度电影
-&lt;/h2&gt;&lt;h3 id=&#34;2025&#34;&gt;2025
-&lt;/h3&gt;&lt;h3 id=&#34;2024&#34;&gt;2024
-&lt;/h3&gt;&lt;h2 id=&#34;年度音乐&#34;&gt;年度音乐
-&lt;/h2&gt;&lt;h2 id=&#34;年度书籍&#34;&gt;年度书籍
-&lt;/h2&gt;</description>
+        <description>&lt;style&gt;
+     
+    .hobby-tabs input[type=&#34;radio&#34;] {
+        display: none;
+    }
+
+     
+    .hobby-tabs .labels {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+
+     
+    .hobby-tabs .labels label {
+        padding: 8px 16px;
+        cursor: pointer;
+        background-color: var(--card-background);
+        border: 1px solid var(--card-border-color);
+        border-radius: 20px;
+        transition: all 0.3s ease;
+        font-weight: bold;
+        color: var(--accent-color);
+        user-select: none;
+    }
+
+    .hobby-tabs .labels label:hover {
+        background-color: var(--accent-color);
+        color: white;
+        border-color: var(--accent-color);
+    }
+
+     
+    .hobby-tabs .contents .tab-pane {
+        display: none;
+        animation: fadeIn 0.4s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(5px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+     
+    #tab-all:checked ~ .labels label[for=&#34;tab-all&#34;],
+    #tab-movie:checked ~ .labels label[for=&#34;tab-movie&#34;],
+    #tab-music:checked ~ .labels label[for=&#34;tab-music&#34;],
+    #tab-book:checked ~ .labels label[for=&#34;tab-book&#34;],
+    #tab-game:checked ~ .labels label[for=&#34;tab-game&#34;] {
+        background-color: var(--accent-color);
+        color: white;
+        border-color: var(--accent-color);
+    }
+
+    #tab-all:checked ~ .contents .content-all,
+    #tab-movie:checked ~ .contents .content-movie,
+    #tab-music:checked ~ .contents .content-music,
+    #tab-book:checked ~ .contents .content-book,
+    #tab-game:checked ~ .contents .content-game {
+        display: block;
+    }
+&lt;/style&gt;
+
+&lt;div class=&#34;hobby-tabs&#34;&gt;
+    
+    &lt;input type=&#34;radio&#34; name=&#34;hobby-tab-group&#34; id=&#34;tab-all&#34; checked&gt;
+    &lt;input type=&#34;radio&#34; name=&#34;hobby-tab-group&#34; id=&#34;tab-movie&#34;&gt;
+    &lt;input type=&#34;radio&#34; name=&#34;hobby-tab-group&#34; id=&#34;tab-music&#34;&gt;
+    &lt;input type=&#34;radio&#34; name=&#34;hobby-tab-group&#34; id=&#34;tab-book&#34;&gt;
+    &lt;input type=&#34;radio&#34; name=&#34;hobby-tab-group&#34; id=&#34;tab-game&#34;&gt;
+
+    
+    &lt;div class=&#34;labels&#34;&gt;
+        &lt;label for=&#34;tab-all&#34;&gt;全部&lt;/label&gt;
+        &lt;label for=&#34;tab-movie&#34;&gt;🎬 电影&lt;/label&gt;
+        &lt;label for=&#34;tab-music&#34;&gt;🎵 音乐&lt;/label&gt;
+        &lt;label for=&#34;tab-book&#34;&gt;📚 书籍&lt;/label&gt;
+        &lt;label for=&#34;tab-game&#34;&gt;🎮 游戏&lt;/label&gt;
+    &lt;/div&gt;
+
+    
+    &lt;div class=&#34;contents&#34;&gt;
+        
+
+    
+&lt;div class=&#34;tab-pane content-all&#34;&gt;
+    &lt;pre&gt;&lt;code&gt;这里是全部内容...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+    
+&lt;div class=&#34;tab-pane content-movie&#34;&gt;
+    &lt;pre&gt;&lt;code&gt;## 🎬 电影
+- 沙丘2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+    
+&lt;div class=&#34;tab-pane content-music&#34;&gt;
+    &lt;pre&gt;&lt;code&gt;## 🎵 音乐
+- 晴天
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+    
+    
+&lt;div class=&#34;tab-pane content-book&#34;&gt;
+    &lt;pre&gt;&lt;code&gt;## 📚 书籍
+- 活着
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+    
+&lt;div class=&#34;tab-pane content-game&#34;&gt;
+    &lt;pre&gt;&lt;code&gt;## 🎮 游戏
+- 黑神话
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;</description>
         </item>
         <item>
         <title>Links | 链接</title>
