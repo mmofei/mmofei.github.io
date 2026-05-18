@@ -1,360 +1,566 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Mofei | 莫非</title><link>https://mmofei.github.io/page/</link><description>Recent content in Pages on Mofei | 莫非</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>本博客仅用于记录个人的成长和学习，所有内容仅为个人观点!</copyright><lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://mmofei.github.io/page/index.xml" rel="self" type="application/rss+xml"/><item><title>Filmo | 爱好</title><link>https://mmofei.github.io/filmo-%E7%88%B1%E5%A5%BD/</link><pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/filmo-%E7%88%B1%E5%A5%BD/</guid><description>&lt;style>
-header.article-header {
-display: none !important;
-}
-&lt;/style>
-&lt;!-- 日期格式：请确保 date 参数格式统一为 YYYY-MM-DD，这样字符串比较才能正确反映时间先后。如果只有年份，可以写 2023-01-01。
-类型名称：type 的值必须与 tab-container.html 中按钮的 data-filter 值一致（即 movie, book, music, game）。 -->
-&lt;div class="hobby-tabs-wrapper">
-&lt;div class="labels">
-&lt;button class="tab-btn active" data-filter="all">全部&lt;/button>
-&lt;button class="tab-btn" data-filter="movie">🎬 电影&lt;/button>
-&lt;button class="tab-btn" data-filter="music">🎵 音乐&lt;/button>
-&lt;button class="tab-btn" data-filter="book">📚 书籍&lt;/button>
-&lt;button class="tab-btn" data-filter="game">🎮 游戏&lt;/button>
-&lt;/div>
-&lt;div class="hobby-card-grid" id="hobby-grid">
-&lt;!-- 电影 -->
-&lt;article class="hobby-card-item" data-type="movie" data-date="2024-03-08">
-&lt;a href="https://movie.douban.com/subject/35576860/" target="_blank" rel="noopener noreferrer">
-&lt;div class="hobby-card-image">
-&lt;img src="https://image.tmdb.org/t/p/w500/1E5baAaEse26fej7uHkjJDveYoW.jpg" alt="沙丘2" loading="lazy">
-&lt;span class="hobby-card-tag">科幻&lt;/span>
-&lt;/div>
-&lt;div class="hobby-card-details">
-&lt;h3 class="hobby-card-title">沙丘2&lt;/h3>
-&lt;p class="hobby-card-subtitle">⭐⭐⭐⭐⭐ 2024&lt;/p></description></item><item><title>Links | 链接</title><link>https://mmofei.github.io/links/</link><pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/links/</guid><description>&lt;p>欢迎在评论区流言交换友链，留言时请注明以下信息：&lt;/p>
-&lt;blockquote class="alert-note">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on Mofei&#39;s Blog</title>
+        <link>http://localhost:1313/page/</link>
+        <description>Recent content in Pages on Mofei&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Mofei</copyright>
+        <lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Filmo | 爱好</title>
+        <link>http://localhost:1313/filmo-%E7%88%B1%E5%A5%BD/</link>
+        <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/filmo-%E7%88%B1%E5%A5%BD/</guid>
+        <description>&lt;style&gt;
+    header.article-header {
+        display: none !important;
+    }
+&lt;/style&gt;
+
+&lt;div class=&#34;hobby-tabs-wrapper&#34;&gt;
+    
+    &lt;div class=&#34;labels&#34;&gt;
+        &lt;button class=&#34;tab-btn active&#34; data-filter=&#34;all&#34;&gt;全部&lt;/button&gt;
+        &lt;button class=&#34;tab-btn&#34; data-filter=&#34;movie&#34;&gt;🎬 影视&lt;/button&gt;
+        &lt;button class=&#34;tab-btn&#34; data-filter=&#34;book&#34;&gt;📚 书籍&lt;/button&gt;
+        &lt;button class=&#34;tab-btn&#34; data-filter=&#34;music&#34;&gt;🎵 音乐&lt;/button&gt;
+        &lt;button class=&#34;tab-btn&#34; data-filter=&#34;game&#34;&gt;🎮 游戏&lt;/button&gt;
+    &lt;/div&gt;
+
+    
+    &lt;div class=&#34;hobby-card-grid&#34; id=&#34;hobby-grid&#34;&gt;
+        
+
+    &lt;!-- 引入电影数据 --&gt;
+    
+    
+    
+    
+    
+    
+    
+        
+        
+    
+        
+    
+    
+            
+                &lt;div class=&#34;hobby-divider&#34; 
+                     data-date=&#34;2026-12-31&#34; 
+                     data-type=&#34;divider&#34; 
+                     data-category=&#34;movie&#34;&gt;
+                    &lt;h3 class=&#34;hobby-divider-title&#34;&gt;2026&lt;/h3&gt;
+                &lt;/div&gt;
+            
+        
+    
+    
+            
+                &lt;article class=&#34;hobby-card-item&#34; data-type=&#34;movie&#34; data-date=&#34;2026-12-30&#34;&gt;
+                    
+                    &lt;a href=&#34;https://movie.douban.com/subject/3882715/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+                    
+                        &lt;div class=&#34;hobby-card-image&#34;&gt;
+                            
+                                &lt;img src=&#34;https://p4.img.cctvpic.com/photoAlbum/vms/standard/img/2023/9/21/VSETMEtC9nNzXx7iy6JJYCwa230921.jpg&#34; alt=&#34;武林外传&#34; loading=&#34;lazy&#34;&gt;
+                            
+                            
+                        &lt;/div&gt;
+                        &lt;div class=&#34;hobby-card-details&#34;&gt;
+                            &lt;h3 class=&#34;hobby-card-title&#34;&gt;武林外传&lt;/h3&gt;
+                            
+                            &lt;span class=&#34;hobby-card-tag&#34;&gt;喜剧 / 武侠 / 古装&lt;/span&gt;
+                            
+                            
+                            
+                            
+                                
+                                
+                                
+                                
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                
+                                    
+                                
+                                
+                                &lt;p class=&#34;hobby-card-subtitle hobby-score&#34;&gt;
+                                    ⭐⭐⭐⭐✨
+                                    
+                                &lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Links | 链接</title>
+        <link>http://localhost:1313/links/</link>
+        <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/links/</guid>
+        <description>&lt;p&gt;欢迎在评论区流言交换友链，留言时请注明以下信息：&lt;/p&gt;
+&lt;blockquote class=&#34;alert-note&#34;&gt;
 名称：
-&lt;p>简介：&lt;/p>
-&lt;p>博客地址：&lt;/p>
-&lt;p>博客头像（如果有）：&lt;/p>
-&lt;/blockquote>
-&lt;p>以下是本站的信息：&lt;/p>
-&lt;blockquote class="alert-note">
+&lt;p&gt;简介：&lt;/p&gt;
+&lt;p&gt;博客地址：&lt;/p&gt;
+&lt;p&gt;博客头像（如果有）：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以下是本站的信息：&lt;/p&gt;
+&lt;blockquote class=&#34;alert-note&#34;&gt;
 名称：莫非
-&lt;p>简介：保留自己的真诚！&lt;/p>
-&lt;p>博客地址：&lt;a class="link" href="https://mmofei.github.io/" target="_blank" rel="noopener" >
-&lt;span style="display: inline-flex; align-items: center; gap: 0.5em;">
-https://mmofei.github.io/
-&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
-&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
-&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z" fill="currentColor" />
-&lt;/svg>
-&lt;/span>
-&lt;/a>&lt;/p></description></item><item><title>About | 关于</title><link>https://mmofei.github.io/about-%E5%85%B3%E4%BA%8E/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/about-%E5%85%B3%E4%BA%8E/</guid><description>&lt;style>
-/* 隐藏页面头部容器 */
-header.article-header {
-display: none !important;
-}
-&lt;/style>
-&lt;h2 id="关于我">关于我
-&lt;/h2>&lt;div id="heatmap" style="
-max-width: 1900px;
-height: 180px;
-padding: 2px;
-text-align: center;
-"
->&lt;/div>
-&lt;script src="https://cdn.jsdelivr.net/npm/echarts@5.3.0/dist/echarts.min.js">&lt;/script>
-&lt;script type="text/javascript">
-var chartDom = document.getElementById('heatmap');
-var myChart = echarts.init(chartDom);
-window.onresize = function() {
-myChart.resize();
-};
-function genOption(){
-var option;
-const colorSchemeItem = localStorage.getItem('StackColorScheme');
-if (colorSchemeItem == 'dark') {
-var color_t = ['#C4E1E6', '#A4CCD9', '#8DBCC7', '#578FCA' ];
-var color_font = '#fff';
-var color_cube = '#121212';
-var color_title = '#fff';
-var color_border = '#000';
-var color_split_month = 'rgba(0, 0, 0, 0.0)';
-} else {
-var color_t = ['#D2D0A0','#9EBC8A','#73946B','#537D5D'];
-var color_font = '#0E153A';
-var color_cube = '#f1f1f1';
-var color_title = '064232';
-var color_border = '#fff';
-var color_split_month = 'rgba(0, 0, 0, 0.0)';
-}
-option = {
-title: {
-top: 0,
-left: 'center',
-text: '博客热力图',
-textStyle: {
-color: color_title,
-fontSize: 20,
-}
-},
-tooltip: {
-hideDelay: 1000,
-enterable: true,
-formatter: function (p) {
-const date = p.data[0];
-const posts = dataMap.get(date);
-var content = `${date}`;
-for (const [i, post] of posts.entries()) {
-content += "&lt;br>";
-var link = post.link;
-var title = post.title;
-var wordCount = (post.wordCount / 1000).toFixed(1);
-content += `&lt;a href="${link}" target="_blank">${title} | ${wordCount} k&lt;/a>`
-}
-return content;
-}
-},
-visualMap: {
-min: 0,
-max: 10,
-type: 'piecewise',
-orient: 'horizontal',
-left: 'center',
-top: 30,
-inRange: {
-color: color_t,
-},
-splitNumber: 4,
-text: ['千字', ''],
-showLabel: true,
-itemGap: 20,
-textStyle: {
-color: color_font,
-}
-},
-calendar: {
-top: 80,
-left: 20,
-right: 4,
-cellSize: ['auto', 13],
-range: getRangeArr(),
-itemStyle: {
-color: color_cube,
-borderWidth: 1.5,
-borderColor: color_border,
-},
-monthLabel: { color: color_font },
-dayLabel: { color: color_font },
-yearLabel: { show: false },
-splitLine: {
-lineStyle: {
-color: 'rgba(0, 0, 0, 0.0)',
-}
-}
-},
-series: {
-type: 'heatmap',
-coordinateSystem: 'calendar',
-data: data,
-}
-};
-return option;
-}
-var dataMap = new Map();
-var key = "2025-11-26";
-var value = dataMap.get(key);
-var wordCount = 1437 ;
-var link = "/p/%E7%AC%94%E8%AE%B0/";
-var title = "计算机安全：原理与实践";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-11-24";
-var value = dataMap.get(key);
-var wordCount = 2332 ;
-var link = "/p/%E6%95%B4%E7%90%86%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/";
-var title = "渗透知识整理1";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-11-04";
-var value = dataMap.get(key);
-var wordCount = 3318 ;
-var link = "/p/%E8%AE%B0%E5%BD%95%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%92%8C%E8%B8%A9%E5%9D%91%E7%BB%8F%E5%8E%86/";
-var title = "upload-labs通关记录（1-21关）";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-09-08";
-var value = dataMap.get(key);
-var wordCount = 2495 ;
-var link = "/p/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/";
-var title = "前置知识整理（2）| 二进制";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-09-07";
-var value = dataMap.get(key);
-var wordCount = 277 ;
-var link = "/p/%E5%AD%A6%E4%B9%A0%E6%91%84%E5%BD%B1%E6%8A%80%E5%B7%A7%E5%AD%A6%E4%BC%9A%E6%8B%8D%E7%85%A7/";
-var title = "摄影 | 摄影眼的养成";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-09-04";
-var value = dataMap.get(key);
-var wordCount = 23 ;
-var link = "/p/%E8%AF%BB%E4%B8%80%E6%9C%AC%E5%A5%BD%E4%B9%A6%E5%9C%A8%E4%B9%A6%E4%B8%AD%E4%B8%B0%E5%AF%8C%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86/";
-var title = "好书阅读| 刻意练习";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-08-26";
-var value = dataMap.get(key);
-var wordCount = 0 ;
-var link = "/p/%E5%BF%85%E5%AD%A6%E7%9F%A5%E8%AF%86/";
-var title = "小白整理必学知识1";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-08-19";
-var value = dataMap.get(key);
-var wordCount = 976 ;
-var link = "/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/";
-var title = "前置知识整理（1）| CTF是什么";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-08-17";
-var value = dataMap.get(key);
-var wordCount = 552 ;
-var link = "/p/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6%E6%B8%B8%E6%88%8F%E8%AE%B0%E5%BD%95/";
-var title = "【游戏专区】| 桃源深处有人家（1）";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-08-17";
-var value = dataMap.get(key);
-var wordCount = 73 ;
-var link = "/p/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6%E7%94%B5%E8%84%91%E5%88%86%E5%8C%BA%E5%A3%81%E7%BA%B8%E5%8F%AF%E5%9C%A8%E5%B0%8F%E7%BA%A2%E4%B9%A6@%E8%8E%AB%E9%9D%9E%E9%A2%86%E5%8F%96/";
-var title = "【游戏专区】| 桃源深处有人家（2）";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-08-16";
-var value = dataMap.get(key);
-var wordCount = 380 ;
-var link = "/p/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0/";
-var title = "【网络爬虫】| python 爬虫";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-08-15";
-var value = dataMap.get(key);
-var wordCount = 243 ;
-var link = "/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86-%E5%8A%A8%E6%80%81%E5%88%86%E6%9E%90%E6%8A%80%E6%9C%AF/";
-var title = "【加密和解密】| 动态分析技术";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-08-14";
-var value = dataMap.get(key);
-var wordCount = 198 ;
-var link = "/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/";
-var title = "【hugo】| Hugo Stack 主题装修笔记（2）";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-08-13";
-var value = dataMap.get(key);
-var wordCount = 621 ;
-var link = "/p/first-blog/";
-var title = "【hugo】| Hugo Stack 主题装修笔记（1）";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-08-13";
-var value = dataMap.get(key);
-var wordCount = 4489 ;
-var link = "/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/";
-var title = "【加密和解密】| 基础篇";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}var data = [];
-for (const [key, value] of dataMap.entries()) {
-var sum = 0;
-for (const v of value) {
-sum += v.wordCount;
-}
-data.push([key, (sum / 1000).toFixed(1)]);
-}
-var startDate = new Date();
-var year_Mill = startDate.setFullYear((startDate.getFullYear() - 1));
-var startDate = +new Date(year_Mill);
-var endDate = +new Date();
-var dayTime = 3600 * 24 * 1000;
-startDate = echarts.format.formatTime('yyyy-MM-dd', startDate);
-endDate = echarts.format.formatTime('yyyy-MM-dd', endDate);
-function heatmap_width(months){
-var startDate = new Date();
-var mill = startDate.setMonth((startDate.getMonth() - months));
-var endDate = +new Date();
-startDate = +new Date(mill);
-endDate = echarts.format.formatTime('yyyy-MM-dd', endDate);
-startDate = echarts.format.formatTime('yyyy-MM-dd', startDate);
-var showmonth = [];
-showmonth.push([
-startDate,
-endDate
-]);
-return showmonth
-};
-function getRangeArr() {
-const windowWidth = window.innerWidth;
-if (windowWidth >= 600) {
-return heatmap_width(12);
-} else if (windowWidth >= 400) {
-return heatmap_width(9);
-} else {
-return heatmap_width(6);
-}
-}
-var option = genOption();
-myChart.setOption(option);
-myChart.on('click', function(params) {
-if (params.componentType === 'series') {
-const post = dataMap.get(params.data[0])[0];
-const link = window.location.origin + post.link;
-window.open(link, '_blank').focus();
-}
+&lt;p&gt;简介：保留自己的真诚！&lt;/p&gt;
+&lt;p&gt;博客地址：&lt;a class=&#34;link&#34; href=&#34;https://mmofei.github.io/&#34;   target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;
+    &lt;span style=&#34;display: inline-flex; align-items: center; gap: 0.5em;&#34;&gt;
+        https://mmofei.github.io/
+        
+            &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+                &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+                &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34; /&gt;
+            &lt;/svg&gt;
+        
+    &lt;/span&gt;
+&lt;/a&gt;&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>About | 关于</title>
+        <link>http://localhost:1313/about-%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/about-%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;style&gt;
+    /* 隐藏页面头部容器 */
+    header.article-header {
+        display: none !important;
+    }
+&lt;/style&gt;
+&lt;h2 id=&#34;关于我&#34;&gt;关于我
+&lt;/h2&gt;&lt;div id=&#34;heatmap&#34; style=&#34;
+  max-width: 1900px;
+  height: 180px;
+  padding: 2px;
+  text-align: center;
+  &#34;
+&gt;&lt;/div&gt;
+&lt;script src=&#34;https://cdn.jsdelivr.net/npm/echarts@5.3.0/dist/echarts.min.js&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+  var chartDom = document.getElementById(&#39;heatmap&#39;);
+  var myChart = echarts.init(chartDom);
+  window.onresize = function() {
+      myChart.resize();
+  };
+  
+  function genOption(){
+    var option;
+    const colorSchemeItem = localStorage.getItem(&#39;StackColorScheme&#39;); 
+    if (colorSchemeItem == &#39;dark&#39;) {
+      var color_t = [&#39;#C4E1E6&#39;, &#39;#A4CCD9&#39;, &#39;#8DBCC7&#39;, &#39;#578FCA&#39; ]; 
+      var color_font = &#39;#fff&#39;; 
+      var color_cube = &#39;#121212&#39;; 
+      var color_title = &#39;#fff&#39;; 
+      var color_border = &#39;#000&#39;; 
+      var color_split_month = &#39;rgba(0, 0, 0, 0.0)&#39;; 
+      
+    } else {
+      var color_t = [&#39;#D2D0A0&#39;,&#39;#9EBC8A&#39;,&#39;#73946B&#39;,&#39;#537D5D&#39;]; 
+      var color_font = &#39;#0E153A&#39;; 
+      var color_cube = &#39;#f1f1f1&#39;; 
+      var color_title = &#39;064232&#39;; 
+      var color_border = &#39;#fff&#39;; 
+      var color_split_month = &#39;rgba(0, 0, 0, 0.0)&#39;; 
+    }
+    option = {
+      title: {
+          top: 0,
+          left: &#39;center&#39;,
+          text: &#39;博客热力图&#39;,
+          textStyle: {
+            color: color_title,
+            fontSize: 20,
+          }
+      },
+      tooltip: {
+        hideDelay: 1000,
+        enterable: true,
+        formatter: function (p) {
+          const date = p.data[0];
+          const posts = dataMap.get(date);
+          var content = `${date}`;
+          for (const [i, post] of posts.entries()) {
+              content += &#34;&lt;br&gt;&#34;;
+              var link = post.link;
+              var title = post.title;
+              var wordCount = (post.wordCount / 1000).toFixed(1);
+              content += `&lt;a href=&#34;${link}&#34; target=&#34;_blank&#34;&gt;${title} | ${wordCount} k&lt;/a&gt;`
+          }
+          return content;
+        }
+      },
+      visualMap: {
+        min: 0,
+        max: 10,
+        type: &#39;piecewise&#39;,
+        orient: &#39;horizontal&#39;,
+        left: &#39;center&#39;,
+        top: 30,
+
+        inRange: {   
+          
+          color: color_t,
+        },
+        splitNumber: 4,
+        text: [&#39;千字&#39;, &#39;&#39;],
+        showLabel: true,
+        itemGap: 20,
+        textStyle: {
+          color: color_font,
+        }
+      },
+      calendar: {
+        top: 80,
+        left: 20,
+        right: 4,
+        cellSize: [&#39;auto&#39;, 13],
+        range: getRangeArr(),
+        itemStyle: {
+            color: color_cube,
+            borderWidth: 1.5,
+            borderColor: color_border,
+        },
+        monthLabel: { color: color_font },
+        dayLabel: { color: color_font },
+        yearLabel: { show: false },
+        
+        splitLine: {
+          lineStyle: {
+            color: &#39;rgba(0, 0, 0, 0.0)&#39;,
+            
+            
+            
+            
+          }
+        }
+      },
+      series: {
+        type: &#39;heatmap&#39;,
+        coordinateSystem: &#39;calendar&#39;,
+        data: data,
+      }
+  };
+    return option;
+  }
+  
+  
+  
+  
+  
+  
+  
+  var dataMap = new Map();
+  
+    var key = &#34;2026-05-17&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  0 ;
+    var link = &#34;/p/%E8%AF%BB%E8%AE%BA%E6%96%87/&#34;;
+    var title = &#34;论文研读&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2026-05-17&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  0 ;
+    var link = &#34;/p/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/&#34;;
+    var title = &#34;年度总结&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2026-05-17&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  0 ;
+    var link = &#34;/p/%E4%B8%80%E4%BA%9B%E7%A2%8E%E7%A2%8E%E5%BF%B5/&#34;;
+    var title = &#34;碎碎念&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-11-26&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  1437 ;
+    var link = &#34;/p/%E7%AC%94%E8%AE%B0/&#34;;
+    var title = &#34;计算机安全：原理与实践&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-11-24&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  2332 ;
+    var link = &#34;/p/%E6%95%B4%E7%90%86%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/&#34;;
+    var title = &#34;渗透知识整理1&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-11-04&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  3318 ;
+    var link = &#34;/p/%E8%AE%B0%E5%BD%95%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%92%8C%E8%B8%A9%E5%9D%91%E7%BB%8F%E5%8E%86/&#34;;
+    var title = &#34;upload-labs通关记录（1-21关）&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-09-08&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  2495 ;
+    var link = &#34;/p/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/&#34;;
+    var title = &#34;前置知识整理（2）| 二进制&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-09-07&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  277 ;
+    var link = &#34;/p/%E5%AD%A6%E4%B9%A0%E6%91%84%E5%BD%B1%E6%8A%80%E5%B7%A7%E5%AD%A6%E4%BC%9A%E6%8B%8D%E7%85%A7/&#34;;
+    var title = &#34;摄影 | 摄影眼的养成&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-09-04&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  23 ;
+    var link = &#34;/p/%E8%AF%BB%E4%B8%80%E6%9C%AC%E5%A5%BD%E4%B9%A6%E5%9C%A8%E4%B9%A6%E4%B8%AD%E4%B8%B0%E5%AF%8C%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86/&#34;;
+    var title = &#34;好书阅读| 刻意练习&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-26&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  0 ;
+    var link = &#34;/p/%E5%BF%85%E5%AD%A6%E7%9F%A5%E8%AF%86/&#34;;
+    var title = &#34;小白整理必学知识1&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-19&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  976 ;
+    var link = &#34;/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/&#34;;
+    var title = &#34;前置知识整理（1）| CTF是什么&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-17&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  552 ;
+    var link = &#34;/p/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6%E6%B8%B8%E6%88%8F%E8%AE%B0%E5%BD%95/&#34;;
+    var title = &#34;【游戏专区】| 桃源深处有人家（1）&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-17&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  73 ;
+    var link = &#34;/p/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6%E7%94%B5%E8%84%91%E5%88%86%E5%8C%BA%E5%A3%81%E7%BA%B8%E5%8F%AF%E5%9C%A8%E5%B0%8F%E7%BA%A2%E4%B9%A6@%E8%8E%AB%E9%9D%9E%E9%A2%86%E5%8F%96/&#34;;
+    var title = &#34;【游戏专区】| 桃源深处有人家（2）&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-16&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  380 ;
+    var link = &#34;/p/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0/&#34;;
+    var title = &#34;【网络爬虫】| python 爬虫&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-15&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  243 ;
+    var link = &#34;/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86-%E5%8A%A8%E6%80%81%E5%88%86%E6%9E%90%E6%8A%80%E6%9C%AF/&#34;;
+    var title = &#34;【加密和解密】| 动态分析技术&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-14&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  975 ;
+    var link = &#34;/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/&#34;;
+    var title = &#34;【hugo】| Hugo Stack 主题装修笔记（2）&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-13&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  4489 ;
+    var link = &#34;/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/&#34;;
+    var title = &#34;【加密和解密】| 基础篇&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-13&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  1438 ;
+    var link = &#34;/p/first-blog/&#34;;
+    var title = &#34;博客搭建 | Hugo Stack 主题装修笔记（1）&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }var data = [];
+  
+  for (const [key, value] of dataMap.entries()) {
+    var sum = 0;
+    for (const v of value) {
+      sum += v.wordCount;
+    }
+    data.push([key, (sum / 1000).toFixed(1)]);
+  }
+
+  var startDate = new Date();
+  var year_Mill = startDate.setFullYear((startDate.getFullYear() - 1));
+  var startDate = +new Date(year_Mill);
+  var endDate = +new Date();
+
+  var dayTime = 3600 * 24 * 1000;
+  startDate = echarts.format.formatTime(&#39;yyyy-MM-dd&#39;, startDate);
+  endDate = echarts.format.formatTime(&#39;yyyy-MM-dd&#39;, endDate);
+
+  
+  function heatmap_width(months){         
+    var startDate = new Date();
+    var mill = startDate.setMonth((startDate.getMonth() - months));
+    var endDate = +new Date();
+    startDate = +new Date(mill);
+
+    endDate = echarts.format.formatTime(&#39;yyyy-MM-dd&#39;, endDate);
+    startDate = echarts.format.formatTime(&#39;yyyy-MM-dd&#39;, startDate);
+
+    var showmonth = [];
+    showmonth.push([
+        startDate,
+        endDate
+    ]);
+    return showmonth
+  };
+
+  function getRangeArr() {
+    const windowWidth = window.innerWidth;
+    if (windowWidth &gt;= 600) {
+      return heatmap_width(12);
+    } else if (windowWidth &gt;= 400) {
+      return heatmap_width(9);
+    } else {
+      return heatmap_width(6);
+    }
+  }
+  var option = genOption();
+  myChart.setOption(option);
+  myChart.on(&#39;click&#39;, function(params) {
+    if (params.componentType === &#39;series&#39;) {
+      
+      const post = dataMap.get(params.data[0])[0];
+      const link = window.location.origin + post.link;
+      window.open(link, &#39;_blank&#39;).focus();
+    }
 });
-function updateChartColors() {
-option = genOption();
-myChart.setOption(option);
-}
-window.addEventListener('colorSchemeChange', updateChartColors);
-&lt;/script></description></item><item><title>Archives | 博文</title><link>https://mmofei.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/archives/</guid><description/></item><item><title>Search | 搜索</title><link>https://mmofei.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/search/</guid><description/></item></channel></rss>
+
+  function updateChartColors() {
+    option = genOption();
+    myChart.setOption(option);
+  }
+
+  window.addEventListener(&#39;colorSchemeChange&#39;, updateChartColors);
+&lt;/script&gt;</description>
+        </item>
+        <item>
+        <title>Archives | 博文</title>
+        <link>http://localhost:1313/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Search | 搜索</title>
+        <link>http://localhost:1313/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,499 +1,866 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mofei | 莫非</title><link>https://mmofei.github.io/</link><description>Recent content on Mofei | 莫非</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>本博客仅用于记录个人的成长和学习，所有内容仅为个人观点!</copyright><lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://mmofei.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Filmo | 爱好</title><link>https://mmofei.github.io/filmo-%E7%88%B1%E5%A5%BD/</link><pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/filmo-%E7%88%B1%E5%A5%BD/</guid><description>&lt;style>
-header.article-header {
-display: none !important;
-}
-&lt;/style>
-&lt;!-- 日期格式：请确保 date 参数格式统一为 YYYY-MM-DD，这样字符串比较才能正确反映时间先后。如果只有年份，可以写 2023-01-01。
-类型名称：type 的值必须与 tab-container.html 中按钮的 data-filter 值一致（即 movie, book, music, game）。 -->
-&lt;div class="hobby-tabs-wrapper">
-&lt;div class="labels">
-&lt;button class="tab-btn active" data-filter="all">全部&lt;/button>
-&lt;button class="tab-btn" data-filter="movie">🎬 电影&lt;/button>
-&lt;button class="tab-btn" data-filter="music">🎵 音乐&lt;/button>
-&lt;button class="tab-btn" data-filter="book">📚 书籍&lt;/button>
-&lt;button class="tab-btn" data-filter="game">🎮 游戏&lt;/button>
-&lt;/div>
-&lt;div class="hobby-card-grid" id="hobby-grid">
-&lt;!-- 电影 -->
-&lt;article class="hobby-card-item" data-type="movie" data-date="2024-03-08">
-&lt;a href="https://movie.douban.com/subject/35576860/" target="_blank" rel="noopener noreferrer">
-&lt;div class="hobby-card-image">
-&lt;img src="https://image.tmdb.org/t/p/w500/1E5baAaEse26fej7uHkjJDveYoW.jpg" alt="沙丘2" loading="lazy">
-&lt;span class="hobby-card-tag">科幻&lt;/span>
-&lt;/div>
-&lt;div class="hobby-card-details">
-&lt;h3 class="hobby-card-title">沙丘2&lt;/h3>
-&lt;p class="hobby-card-subtitle">⭐⭐⭐⭐⭐ 2024&lt;/p></description></item><item><title>Links | 链接</title><link>https://mmofei.github.io/links/</link><pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/links/</guid><description>&lt;p>欢迎在评论区流言交换友链，留言时请注明以下信息：&lt;/p>
-&lt;blockquote class="alert-note">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Mofei&#39;s Blog</title>
+        <link>http://localhost:1313/</link>
+        <description>Recent content on Mofei&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Mofei</copyright>
+        <lastBuildDate>Sun, 17 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>论文研读</title>
+        <link>http://localhost:1313/p/%E8%AF%BB%E8%AE%BA%E6%96%87/</link>
+        <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E8%AF%BB%E8%AE%BA%E6%96%87/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>年度总结</title>
+        <link>http://localhost:1313/p/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
+        <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>碎碎念</title>
+        <link>http://localhost:1313/p/%E4%B8%80%E4%BA%9B%E7%A2%8E%E7%A2%8E%E5%BF%B5/</link>
+        <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E4%B8%80%E4%BA%9B%E7%A2%8E%E7%A2%8E%E5%BF%B5/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Filmo | 爱好</title>
+        <link>http://localhost:1313/filmo-%E7%88%B1%E5%A5%BD/</link>
+        <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/filmo-%E7%88%B1%E5%A5%BD/</guid>
+        <description>&lt;style&gt;
+    header.article-header {
+        display: none !important;
+    }
+&lt;/style&gt;
+
+&lt;div class=&#34;hobby-tabs-wrapper&#34;&gt;
+    
+    &lt;div class=&#34;labels&#34;&gt;
+        &lt;button class=&#34;tab-btn active&#34; data-filter=&#34;all&#34;&gt;全部&lt;/button&gt;
+        &lt;button class=&#34;tab-btn&#34; data-filter=&#34;movie&#34;&gt;🎬 影视&lt;/button&gt;
+        &lt;button class=&#34;tab-btn&#34; data-filter=&#34;book&#34;&gt;📚 书籍&lt;/button&gt;
+        &lt;button class=&#34;tab-btn&#34; data-filter=&#34;music&#34;&gt;🎵 音乐&lt;/button&gt;
+        &lt;button class=&#34;tab-btn&#34; data-filter=&#34;game&#34;&gt;🎮 游戏&lt;/button&gt;
+    &lt;/div&gt;
+
+    
+    &lt;div class=&#34;hobby-card-grid&#34; id=&#34;hobby-grid&#34;&gt;
+        
+
+    &lt;!-- 引入电影数据 --&gt;
+    
+    
+    
+    
+    
+    
+    
+        
+        
+    
+        
+    
+    
+            
+                &lt;div class=&#34;hobby-divider&#34; 
+                     data-date=&#34;2026-12-31&#34; 
+                     data-type=&#34;divider&#34; 
+                     data-category=&#34;movie&#34;&gt;
+                    &lt;h3 class=&#34;hobby-divider-title&#34;&gt;2026&lt;/h3&gt;
+                &lt;/div&gt;
+            
+        
+    
+    
+            
+                &lt;article class=&#34;hobby-card-item&#34; data-type=&#34;movie&#34; data-date=&#34;2026-12-30&#34;&gt;
+                    
+                    &lt;a href=&#34;https://movie.douban.com/subject/3882715/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+                    
+                        &lt;div class=&#34;hobby-card-image&#34;&gt;
+                            
+                                &lt;img src=&#34;https://p4.img.cctvpic.com/photoAlbum/vms/standard/img/2023/9/21/VSETMEtC9nNzXx7iy6JJYCwa230921.jpg&#34; alt=&#34;武林外传&#34; loading=&#34;lazy&#34;&gt;
+                            
+                            
+                        &lt;/div&gt;
+                        &lt;div class=&#34;hobby-card-details&#34;&gt;
+                            &lt;h3 class=&#34;hobby-card-title&#34;&gt;武林外传&lt;/h3&gt;
+                            
+                            &lt;span class=&#34;hobby-card-tag&#34;&gt;喜剧 / 武侠 / 古装&lt;/span&gt;
+                            
+                            
+                            
+                            
+                                
+                                
+                                
+                                
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                
+                                    
+                                
+                                
+                                &lt;p class=&#34;hobby-card-subtitle hobby-score&#34;&gt;
+                                    ⭐⭐⭐⭐✨
+                                    
+                                &lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Links | 链接</title>
+        <link>http://localhost:1313/links/</link>
+        <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/links/</guid>
+        <description>&lt;p&gt;欢迎在评论区流言交换友链，留言时请注明以下信息：&lt;/p&gt;
+&lt;blockquote class=&#34;alert-note&#34;&gt;
 名称：
-&lt;p>简介：&lt;/p>
-&lt;p>博客地址：&lt;/p>
-&lt;p>博客头像（如果有）：&lt;/p>
-&lt;/blockquote>
-&lt;p>以下是本站的信息：&lt;/p>
-&lt;blockquote class="alert-note">
+&lt;p&gt;简介：&lt;/p&gt;
+&lt;p&gt;博客地址：&lt;/p&gt;
+&lt;p&gt;博客头像（如果有）：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以下是本站的信息：&lt;/p&gt;
+&lt;blockquote class=&#34;alert-note&#34;&gt;
 名称：莫非
-&lt;p>简介：保留自己的真诚！&lt;/p>
-&lt;p>博客地址：&lt;a class="link" href="https://mmofei.github.io/" target="_blank" rel="noopener" >
-&lt;span style="display: inline-flex; align-items: center; gap: 0.5em;">
-https://mmofei.github.io/
-&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
-&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
-&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z" fill="currentColor" />
-&lt;/svg>
-&lt;/span>
-&lt;/a>&lt;/p></description></item><item><title>计算机安全：原理与实践</title><link>https://mmofei.github.io/p/%E7%AC%94%E8%AE%B0/</link><pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/p/%E7%AC%94%E8%AE%B0/</guid><description>&lt;img src="https://mmofei.github.io/p/%E7%AC%94%E8%AE%B0/1.jpg" alt="Featured image of post 计算机安全：原理与实践" />&lt;h2 id="1概述">1.概述
-&lt;/h2>&lt;pre>&lt;code>学习目标：
-1.描述有关机密性、完整性和可用性的关键安全要求
-2.讨论安全威胁、安全攻击的类型，给出不同类型计算机和网络资产面临这几类威胁和攻击的例子
-3.概述计算机安全的基本要求
-4.解释基本安全设计原则
-5.讨论攻击面和攻击树的用途
-6.理解全面安全策略的主要方面
-&lt;/code>&lt;/pre>
-&lt;h3 id="11计算机安全的概念">1.1计算机安全的概念
-&lt;/h3>&lt;pre>&lt;code>计算机安全：保证信息系统资产的机密性、完整性和可用性的措施和控制方法，其中资产包括硬件、软件、固件以及要处理、存储和通信的信息
-&lt;/code>&lt;/pre>
-&lt;p>CIA三元组：机密性(confidentiality)、完整性(integrity)和可用性(availability)&lt;/p></description></item><item><title>渗透知识整理1</title><link>https://mmofei.github.io/p/%E6%95%B4%E7%90%86%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/</link><pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/p/%E6%95%B4%E7%90%86%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/</guid><description>&lt;img src="https://mmofei.github.io/p/%E6%95%B4%E7%90%86%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/1.jpg" alt="Featured image of post 渗透知识整理1" />&lt;h2 id="渗透环境准备">渗透环境准备
-&lt;/h2>&lt;h3 id="渗透工具">渗透工具
-&lt;/h3>&lt;h4 id="java">Java
-&lt;/h4>&lt;pre>&lt;code>JDK 8
-&lt;/code>&lt;/pre>
-&lt;h4 id="python">python
-&lt;/h4>&lt;pre>&lt;code>miniconda3虚拟环境中安装
-&lt;/code>&lt;/pre>
-&lt;h4 id="vmware">VMware
-&lt;/h4>&lt;pre>&lt;code>虚拟机
-&lt;/code>&lt;/pre>
-&lt;h4 id="linux使用基础">Linux使用基础
-&lt;/h4>&lt;h4 id="kail-linux">kail Linux
-&lt;/h4>&lt;pre>&lt;code>1、下载Kail Linux 的iso镜像，使用VMWare虚拟机安装镜像，然后搭建一个kail Linux环境
+&lt;p&gt;简介：保留自己的真诚！&lt;/p&gt;
+&lt;p&gt;博客地址：&lt;a class=&#34;link&#34; href=&#34;https://mmofei.github.io/&#34;   target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;
+    &lt;span style=&#34;display: inline-flex; align-items: center; gap: 0.5em;&#34;&gt;
+        https://mmofei.github.io/
+        
+            &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+                &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+                &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34; /&gt;
+            &lt;/svg&gt;
+        
+    &lt;/span&gt;
+&lt;/a&gt;&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>计算机安全：原理与实践</title>
+        <link>http://localhost:1313/p/%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E7%AC%94%E8%AE%B0/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E7%AC%94%E8%AE%B0/1.jpg" alt="Featured image of post 计算机安全：原理与实践" /&gt;&lt;h2 id=&#34;1概述&#34;&gt;1.概述
+&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;学习目标：
+    1.描述有关机密性、完整性和可用性的关键安全要求
+    2.讨论安全威胁、安全攻击的类型，给出不同类型计算机和网络资产面临这几类威胁和攻击的例子
+    3.概述计算机安全的基本要求
+    4.解释基本安全设计原则
+    5.讨论攻击面和攻击树的用途
+    6.理解全面安全策略的主要方面
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;11计算机安全的概念&#34;&gt;1.1计算机安全的概念
+&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;计算机安全：保证信息系统资产的机密性、完整性和可用性的措施和控制方法，其中资产包括硬件、软件、固件以及要处理、存储和通信的信息
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;CIA三元组：机密性(confidentiality)、完整性(integrity)和可用性(availability)&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>渗透知识整理1</title>
+        <link>http://localhost:1313/p/%E6%95%B4%E7%90%86%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/</link>
+        <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E6%95%B4%E7%90%86%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E6%95%B4%E7%90%86%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/1.jpg" alt="Featured image of post 渗透知识整理1" /&gt;&lt;h2 id=&#34;渗透环境准备&#34;&gt;渗透环境准备
+&lt;/h2&gt;&lt;h3 id=&#34;渗透工具&#34;&gt;渗透工具
+&lt;/h3&gt;&lt;h4 id=&#34;java&#34;&gt;Java
+&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;JDK 8
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;python&#34;&gt;python
+&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;miniconda3虚拟环境中安装
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;vmware&#34;&gt;VMware
+&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;虚拟机
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;linux使用基础&#34;&gt;Linux使用基础
+&lt;/h4&gt;&lt;h4 id=&#34;kail-linux&#34;&gt;kail Linux
+&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;1、下载Kail Linux 的iso镜像，使用VMWare虚拟机安装镜像，然后搭建一个kail Linux环境
 2、配置Kail Lnux
-&lt;/code>&lt;/pre>
-&lt;h4 id="虚拟靶场环境搭建">虚拟靶场环境搭建
-&lt;/h4>&lt;h4 id="docker">Docker
-&lt;/h4>&lt;pre>&lt;code>一个开源的应用容器引擎，让开发者可以打包应用及依赖包到一个可移植的容器中，然后发布到任何流行的Linux或Windows机器上，也可以实现虚拟化容器（使用沙箱机制）
-&lt;/code>&lt;/pre>
-&lt;h5 id="组成部分">组成部分
-&lt;/h5>&lt;pre>&lt;code>Docker Client ：客户端
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;虚拟靶场环境搭建&#34;&gt;虚拟靶场环境搭建
+&lt;/h4&gt;&lt;h4 id=&#34;docker&#34;&gt;Docker
+&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;一个开源的应用容器引擎，让开发者可以打包应用及依赖包到一个可移植的容器中，然后发布到任何流行的Linux或Windows机器上，也可以实现虚拟化容器（使用沙箱机制）
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h5 id=&#34;组成部分&#34;&gt;组成部分
+&lt;/h5&gt;&lt;pre&gt;&lt;code&gt;Docker Client ：客户端
 Docker Daemon ：守护进程
 Docker Image ：镜像
 Docker Container ：容器
-&lt;/code>&lt;/pre>
-&lt;h5 id="安装">安装
-&lt;/h5>&lt;pre>&lt;code>1、下载docker(这里使用了脚本)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h5 id=&#34;安装&#34;&gt;安装
+&lt;/h5&gt;&lt;pre&gt;&lt;code&gt;1、下载docker(这里使用了脚本)
 2、查看docker服务状态 [root@localhost ~]# systemctl status docker
 3、启动docker服务 [root@localhost ~]# systemctl start docker
 4、开启自动启动Docker服务 [root@localhost ~]# systemctl enable docker
 5、安装docker-compose（虽然新版Docker自带了compose命令，但是不好用，还是自己安装一个docker-compose）
 6、配置为国内镜像源
-&lt;/code>&lt;/pre>
-&lt;h5 id="基本操作">基本操作
-&lt;/h5>&lt;h6 id="镜像操作">镜像操作
-&lt;/h6>&lt;pre>&lt;code>1、查看镜像 [root@localhost ~]# docker images/docker image ls -a
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h5 id=&#34;基本操作&#34;&gt;基本操作
+&lt;/h5&gt;&lt;h6 id=&#34;镜像操作&#34;&gt;镜像操作
+&lt;/h6&gt;&lt;pre&gt;&lt;code&gt;1、查看镜像 [root@localhost ~]# docker images/docker image ls -a
 2、拉取镜像 [root@localhost ~]# docker image pull +镜像名
 3、删除镜像 [root@localhost ~]# docker image rm +镜像名/docker rmi +镜像名/镜像ID（正在运行的容器是无法删除的）
-4、停止镜像[root@localhost ~]# docker ps
+4、停止镜像[root@localhost ~]# docker ps 
 5、镜像保存[root@localhost ~]# docker save -o 保存的文件 镜像名
 6、镜像加载[root@localhost ~]# docker load -i 镜像文件
-&lt;/code>&lt;/pre>
-&lt;h6 id="容器操作">容器操作
-&lt;/h6>&lt;pre>&lt;code>1、创建容器 [root@localhost ~]# docker run -it +镜像名 /bin/bash（交互式容器）/docker run -dit +镜像名 /bn/bash（守护式容器）
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h6 id=&#34;容器操作&#34;&gt;容器操作
+&lt;/h6&gt;&lt;pre&gt;&lt;code&gt;1、创建容器 [root@localhost ~]# docker run -it +镜像名 /bin/bash（交互式容器）/docker run -dit +镜像名 /bn/bash（守护式容器）
 2、查看容器 [root@localhost ~]# docker ps /docker container ls/docker ps -a/docker container ls --all
 3、启动容器 [root@localhost ~]# docker start +容器ID（容器名）/docker container start +容器ID（容器名）
 4、停止容器 [root@localhost ~]# docker stop +容器ID（容器名）/docker container stop +容器ID（容器名）
 5、删除容器 [root@localhost ~]# docker rm +容器ID（容器名）/docker container rm +容器ID（容器名）/docker container rm -f +容器ID（容器名）
 6、容器保存为镜像 [root@localhost ~]# docker commit +容器名 镜像名
-&lt;/code>&lt;/pre>
-&lt;h2 id="渗透测试基础">渗透测试基础
-&lt;/h2>&lt;h3 id="网络协议基础">网络协议基础
-&lt;/h3>&lt;h4 id="分层网络协议osi七层tcp四层五层">分层网络协议（OSI七层、TCP四层、五层）
-&lt;/h4>&lt;p>这里使用的是五层模型&lt;/p></description></item><item><title>upload-labs通关记录（1-21关）</title><link>https://mmofei.github.io/p/%E8%AE%B0%E5%BD%95%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%92%8C%E8%B8%A9%E5%9D%91%E7%BB%8F%E5%8E%86/</link><pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/p/%E8%AE%B0%E5%BD%95%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%92%8C%E8%B8%A9%E5%9D%91%E7%BB%8F%E5%8E%86/</guid><description>&lt;img src="https://mmofei.github.io/p/%E8%AE%B0%E5%BD%95%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%92%8C%E8%B8%A9%E5%9D%91%E7%BB%8F%E5%8E%86/1.jpg" alt="Featured image of post upload-labs通关记录（1-21关）" />&lt;h2 id="环境部署">环境部署
-&lt;/h2>&lt;h3 id="windows搭建">windows搭建
-&lt;/h3>&lt;h4 id="upload-labs">upload-labs
-&lt;/h4>&lt;p>一个专门用于学习和测试文件上传漏洞的开源靶场&lt;/p>
-&lt;p>&lt;a class="link" href="https://github.com/c0ny1/upload-labs" target="_blank" rel="noopener" >
-&lt;span style="display: inline-flex; align-items: center; gap: 0.5em;">
-c0ny1/upload-labs:一个想帮你总结所有类型的上传漏洞的靶场
-&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
-&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
-&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z" fill="currentColor" />
-&lt;/svg>
-&lt;/span>
-&lt;/a>（github有时候国内访问慢）&lt;/p></description></item><item><title>前置知识整理（2）| 二进制</title><link>https://mmofei.github.io/p/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/</link><pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/p/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/</guid><description>&lt;img src="https://mmofei.github.io/p/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/2.jpg" alt="Featured image of post 前置知识整理（2）| 二进制" />&lt;h1 id="导语">导语
-&lt;/h1>&lt;h2 id="二进制安全">二进制安全
-&lt;/h2>&lt;p>二进制安全是一盒比较偏向底层的方向，对计算机基础要求较高&lt;/p>
-&lt;ul>
-&lt;li>C/C++&lt;/li>
-&lt;li>Python&lt;/li>
-&lt;li>汇编语言&lt;/li>
-&lt;li>计算机组成原理&lt;/li>
-&lt;li>操作系统&lt;/li>
-&lt;li>编译原理&lt;/li>
-&lt;/ul>
-&lt;p>二进制安全可以细分为逆向工程和漏洞挖掘与利用等方向&lt;/p></description></item><item><title>摄影 | 摄影眼的养成</title><link>https://mmofei.github.io/p/%E5%AD%A6%E4%B9%A0%E6%91%84%E5%BD%B1%E6%8A%80%E5%B7%A7%E5%AD%A6%E4%BC%9A%E6%8B%8D%E7%85%A7/</link><pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/p/%E5%AD%A6%E4%B9%A0%E6%91%84%E5%BD%B1%E6%8A%80%E5%B7%A7%E5%AD%A6%E4%BC%9A%E6%8B%8D%E7%85%A7/</guid><description>&lt;img src="https://mmofei.github.io/p/%E5%AD%A6%E4%B9%A0%E6%91%84%E5%BD%B1%E6%8A%80%E5%B7%A7%E5%AD%A6%E4%BC%9A%E6%8B%8D%E7%85%A7/1.jpg" alt="Featured image of post 摄影 | 摄影眼的养成" />&lt;h1 id="导语">导语
-&lt;/h1>&lt;p>我没有经过系统的训练，记录一下在小红书学到的知识&lt;/p>
-&lt;h1 id="摄影眼提高方法">摄影眼提高方法
-&lt;/h1>&lt;h2 id="看照片">看照片
-&lt;/h2>&lt;ul>
-&lt;li>
-&lt;p>刷优秀摄影作品，思考以下问题：&lt;/p>
-&lt;p>1.构图&lt;/p>
-&lt;p>2.光线（如何使用）&lt;/p>
-&lt;p>3.画面（画面想呈现给观众什么内容）&lt;/p></description></item><item><title>好书阅读| 刻意练习</title><link>https://mmofei.github.io/p/%E8%AF%BB%E4%B8%80%E6%9C%AC%E5%A5%BD%E4%B9%A6%E5%9C%A8%E4%B9%A6%E4%B8%AD%E4%B8%B0%E5%AF%8C%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86/</link><pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/p/%E8%AF%BB%E4%B8%80%E6%9C%AC%E5%A5%BD%E4%B9%A6%E5%9C%A8%E4%B9%A6%E4%B8%AD%E4%B8%B0%E5%AF%8C%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86/</guid><description>&lt;img src="https://mmofei.github.io/p/%E8%AF%BB%E4%B8%80%E6%9C%AC%E5%A5%BD%E4%B9%A6%E5%9C%A8%E4%B9%A6%E4%B8%AD%E4%B8%B0%E5%AF%8C%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86/1.jpg" alt="Featured image of post 好书阅读| 刻意练习" />&lt;h1 id="导读">导读
-&lt;/h1>&lt;p>放弃一切错误方法，开始“刻意练习”&lt;/p>
-&lt;h1 id="重点内容">重点内容
-&lt;/h1></description></item><item><title>小白整理必学知识1</title><link>https://mmofei.github.io/p/%E5%BF%85%E5%AD%A6%E7%9F%A5%E8%AF%86/</link><pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/p/%E5%BF%85%E5%AD%A6%E7%9F%A5%E8%AF%86/</guid><description/></item><item><title>前置知识整理（1）| CTF是什么</title><link>https://mmofei.github.io/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/</link><pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/</guid><description>&lt;img src="https://mmofei.github.io/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/1.jpg" alt="Featured image of post 前置知识整理（1）| CTF是什么" />&lt;h2 id="导语">导语
-&lt;/h2>&lt;p>最近发现自己的知识体系有点混乱，感觉什么都学了，但是什么都没学会。借这篇文章整理下自己的思路，顺便系统学习一下什么是CTF&lt;/p>
-&lt;h2 id="ctf">CTF
-&lt;/h2>&lt;p>CTF（Capture The Flag），夺旗赛。参赛方通过攻防对抗、程序分析等形式，率先从主办方的给出的比赛环境中得到一串具有一定格式的字符串或其他内容，并提交给主办方，从而夺得分数。这串内容为Flag&lt;/p></description></item><item><title>【游戏专区】| 桃源深处有人家（1）</title><link>https://mmofei.github.io/p/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6%E6%B8%B8%E6%88%8F%E8%AE%B0%E5%BD%95/</link><pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/p/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6%E6%B8%B8%E6%88%8F%E8%AE%B0%E5%BD%95/</guid><description>&lt;img src="https://mmofei.github.io/p/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6%E6%B8%B8%E6%88%8F%E8%AE%B0%E5%BD%95/1.jpg" alt="Featured image of post 【游戏专区】| 桃源深处有人家（1）" />&lt;h2 id="导语">导语
-&lt;/h2>&lt;p>玩了这个游戏很久了，想要记录一下。&lt;/p>
-&lt;p>开始的时候来源于朋友的推荐，自己没有好好了解过这个游戏，玩的都是稀里糊涂的。现在想深度了解下这个游戏&lt;/p>
-&lt;h2 id="官方简介">官方简介
-&lt;/h2>&lt;p>《桃源深处有人家》是一款悠然治愈的国风山水田园经营手游。回到心中的故乡，远离尘世，过一份安静恬淡的小生活。在这里，有活泼淘气的妹妹陪伴在身边；有可爱神奇的萝卜山灵与你一同生活；有迷失在幻境中寻求解忧的灵魂；还有那居住在山下似曾相识的故人们……&lt;/p></description></item><item><title>【游戏专区】| 桃源深处有人家（2）</title><link>https://mmofei.github.io/p/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6%E7%94%B5%E8%84%91%E5%88%86%E5%8C%BA%E5%A3%81%E7%BA%B8%E5%8F%AF%E5%9C%A8%E5%B0%8F%E7%BA%A2%E4%B9%A6@%E8%8E%AB%E9%9D%9E%E9%A2%86%E5%8F%96/</link><pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/p/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6%E7%94%B5%E8%84%91%E5%88%86%E5%8C%BA%E5%A3%81%E7%BA%B8%E5%8F%AF%E5%9C%A8%E5%B0%8F%E7%BA%A2%E4%B9%A6@%E8%8E%AB%E9%9D%9E%E9%A2%86%E5%8F%96/</guid><description>&lt;img src="https://mmofei.github.io/p/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6%E7%94%B5%E8%84%91%E5%88%86%E5%8C%BA%E5%A3%81%E7%BA%B8%E5%8F%AF%E5%9C%A8%E5%B0%8F%E7%BA%A2%E4%B9%A6@%E8%8E%AB%E9%9D%9E%E9%A2%86%E5%8F%96/swiper3-img4.webp" alt="Featured image of post 【游戏专区】| 桃源深处有人家（2）" />&lt;h2 id="导语">导语
-&lt;/h2>&lt;p>最近看到很多好看的分区壁纸，想要自己做一下，那桃源的图片练了下手，感觉做的还可以，在博客里面贴一下，如果想要的话可以在小红书@莫非领取&lt;/p>
-&lt;h3 id="展示成果">展示成果
-&lt;/h3>&lt;p>
-&lt;div class="post-img-view">
-&lt;a data-fancybox="gallery" href="1.jpeg">
-&lt;img src="1.jpeg" alt="" />
-&lt;/a>
-&lt;/div>
-&lt;/p></description></item><item><title>【网络爬虫】| python 爬虫</title><link>https://mmofei.github.io/p/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0/</link><pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/p/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0/</guid><description>&lt;img src="https://mmofei.github.io/p/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0/OIP-C.webp" alt="Featured image of post 【网络爬虫】| python 爬虫" />&lt;h2 id="导语">导语
-&lt;/h2>&lt;p>网络爬虫作为一种自动采集数据的技术，凭借吱声强大的自动抓取网页数据的能力，成为当下互联网高效、灵活的解决方法之一&lt;/p>
-&lt;h2 id="什么是网络爬虫">什么是网络爬虫
-&lt;/h2>&lt;p>网络爬虫（Web Crawler）是一种按照一定规则，自动请求网站并提取网页数据的程序和脚本&lt;/p></description></item><item><title>【加密和解密】| 动态分析技术</title><link>https://mmofei.github.io/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86-%E5%8A%A8%E6%80%81%E5%88%86%E6%9E%90%E6%8A%80%E6%9C%AF/</link><pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86-%E5%8A%A8%E6%80%81%E5%88%86%E6%9E%90%E6%8A%80%E6%9C%AF/</guid><description>&lt;img src="https://mmofei.github.io/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86-%E5%8A%A8%E6%80%81%E5%88%86%E6%9E%90%E6%8A%80%E6%9C%AF/2.png" alt="Featured image of post 【加密和解密】| 动态分析技术" />&lt;p>动态分析技术中最重要的工具是调试器，分为用户模式和内核模式两种类型：&lt;/p>
-&lt;ul>
-&lt;li>用户模式调试器:用来调试用户模式应用程序的调试器，工作在Ring3级。例如，OllyDbg、x64dbg、VC++等编译器自带的调试器&lt;/li>
-&lt;li>内核模式调试器：能调试操作系统内核的调试器。例如，WinDbg&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>Ring3级&lt;/p></description></item><item><title>【hugo】| Hugo Stack 主题装修笔记（2）</title><link>https://mmofei.github.io/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</link><pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</guid><description>&lt;img src="https://mmofei.github.io/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/1.jpeg" alt="Featured image of post 【hugo】| Hugo Stack 主题装修笔记（2）" />&lt;h3 id="字体修改">字体修改
-&lt;/h3>&lt;p>原来的字体看着有点别扭，所以把全站的字体改为了思源宋体，参考了&lt;a class="link" href="https://www.sleepymoon.cyou/2023/hugo-first-build-furnish/" target="_blank" rel="noopener" >
-&lt;span style="display: inline-flex; align-items: center; gap: 0.5em;">
-Hugo|月球基地开发历程
-&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
-&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
-&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z" fill="currentColor" />
-&lt;/svg>
-&lt;/span>
-&lt;/a>中的修改全站字体&lt;/p></description></item><item><title>【hugo】| Hugo Stack 主题装修笔记（1）</title><link>https://mmofei.github.io/p/first-blog/</link><pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/p/first-blog/</guid><description>&lt;img src="https://mmofei.github.io/p/first-blog/1.jpg" alt="Featured image of post 【hugo】| Hugo Stack 主题装修笔记（1）" />&lt;h2 id="为什么是hugo">为什么是Hugo？
-&lt;/h2>&lt;p>很早就想找个平台记录一下自己学习或写的东西，但是由于懒或者是操作不方便都放弃了。最近几个月开始萌生了自己搭建一个博客的想法，所以开始着手搜集这方面的知识，看到了很多炫酷的博客，但是考虑到上手问题，最终选择了hugo，通过挑选，选择了stack这个主题。经历了N多次推倒重建，这个博客终于快装修好了。&lt;/p></description></item><item><title>【加密和解密】| 基础篇</title><link>https://mmofei.github.io/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/</link><pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/</guid><description>&lt;img src="https://mmofei.github.io/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/1.png" alt="Featured image of post 【加密和解密】| 基础篇" />&lt;p>本书基于Windows操作系统&lt;/p>
-&lt;h2 id="软件的加密和解密">软件的加密和解密
-&lt;/h2>&lt;p>随着技术的发展，软件加密和解密的研究很有必要。&lt;/p>
-&lt;p>软件加密对于开发人员来说，可以保护自己的成果，不轻易被人“借鉴”，但随着技术的不断发展，加密技术也要不断地改进；同时，解密手段也在不断升级。所以，加密和解密是相互促进又相互斗争的关系&lt;/p></description></item><item><title>About | 关于</title><link>https://mmofei.github.io/about-%E5%85%B3%E4%BA%8E/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/about-%E5%85%B3%E4%BA%8E/</guid><description>&lt;style>
-/* 隐藏页面头部容器 */
-header.article-header {
-display: none !important;
-}
-&lt;/style>
-&lt;h2 id="关于我">关于我
-&lt;/h2>&lt;div id="heatmap" style="
-max-width: 1900px;
-height: 180px;
-padding: 2px;
-text-align: center;
-"
->&lt;/div>
-&lt;script src="https://cdn.jsdelivr.net/npm/echarts@5.3.0/dist/echarts.min.js">&lt;/script>
-&lt;script type="text/javascript">
-var chartDom = document.getElementById('heatmap');
-var myChart = echarts.init(chartDom);
-window.onresize = function() {
-myChart.resize();
-};
-function genOption(){
-var option;
-const colorSchemeItem = localStorage.getItem('StackColorScheme');
-if (colorSchemeItem == 'dark') {
-var color_t = ['#C4E1E6', '#A4CCD9', '#8DBCC7', '#578FCA' ];
-var color_font = '#fff';
-var color_cube = '#121212';
-var color_title = '#fff';
-var color_border = '#000';
-var color_split_month = 'rgba(0, 0, 0, 0.0)';
-} else {
-var color_t = ['#D2D0A0','#9EBC8A','#73946B','#537D5D'];
-var color_font = '#0E153A';
-var color_cube = '#f1f1f1';
-var color_title = '064232';
-var color_border = '#fff';
-var color_split_month = 'rgba(0, 0, 0, 0.0)';
-}
-option = {
-title: {
-top: 0,
-left: 'center',
-text: '博客热力图',
-textStyle: {
-color: color_title,
-fontSize: 20,
-}
-},
-tooltip: {
-hideDelay: 1000,
-enterable: true,
-formatter: function (p) {
-const date = p.data[0];
-const posts = dataMap.get(date);
-var content = `${date}`;
-for (const [i, post] of posts.entries()) {
-content += "&lt;br>";
-var link = post.link;
-var title = post.title;
-var wordCount = (post.wordCount / 1000).toFixed(1);
-content += `&lt;a href="${link}" target="_blank">${title} | ${wordCount} k&lt;/a>`
-}
-return content;
-}
-},
-visualMap: {
-min: 0,
-max: 10,
-type: 'piecewise',
-orient: 'horizontal',
-left: 'center',
-top: 30,
-inRange: {
-color: color_t,
-},
-splitNumber: 4,
-text: ['千字', ''],
-showLabel: true,
-itemGap: 20,
-textStyle: {
-color: color_font,
-}
-},
-calendar: {
-top: 80,
-left: 20,
-right: 4,
-cellSize: ['auto', 13],
-range: getRangeArr(),
-itemStyle: {
-color: color_cube,
-borderWidth: 1.5,
-borderColor: color_border,
-},
-monthLabel: { color: color_font },
-dayLabel: { color: color_font },
-yearLabel: { show: false },
-splitLine: {
-lineStyle: {
-color: 'rgba(0, 0, 0, 0.0)',
-}
-}
-},
-series: {
-type: 'heatmap',
-coordinateSystem: 'calendar',
-data: data,
-}
-};
-return option;
-}
-var dataMap = new Map();
-var key = "2025-11-26";
-var value = dataMap.get(key);
-var wordCount = 1437 ;
-var link = "/p/%E7%AC%94%E8%AE%B0/";
-var title = "计算机安全：原理与实践";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-11-24";
-var value = dataMap.get(key);
-var wordCount = 2332 ;
-var link = "/p/%E6%95%B4%E7%90%86%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/";
-var title = "渗透知识整理1";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-11-04";
-var value = dataMap.get(key);
-var wordCount = 3318 ;
-var link = "/p/%E8%AE%B0%E5%BD%95%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%92%8C%E8%B8%A9%E5%9D%91%E7%BB%8F%E5%8E%86/";
-var title = "upload-labs通关记录（1-21关）";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-09-08";
-var value = dataMap.get(key);
-var wordCount = 2495 ;
-var link = "/p/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/";
-var title = "前置知识整理（2）| 二进制";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-09-07";
-var value = dataMap.get(key);
-var wordCount = 277 ;
-var link = "/p/%E5%AD%A6%E4%B9%A0%E6%91%84%E5%BD%B1%E6%8A%80%E5%B7%A7%E5%AD%A6%E4%BC%9A%E6%8B%8D%E7%85%A7/";
-var title = "摄影 | 摄影眼的养成";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-09-04";
-var value = dataMap.get(key);
-var wordCount = 23 ;
-var link = "/p/%E8%AF%BB%E4%B8%80%E6%9C%AC%E5%A5%BD%E4%B9%A6%E5%9C%A8%E4%B9%A6%E4%B8%AD%E4%B8%B0%E5%AF%8C%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86/";
-var title = "好书阅读| 刻意练习";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-08-26";
-var value = dataMap.get(key);
-var wordCount = 0 ;
-var link = "/p/%E5%BF%85%E5%AD%A6%E7%9F%A5%E8%AF%86/";
-var title = "小白整理必学知识1";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-08-19";
-var value = dataMap.get(key);
-var wordCount = 976 ;
-var link = "/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/";
-var title = "前置知识整理（1）| CTF是什么";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-08-17";
-var value = dataMap.get(key);
-var wordCount = 552 ;
-var link = "/p/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6%E6%B8%B8%E6%88%8F%E8%AE%B0%E5%BD%95/";
-var title = "【游戏专区】| 桃源深处有人家（1）";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-08-17";
-var value = dataMap.get(key);
-var wordCount = 73 ;
-var link = "/p/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6%E7%94%B5%E8%84%91%E5%88%86%E5%8C%BA%E5%A3%81%E7%BA%B8%E5%8F%AF%E5%9C%A8%E5%B0%8F%E7%BA%A2%E4%B9%A6@%E8%8E%AB%E9%9D%9E%E9%A2%86%E5%8F%96/";
-var title = "【游戏专区】| 桃源深处有人家（2）";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-08-16";
-var value = dataMap.get(key);
-var wordCount = 380 ;
-var link = "/p/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0/";
-var title = "【网络爬虫】| python 爬虫";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-08-15";
-var value = dataMap.get(key);
-var wordCount = 243 ;
-var link = "/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86-%E5%8A%A8%E6%80%81%E5%88%86%E6%9E%90%E6%8A%80%E6%9C%AF/";
-var title = "【加密和解密】| 动态分析技术";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-08-14";
-var value = dataMap.get(key);
-var wordCount = 198 ;
-var link = "/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/";
-var title = "【hugo】| Hugo Stack 主题装修笔记（2）";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-08-13";
-var value = dataMap.get(key);
-var wordCount = 621 ;
-var link = "/p/first-blog/";
-var title = "【hugo】| Hugo Stack 主题装修笔记（1）";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}
-var key = "2025-08-13";
-var value = dataMap.get(key);
-var wordCount = 4489 ;
-var link = "/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/";
-var title = "【加密和解密】| 基础篇";
-if (value == null) {
-dataMap.set(key, [{wordCount, link, title}]);
-} else {
-value.push({wordCount, link, title});
-}var data = [];
-for (const [key, value] of dataMap.entries()) {
-var sum = 0;
-for (const v of value) {
-sum += v.wordCount;
-}
-data.push([key, (sum / 1000).toFixed(1)]);
-}
-var startDate = new Date();
-var year_Mill = startDate.setFullYear((startDate.getFullYear() - 1));
-var startDate = +new Date(year_Mill);
-var endDate = +new Date();
-var dayTime = 3600 * 24 * 1000;
-startDate = echarts.format.formatTime('yyyy-MM-dd', startDate);
-endDate = echarts.format.formatTime('yyyy-MM-dd', endDate);
-function heatmap_width(months){
-var startDate = new Date();
-var mill = startDate.setMonth((startDate.getMonth() - months));
-var endDate = +new Date();
-startDate = +new Date(mill);
-endDate = echarts.format.formatTime('yyyy-MM-dd', endDate);
-startDate = echarts.format.formatTime('yyyy-MM-dd', startDate);
-var showmonth = [];
-showmonth.push([
-startDate,
-endDate
-]);
-return showmonth
-};
-function getRangeArr() {
-const windowWidth = window.innerWidth;
-if (windowWidth >= 600) {
-return heatmap_width(12);
-} else if (windowWidth >= 400) {
-return heatmap_width(9);
-} else {
-return heatmap_width(6);
-}
-}
-var option = genOption();
-myChart.setOption(option);
-myChart.on('click', function(params) {
-if (params.componentType === 'series') {
-const post = dataMap.get(params.data[0])[0];
-const link = window.location.origin + post.link;
-window.open(link, '_blank').focus();
-}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;渗透测试基础&#34;&gt;渗透测试基础
+&lt;/h2&gt;&lt;h3 id=&#34;网络协议基础&#34;&gt;网络协议基础
+&lt;/h3&gt;&lt;h4 id=&#34;分层网络协议osi七层tcp四层五层&#34;&gt;分层网络协议（OSI七层、TCP四层、五层）
+&lt;/h4&gt;&lt;p&gt;这里使用的是五层模型&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>upload-labs通关记录（1-21关）</title>
+        <link>http://localhost:1313/p/%E8%AE%B0%E5%BD%95%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%92%8C%E8%B8%A9%E5%9D%91%E7%BB%8F%E5%8E%86/</link>
+        <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E8%AE%B0%E5%BD%95%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%92%8C%E8%B8%A9%E5%9D%91%E7%BB%8F%E5%8E%86/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E8%AE%B0%E5%BD%95%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%92%8C%E8%B8%A9%E5%9D%91%E7%BB%8F%E5%8E%86/1.jpg" alt="Featured image of post upload-labs通关记录（1-21关）" /&gt;&lt;h2 id=&#34;环境部署&#34;&gt;环境部署
+&lt;/h2&gt;&lt;h3 id=&#34;windows搭建&#34;&gt;windows搭建
+&lt;/h3&gt;&lt;h4 id=&#34;upload-labs&#34;&gt;upload-labs
+&lt;/h4&gt;&lt;p&gt;一个专门用于学习和测试文件上传漏洞的开源靶场&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/c0ny1/upload-labs&#34;   target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;
+    &lt;span style=&#34;display: inline-flex; align-items: center; gap: 0.5em;&#34;&gt;
+        c0ny1/upload-labs:一个想帮你总结所有类型的上传漏洞的靶场
+        
+            &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+                &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+                &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34; /&gt;
+            &lt;/svg&gt;
+        
+    &lt;/span&gt;
+&lt;/a&gt;（github有时候国内访问慢）&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>前置知识整理（2）| 二进制</title>
+        <link>http://localhost:1313/p/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/</link>
+        <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/2.jpg" alt="Featured image of post 前置知识整理（2）| 二进制" /&gt;&lt;h1 id=&#34;导语&#34;&gt;导语
+&lt;/h1&gt;&lt;h2 id=&#34;二进制安全&#34;&gt;二进制安全
+&lt;/h2&gt;&lt;p&gt;二进制安全是一盒比较偏向底层的方向，对计算机基础要求较高&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;C/C++&lt;/li&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;汇编语言&lt;/li&gt;
+&lt;li&gt;计算机组成原理&lt;/li&gt;
+&lt;li&gt;操作系统&lt;/li&gt;
+&lt;li&gt;编译原理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;二进制安全可以细分为逆向工程和漏洞挖掘与利用等方向&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>摄影 | 摄影眼的养成</title>
+        <link>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E6%91%84%E5%BD%B1%E6%8A%80%E5%B7%A7%E5%AD%A6%E4%BC%9A%E6%8B%8D%E7%85%A7/</link>
+        <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E6%91%84%E5%BD%B1%E6%8A%80%E5%B7%A7%E5%AD%A6%E4%BC%9A%E6%8B%8D%E7%85%A7/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E6%91%84%E5%BD%B1%E6%8A%80%E5%B7%A7%E5%AD%A6%E4%BC%9A%E6%8B%8D%E7%85%A7/1.jpg" alt="Featured image of post 摄影 | 摄影眼的养成" /&gt;&lt;h1 id=&#34;导语&#34;&gt;导语
+&lt;/h1&gt;&lt;p&gt;我没有经过系统的训练，记录一下在小红书学到的知识&lt;/p&gt;
+&lt;h1 id=&#34;摄影眼提高方法&#34;&gt;摄影眼提高方法
+&lt;/h1&gt;&lt;h2 id=&#34;看照片&#34;&gt;看照片
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;刷优秀摄影作品，思考以下问题：&lt;/p&gt;
+&lt;p&gt;1.构图&lt;/p&gt;
+&lt;p&gt;2.光线（如何使用）&lt;/p&gt;
+&lt;p&gt;3.画面（画面想呈现给观众什么内容）&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>好书阅读| 刻意练习</title>
+        <link>http://localhost:1313/p/%E8%AF%BB%E4%B8%80%E6%9C%AC%E5%A5%BD%E4%B9%A6%E5%9C%A8%E4%B9%A6%E4%B8%AD%E4%B8%B0%E5%AF%8C%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86/</link>
+        <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E8%AF%BB%E4%B8%80%E6%9C%AC%E5%A5%BD%E4%B9%A6%E5%9C%A8%E4%B9%A6%E4%B8%AD%E4%B8%B0%E5%AF%8C%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E8%AF%BB%E4%B8%80%E6%9C%AC%E5%A5%BD%E4%B9%A6%E5%9C%A8%E4%B9%A6%E4%B8%AD%E4%B8%B0%E5%AF%8C%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86/1.jpg" alt="Featured image of post 好书阅读| 刻意练习" /&gt;&lt;h1 id=&#34;导读&#34;&gt;导读
+&lt;/h1&gt;&lt;p&gt;放弃一切错误方法，开始“刻意练习”&lt;/p&gt;
+&lt;h1 id=&#34;重点内容&#34;&gt;重点内容
+&lt;/h1&gt;</description>
+        </item>
+        <item>
+        <title>小白整理必学知识1</title>
+        <link>http://localhost:1313/p/%E5%BF%85%E5%AD%A6%E7%9F%A5%E8%AF%86/</link>
+        <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%BF%85%E5%AD%A6%E7%9F%A5%E8%AF%86/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>前置知识整理（1）| CTF是什么</title>
+        <link>http://localhost:1313/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/</link>
+        <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/1.jpg" alt="Featured image of post 前置知识整理（1）| CTF是什么" /&gt;&lt;h2 id=&#34;导语&#34;&gt;导语
+&lt;/h2&gt;&lt;p&gt;最近发现自己的知识体系有点混乱，感觉什么都学了，但是什么都没学会。借这篇文章整理下自己的思路，顺便系统学习一下什么是CTF&lt;/p&gt;
+&lt;h2 id=&#34;ctf&#34;&gt;CTF
+&lt;/h2&gt;&lt;p&gt;CTF（Capture The Flag），夺旗赛。参赛方通过攻防对抗、程序分析等形式，率先从主办方的给出的比赛环境中得到一串具有一定格式的字符串或其他内容，并提交给主办方，从而夺得分数。这串内容为Flag&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>【游戏专区】| 桃源深处有人家（1）</title>
+        <link>http://localhost:1313/p/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6%E6%B8%B8%E6%88%8F%E8%AE%B0%E5%BD%95/</link>
+        <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6%E6%B8%B8%E6%88%8F%E8%AE%B0%E5%BD%95/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6%E6%B8%B8%E6%88%8F%E8%AE%B0%E5%BD%95/1.jpg" alt="Featured image of post 【游戏专区】| 桃源深处有人家（1）" /&gt;&lt;h2 id=&#34;导语&#34;&gt;导语
+&lt;/h2&gt;&lt;p&gt;玩了这个游戏很久了，想要记录一下。&lt;/p&gt;
+&lt;p&gt;开始的时候来源于朋友的推荐，自己没有好好了解过这个游戏，玩的都是稀里糊涂的。现在想深度了解下这个游戏&lt;/p&gt;
+&lt;h2 id=&#34;官方简介&#34;&gt;官方简介
+&lt;/h2&gt;&lt;p&gt;《桃源深处有人家》是一款悠然治愈的国风山水田园经营手游。回到心中的故乡，远离尘世，过一份安静恬淡的小生活。在这里，有活泼淘气的妹妹陪伴在身边；有可爱神奇的萝卜山灵与你一同生活；有迷失在幻境中寻求解忧的灵魂；还有那居住在山下似曾相识的故人们……&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>【游戏专区】| 桃源深处有人家（2）</title>
+        <link>http://localhost:1313/p/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6%E7%94%B5%E8%84%91%E5%88%86%E5%8C%BA%E5%A3%81%E7%BA%B8%E5%8F%AF%E5%9C%A8%E5%B0%8F%E7%BA%A2%E4%B9%A6@%E8%8E%AB%E9%9D%9E%E9%A2%86%E5%8F%96/</link>
+        <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6%E7%94%B5%E8%84%91%E5%88%86%E5%8C%BA%E5%A3%81%E7%BA%B8%E5%8F%AF%E5%9C%A8%E5%B0%8F%E7%BA%A2%E4%B9%A6@%E8%8E%AB%E9%9D%9E%E9%A2%86%E5%8F%96/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6%E7%94%B5%E8%84%91%E5%88%86%E5%8C%BA%E5%A3%81%E7%BA%B8%E5%8F%AF%E5%9C%A8%E5%B0%8F%E7%BA%A2%E4%B9%A6@%E8%8E%AB%E9%9D%9E%E9%A2%86%E5%8F%96/swiper3-img4.webp" alt="Featured image of post 【游戏专区】| 桃源深处有人家（2）" /&gt;&lt;h2 id=&#34;导语&#34;&gt;导语
+&lt;/h2&gt;&lt;p&gt;最近看到很多好看的分区壁纸，想要自己做一下，那桃源的图片练了下手，感觉做的还可以，在博客里面贴一下，如果想要的话可以在小红书@莫非领取&lt;/p&gt;
+&lt;h3 id=&#34;展示成果&#34;&gt;展示成果
+&lt;/h3&gt;&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;1.jpeg&#34;&gt;
+&lt;img src=&#34;1.jpeg&#34; alt=&#34;&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>【网络爬虫】| python 爬虫</title>
+        <link>http://localhost:1313/p/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0/OIP-C.webp" alt="Featured image of post 【网络爬虫】| python 爬虫" /&gt;&lt;h2 id=&#34;导语&#34;&gt;导语
+&lt;/h2&gt;&lt;p&gt;网络爬虫作为一种自动采集数据的技术，凭借吱声强大的自动抓取网页数据的能力，成为当下互联网高效、灵活的解决方法之一&lt;/p&gt;
+&lt;h2 id=&#34;什么是网络爬虫&#34;&gt;什么是网络爬虫
+&lt;/h2&gt;&lt;p&gt;网络爬虫（Web Crawler）是一种按照一定规则，自动请求网站并提取网页数据的程序和脚本&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>【加密和解密】| 动态分析技术</title>
+        <link>http://localhost:1313/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86-%E5%8A%A8%E6%80%81%E5%88%86%E6%9E%90%E6%8A%80%E6%9C%AF/</link>
+        <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86-%E5%8A%A8%E6%80%81%E5%88%86%E6%9E%90%E6%8A%80%E6%9C%AF/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86-%E5%8A%A8%E6%80%81%E5%88%86%E6%9E%90%E6%8A%80%E6%9C%AF/2.png" alt="Featured image of post 【加密和解密】| 动态分析技术" /&gt;&lt;p&gt;动态分析技术中最重要的工具是调试器，分为用户模式和内核模式两种类型：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用户模式调试器:用来调试用户模式应用程序的调试器，工作在Ring3级。例如，OllyDbg、x64dbg、VC++等编译器自带的调试器&lt;/li&gt;
+&lt;li&gt;内核模式调试器：能调试操作系统内核的调试器。例如，WinDbg&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ring3级&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>【hugo】| Hugo Stack 主题装修笔记（2）</title>
+        <link>http://localhost:1313/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</link>
+        <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/1.jpeg" alt="Featured image of post 【hugo】| Hugo Stack 主题装修笔记（2）" /&gt;&lt;h3 id=&#34;一基础配置&#34;&gt;一、基础配置
+&lt;/h3&gt;&lt;h4 id=&#34;hugoyaml&#34;&gt;&lt;code&gt;hugo.yaml&lt;/code&gt;
+&lt;/h4&gt;&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;2.png&#34;&gt;
+&lt;img src=&#34;2.png&#34; alt=&#34;&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;baseurl: 网站根目录,部署后需要修改为你的实际网站地址/域名
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;languageCode: 语言代码，默认值为en-us，可以修改为中文简体zh-cn
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;theme: 主题名称，默认值为hugo-theme-stack
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;title: 网站标题
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;copyright: 版权所有者信息
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;DefaultContentLanguage:默认内容语言，可修改为zh-cn
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;hasCJKLanguage: 是否包含中文(影响字数统计)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;languages: 多语言设置
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;网站icon时间格式博客头像license&#34;&gt;网站&lt;code&gt;icon&lt;/code&gt;、时间格式、博客头像、&lt;code&gt;License&lt;/code&gt;
+&lt;/h4&gt;&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;3.png&#34;&gt;
+&lt;img src=&#34;3.png&#34; alt=&#34;&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>【加密和解密】| 基础篇</title>
+        <link>http://localhost:1313/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/1.png" alt="Featured image of post 【加密和解密】| 基础篇" /&gt;&lt;p&gt;本书基于Windows操作系统&lt;/p&gt;
+&lt;h2 id=&#34;软件的加密和解密&#34;&gt;软件的加密和解密
+&lt;/h2&gt;&lt;p&gt;随着技术的发展，软件加密和解密的研究很有必要。&lt;/p&gt;
+&lt;p&gt;软件加密对于开发人员来说，可以保护自己的成果，不轻易被人“借鉴”，但随着技术的不断发展，加密技术也要不断地改进；同时，解密手段也在不断升级。所以，加密和解密是相互促进又相互斗争的关系&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>博客搭建 | Hugo Stack 主题装修笔记（1）</title>
+        <link>http://localhost:1313/p/first-blog/</link>
+        <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/first-blog/</guid>
+        <description>&lt;img src="http://localhost:1313/p/first-blog/1.jpg" alt="Featured image of post 博客搭建 | Hugo Stack 主题装修笔记（1）" /&gt;&lt;h3 id=&#34;前言&#34;&gt;前言
+&lt;/h3&gt;&lt;p&gt;很早就想找个平台记录一下自己学习或写的东西，但是由于懒或者是操作不方便都放弃了。最近几个月开始萌生了自己搭建一个博客的想法，所以开始着手搜集这方面的知识，看到了很多炫酷的博客，但是考虑到上手问题，最终选择了hugo，通过挑选，选择了stack这个主题。经历了N多次推倒重建，这个博客终于快装修好了。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>About | 关于</title>
+        <link>http://localhost:1313/about-%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/about-%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;style&gt;
+    /* 隐藏页面头部容器 */
+    header.article-header {
+        display: none !important;
+    }
+&lt;/style&gt;
+&lt;h2 id=&#34;关于我&#34;&gt;关于我
+&lt;/h2&gt;&lt;div id=&#34;heatmap&#34; style=&#34;
+  max-width: 1900px;
+  height: 180px;
+  padding: 2px;
+  text-align: center;
+  &#34;
+&gt;&lt;/div&gt;
+&lt;script src=&#34;https://cdn.jsdelivr.net/npm/echarts@5.3.0/dist/echarts.min.js&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+  var chartDom = document.getElementById(&#39;heatmap&#39;);
+  var myChart = echarts.init(chartDom);
+  window.onresize = function() {
+      myChart.resize();
+  };
+  
+  function genOption(){
+    var option;
+    const colorSchemeItem = localStorage.getItem(&#39;StackColorScheme&#39;); 
+    if (colorSchemeItem == &#39;dark&#39;) {
+      var color_t = [&#39;#C4E1E6&#39;, &#39;#A4CCD9&#39;, &#39;#8DBCC7&#39;, &#39;#578FCA&#39; ]; 
+      var color_font = &#39;#fff&#39;; 
+      var color_cube = &#39;#121212&#39;; 
+      var color_title = &#39;#fff&#39;; 
+      var color_border = &#39;#000&#39;; 
+      var color_split_month = &#39;rgba(0, 0, 0, 0.0)&#39;; 
+      
+    } else {
+      var color_t = [&#39;#D2D0A0&#39;,&#39;#9EBC8A&#39;,&#39;#73946B&#39;,&#39;#537D5D&#39;]; 
+      var color_font = &#39;#0E153A&#39;; 
+      var color_cube = &#39;#f1f1f1&#39;; 
+      var color_title = &#39;064232&#39;; 
+      var color_border = &#39;#fff&#39;; 
+      var color_split_month = &#39;rgba(0, 0, 0, 0.0)&#39;; 
+    }
+    option = {
+      title: {
+          top: 0,
+          left: &#39;center&#39;,
+          text: &#39;博客热力图&#39;,
+          textStyle: {
+            color: color_title,
+            fontSize: 20,
+          }
+      },
+      tooltip: {
+        hideDelay: 1000,
+        enterable: true,
+        formatter: function (p) {
+          const date = p.data[0];
+          const posts = dataMap.get(date);
+          var content = `${date}`;
+          for (const [i, post] of posts.entries()) {
+              content += &#34;&lt;br&gt;&#34;;
+              var link = post.link;
+              var title = post.title;
+              var wordCount = (post.wordCount / 1000).toFixed(1);
+              content += `&lt;a href=&#34;${link}&#34; target=&#34;_blank&#34;&gt;${title} | ${wordCount} k&lt;/a&gt;`
+          }
+          return content;
+        }
+      },
+      visualMap: {
+        min: 0,
+        max: 10,
+        type: &#39;piecewise&#39;,
+        orient: &#39;horizontal&#39;,
+        left: &#39;center&#39;,
+        top: 30,
+
+        inRange: {   
+          
+          color: color_t,
+        },
+        splitNumber: 4,
+        text: [&#39;千字&#39;, &#39;&#39;],
+        showLabel: true,
+        itemGap: 20,
+        textStyle: {
+          color: color_font,
+        }
+      },
+      calendar: {
+        top: 80,
+        left: 20,
+        right: 4,
+        cellSize: [&#39;auto&#39;, 13],
+        range: getRangeArr(),
+        itemStyle: {
+            color: color_cube,
+            borderWidth: 1.5,
+            borderColor: color_border,
+        },
+        monthLabel: { color: color_font },
+        dayLabel: { color: color_font },
+        yearLabel: { show: false },
+        
+        splitLine: {
+          lineStyle: {
+            color: &#39;rgba(0, 0, 0, 0.0)&#39;,
+            
+            
+            
+            
+          }
+        }
+      },
+      series: {
+        type: &#39;heatmap&#39;,
+        coordinateSystem: &#39;calendar&#39;,
+        data: data,
+      }
+  };
+    return option;
+  }
+  
+  
+  
+  
+  
+  
+  
+  var dataMap = new Map();
+  
+    var key = &#34;2026-05-17&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  0 ;
+    var link = &#34;/p/%E8%AF%BB%E8%AE%BA%E6%96%87/&#34;;
+    var title = &#34;论文研读&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2026-05-17&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  0 ;
+    var link = &#34;/p/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/&#34;;
+    var title = &#34;年度总结&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2026-05-17&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  0 ;
+    var link = &#34;/p/%E4%B8%80%E4%BA%9B%E7%A2%8E%E7%A2%8E%E5%BF%B5/&#34;;
+    var title = &#34;碎碎念&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-11-26&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  1437 ;
+    var link = &#34;/p/%E7%AC%94%E8%AE%B0/&#34;;
+    var title = &#34;计算机安全：原理与实践&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-11-24&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  2332 ;
+    var link = &#34;/p/%E6%95%B4%E7%90%86%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/&#34;;
+    var title = &#34;渗透知识整理1&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-11-04&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  3318 ;
+    var link = &#34;/p/%E8%AE%B0%E5%BD%95%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%92%8C%E8%B8%A9%E5%9D%91%E7%BB%8F%E5%8E%86/&#34;;
+    var title = &#34;upload-labs通关记录（1-21关）&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-09-08&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  2495 ;
+    var link = &#34;/p/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/&#34;;
+    var title = &#34;前置知识整理（2）| 二进制&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-09-07&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  277 ;
+    var link = &#34;/p/%E5%AD%A6%E4%B9%A0%E6%91%84%E5%BD%B1%E6%8A%80%E5%B7%A7%E5%AD%A6%E4%BC%9A%E6%8B%8D%E7%85%A7/&#34;;
+    var title = &#34;摄影 | 摄影眼的养成&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-09-04&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  23 ;
+    var link = &#34;/p/%E8%AF%BB%E4%B8%80%E6%9C%AC%E5%A5%BD%E4%B9%A6%E5%9C%A8%E4%B9%A6%E4%B8%AD%E4%B8%B0%E5%AF%8C%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86/&#34;;
+    var title = &#34;好书阅读| 刻意练习&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-26&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  0 ;
+    var link = &#34;/p/%E5%BF%85%E5%AD%A6%E7%9F%A5%E8%AF%86/&#34;;
+    var title = &#34;小白整理必学知识1&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-19&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  976 ;
+    var link = &#34;/p/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BD%93%E7%B3%BB/&#34;;
+    var title = &#34;前置知识整理（1）| CTF是什么&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-17&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  552 ;
+    var link = &#34;/p/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6%E6%B8%B8%E6%88%8F%E8%AE%B0%E5%BD%95/&#34;;
+    var title = &#34;【游戏专区】| 桃源深处有人家（1）&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-17&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  73 ;
+    var link = &#34;/p/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6%E7%94%B5%E8%84%91%E5%88%86%E5%8C%BA%E5%A3%81%E7%BA%B8%E5%8F%AF%E5%9C%A8%E5%B0%8F%E7%BA%A2%E4%B9%A6@%E8%8E%AB%E9%9D%9E%E9%A2%86%E5%8F%96/&#34;;
+    var title = &#34;【游戏专区】| 桃源深处有人家（2）&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-16&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  380 ;
+    var link = &#34;/p/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0/&#34;;
+    var title = &#34;【网络爬虫】| python 爬虫&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-15&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  243 ;
+    var link = &#34;/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86-%E5%8A%A8%E6%80%81%E5%88%86%E6%9E%90%E6%8A%80%E6%9C%AF/&#34;;
+    var title = &#34;【加密和解密】| 动态分析技术&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-14&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  975 ;
+    var link = &#34;/p/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/&#34;;
+    var title = &#34;【hugo】| Hugo Stack 主题装修笔记（2）&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-13&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  4489 ;
+    var link = &#34;/p/%E5%8A%A0%E5%AF%86%E5%92%8C%E8%A7%A3%E5%AF%86%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0/&#34;;
+    var title = &#34;【加密和解密】| 基础篇&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-08-13&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  1438 ;
+    var link = &#34;/p/first-blog/&#34;;
+    var title = &#34;博客搭建 | Hugo Stack 主题装修笔记（1）&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }var data = [];
+  
+  for (const [key, value] of dataMap.entries()) {
+    var sum = 0;
+    for (const v of value) {
+      sum += v.wordCount;
+    }
+    data.push([key, (sum / 1000).toFixed(1)]);
+  }
+
+  var startDate = new Date();
+  var year_Mill = startDate.setFullYear((startDate.getFullYear() - 1));
+  var startDate = +new Date(year_Mill);
+  var endDate = +new Date();
+
+  var dayTime = 3600 * 24 * 1000;
+  startDate = echarts.format.formatTime(&#39;yyyy-MM-dd&#39;, startDate);
+  endDate = echarts.format.formatTime(&#39;yyyy-MM-dd&#39;, endDate);
+
+  
+  function heatmap_width(months){         
+    var startDate = new Date();
+    var mill = startDate.setMonth((startDate.getMonth() - months));
+    var endDate = +new Date();
+    startDate = +new Date(mill);
+
+    endDate = echarts.format.formatTime(&#39;yyyy-MM-dd&#39;, endDate);
+    startDate = echarts.format.formatTime(&#39;yyyy-MM-dd&#39;, startDate);
+
+    var showmonth = [];
+    showmonth.push([
+        startDate,
+        endDate
+    ]);
+    return showmonth
+  };
+
+  function getRangeArr() {
+    const windowWidth = window.innerWidth;
+    if (windowWidth &gt;= 600) {
+      return heatmap_width(12);
+    } else if (windowWidth &gt;= 400) {
+      return heatmap_width(9);
+    } else {
+      return heatmap_width(6);
+    }
+  }
+  var option = genOption();
+  myChart.setOption(option);
+  myChart.on(&#39;click&#39;, function(params) {
+    if (params.componentType === &#39;series&#39;) {
+      
+      const post = dataMap.get(params.data[0])[0];
+      const link = window.location.origin + post.link;
+      window.open(link, &#39;_blank&#39;).focus();
+    }
 });
-function updateChartColors() {
-option = genOption();
-myChart.setOption(option);
-}
-window.addEventListener('colorSchemeChange', updateChartColors);
-&lt;/script></description></item><item><title>Archives | 博文</title><link>https://mmofei.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/archives/</guid><description/></item><item><title>Search | 搜索</title><link>https://mmofei.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mmofei.github.io/search/</guid><description/></item></channel></rss>
+
+  function updateChartColors() {
+    option = genOption();
+    myChart.setOption(option);
+  }
+
+  window.addEventListener(&#39;colorSchemeChange&#39;, updateChartColors);
+&lt;/script&gt;</description>
+        </item>
+        <item>
+        <title>Archives | 博文</title>
+        <link>http://localhost:1313/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Search | 搜索</title>
+        <link>http://localhost:1313/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
